@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/swc/Dropbox/UnderGit/cs1440s17-shared/Examples/Pointers/main.cpp
+iostream
+-
+iomanip
+-
+
