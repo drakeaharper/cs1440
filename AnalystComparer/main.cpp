@@ -9,4 +9,6 @@ int main(int argc, char* argv[])
     // which creates the output file
     if (comparer.load(argc, argv)==0)
         comparer.compare();
+
+    // hello world
 }
