@@ -5,6 +5,9 @@
 #ifndef ANALYSTCOMPARER_HISTORY_H
 #define ANALYSTCOMPARER_HISTORY_H
 
+#include "PurchaseSale.h"
+#include <iostream>
+#include <string>
 
 class History
 {
