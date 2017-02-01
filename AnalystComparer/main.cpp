@@ -10,5 +10,5 @@ int main(int argc, char* argv[])
     if (comparer.load(argc, argv)==0)
         comparer.compare();
 
-    // hello world
+
 }
