@@ -122,87 +122,6 @@ AnalystComparer/fast:
 	$(MAKE) -f CMakeFiles\AnalystComparer.dir\build.make CMakeFiles/AnalystComparer.dir/build
 .PHONY : AnalystComparer/fast
 
-Comparer.obj: Comparer.cpp.obj
-
-.PHONY : Comparer.obj
-
-# target to build an object file
-Comparer.cpp.obj:
-	$(MAKE) -f CMakeFiles\AnalystComparer.dir\build.make CMakeFiles/AnalystComparer.dir/Comparer.cpp.obj
-.PHONY : Comparer.cpp.obj
-
-Comparer.i: Comparer.cpp.i
-
-.PHONY : Comparer.i
-
-# target to preprocess a source file
-Comparer.cpp.i:
-	$(MAKE) -f CMakeFiles\AnalystComparer.dir\build.make CMakeFiles/AnalystComparer.dir/Comparer.cpp.i
-.PHONY : Comparer.cpp.i
-
-Comparer.s: Comparer.cpp.s
-
-.PHONY : Comparer.s
-
-# target to generate assembly for a file
-Comparer.cpp.s:
-	$(MAKE) -f CMakeFiles\AnalystComparer.dir\build.make CMakeFiles/AnalystComparer.dir/Comparer.cpp.s
-.PHONY : Comparer.cpp.s
-
-Utils.obj: Utils.cpp.obj
-
-.PHONY : Utils.obj
-
-# target to build an object file
-Utils.cpp.obj:
-	$(MAKE) -f CMakeFiles\AnalystComparer.dir\build.make CMakeFiles/AnalystComparer.dir/Utils.cpp.obj
-.PHONY : Utils.cpp.obj
-
-Utils.i: Utils.cpp.i
-
-.PHONY : Utils.i
-
-# target to preprocess a source file
-Utils.cpp.i:
-	$(MAKE) -f CMakeFiles\AnalystComparer.dir\build.make CMakeFiles/AnalystComparer.dir/Utils.cpp.i
-.PHONY : Utils.cpp.i
-
-Utils.s: Utils.cpp.s
-
-.PHONY : Utils.s
-
-# target to generate assembly for a file
-Utils.cpp.s:
-	$(MAKE) -f CMakeFiles\AnalystComparer.dir\build.make CMakeFiles/AnalystComparer.dir/Utils.cpp.s
-.PHONY : Utils.cpp.s
-
-main.obj: main.cpp.obj
-
-.PHONY : main.obj
-
-# target to build an object file
-main.cpp.obj:
-	$(MAKE) -f CMakeFiles\AnalystComparer.dir\build.make CMakeFiles/AnalystComparer.dir/main.cpp.obj
-.PHONY : main.cpp.obj
-
-main.i: main.cpp.i
-
-.PHONY : main.i
-
-# target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles\AnalystComparer.dir\build.make CMakeFiles/AnalystComparer.dir/main.cpp.i
-.PHONY : main.cpp.i
-
-main.s: main.cpp.s
-
-.PHONY : main.s
-
-# target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles\AnalystComparer.dir\build.make CMakeFiles/AnalystComparer.dir/main.cpp.s
-.PHONY : main.cpp.s
-
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -212,15 +131,6 @@ help:
 	@echo ... AnalystComparer
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... Comparer.obj
-	@echo ... Comparer.i
-	@echo ... Comparer.s
-	@echo ... Utils.obj
-	@echo ... Utils.i
-	@echo ... Utils.s
-	@echo ... main.obj
-	@echo ... main.i
-	@echo ... main.s
 .PHONY : help
 
 

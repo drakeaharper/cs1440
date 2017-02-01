@@ -10,11 +10,11 @@ class PurchaseSale
 {
 public:
     PurchaseSale(ifstream inputStream);
-    std::string getSymbol();
-    int getPurchaseDateTime();
-    int getSaleDateTime();
     int computeInvestmentAmount();
     int computeProfitLoss();
+    int getPurchaseDateTime();
+    int getSaleDateTime();
+    std::string getSymbol();
 
 private:
     std::string m_symbol;

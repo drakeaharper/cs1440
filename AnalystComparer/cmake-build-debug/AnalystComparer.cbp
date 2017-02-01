@@ -80,24 +80,6 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/drake/Repositories/cs1440/AnalystComparer/Comparer.cpp">
-			<Option target="AnalystComparer"/>
-		</Unit>
-		<Unit filename="C:/Users/drake/Repositories/cs1440/AnalystComparer/Comparer.h">
-			<Option target="AnalystComparer"/>
-		</Unit>
-		<Unit filename="C:/Users/drake/Repositories/cs1440/AnalystComparer/Constants.h">
-			<Option target="AnalystComparer"/>
-		</Unit>
-		<Unit filename="C:/Users/drake/Repositories/cs1440/AnalystComparer/Utils.cpp">
-			<Option target="AnalystComparer"/>
-		</Unit>
-		<Unit filename="C:/Users/drake/Repositories/cs1440/AnalystComparer/Utils.h">
-			<Option target="AnalystComparer"/>
-		</Unit>
-		<Unit filename="C:/Users/drake/Repositories/cs1440/AnalystComparer/main.cpp">
-			<Option target="AnalystComparer"/>
-		</Unit>
 		<Unit filename="C:/Users/drake/Repositories/cs1440/AnalystComparer/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

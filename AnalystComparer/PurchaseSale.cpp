@@ -3,3 +3,33 @@
 //
 
 #include "PurchaseSale.h"
+
+PurchaseSale::PurchaseSale(ifstream inputStream)
+{
+
+}
+
+int PurchaseSale::computeInvestmentAmount()
+{
+
+}
+
+int PurchaseSale::computeProfitLoss()
+{
+
+}
+
+int PurchaseSale::getPurchaseDateTime()
+{
+    return m_purchaseDateTime;
+}
+
+int PurchaseSale::getSaleDateTime()
+{
+    return m_saleDateTime;
+}
+
+std::string PurchaseSale::getSymbol()
+{
+
+}
