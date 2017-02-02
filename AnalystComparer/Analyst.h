@@ -13,9 +13,8 @@
 class Analyst
 {
 public:
-    Analyst();
-    int load(std::ifstream& inputStream);
-    float getStockPerformance();
+    void load(std::ifstream& inputStream);
+    float getStockPerformance(std::string symbol);
     std::string getName() {return m_name;}
     std::string getInitials() {return m_initials;}
     History getHistory() {return m_history;}

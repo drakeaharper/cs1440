@@ -27,6 +27,7 @@ void History::load(std::ifstream& inputStream)
     }
 
 
+
 }
 
 int History::getSimulationDays()
@@ -41,7 +42,7 @@ int History::getInitialMoney()
 
 int History::computeTotalProfitLoss()
 {
-    int totalProfitLoss = 0;
+    int totalProfitLoss = getInitialMoney();
     for (int i = 0; i < m_purchaseSalesCount; i++)
     {
         totalProfitLoss += m_purchaseSales[i]->computeProfitLoss();
@@ -59,10 +60,22 @@ int History::computeProfitLossPerDay()
 
 void History::resetIterator()
 {
-    m_purchaseSalesCount = 0;
+    m_currentPurchaseSale = 0;
 }
 
 PurchaseSale History::nextPurchaseSale()
 {
+    if (hasNext())
+    {
+        return *m_purchaseSales[m_currentPurchaseSale++];
+    }
+    else
+    {
+        return NULL;
+    }
+}
 
+bool History::hasNext()
+{
+    return (m_currentPurchaseSale < m_purchaseSalesCount);
 }

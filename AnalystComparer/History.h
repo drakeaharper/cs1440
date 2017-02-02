@@ -20,6 +20,7 @@ public:
     int computeProfitLossPerDay();
     void resetIterator();
     PurchaseSale nextPurchaseSale();
+    bool hasNext();
 
 private:
     int m_simulationDays;
