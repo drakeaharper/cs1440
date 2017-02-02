@@ -56,7 +56,186 @@ include CMakeFiles/AnalystComparer.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/AnalystComparer.dir/flags.make
 
-CMakeFiles/AnalystComparer.dir/requires:
+CMakeFiles/AnalystComparer.dir/main.cpp.obj: CMakeFiles/AnalystComparer.dir/flags.make
+CMakeFiles/AnalystComparer.dir/main.cpp.obj: ../main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\drake\Repositories\cs1440\AnalystComparer\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/AnalystComparer.dir/main.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-6~1.0-P\mingw32\bin\G__~1.EXE   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\AnalystComparer.dir\main.cpp.obj -c C:\Users\drake\Repositories\cs1440\AnalystComparer\main.cpp
+
+CMakeFiles/AnalystComparer.dir/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AnalystComparer.dir/main.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-6~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\drake\Repositories\cs1440\AnalystComparer\main.cpp > CMakeFiles\AnalystComparer.dir\main.cpp.i
+
+CMakeFiles/AnalystComparer.dir/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AnalystComparer.dir/main.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-6~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\drake\Repositories\cs1440\AnalystComparer\main.cpp -o CMakeFiles\AnalystComparer.dir\main.cpp.s
+
+CMakeFiles/AnalystComparer.dir/main.cpp.obj.requires:
+
+.PHONY : CMakeFiles/AnalystComparer.dir/main.cpp.obj.requires
+
+CMakeFiles/AnalystComparer.dir/main.cpp.obj.provides: CMakeFiles/AnalystComparer.dir/main.cpp.obj.requires
+	$(MAKE) -f CMakeFiles\AnalystComparer.dir\build.make CMakeFiles/AnalystComparer.dir/main.cpp.obj.provides.build
+.PHONY : CMakeFiles/AnalystComparer.dir/main.cpp.obj.provides
+
+CMakeFiles/AnalystComparer.dir/main.cpp.obj.provides.build: CMakeFiles/AnalystComparer.dir/main.cpp.obj
+
+
+CMakeFiles/AnalystComparer.dir/Utils.cpp.obj: CMakeFiles/AnalystComparer.dir/flags.make
+CMakeFiles/AnalystComparer.dir/Utils.cpp.obj: ../Utils.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\drake\Repositories\cs1440\AnalystComparer\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/AnalystComparer.dir/Utils.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-6~1.0-P\mingw32\bin\G__~1.EXE   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\AnalystComparer.dir\Utils.cpp.obj -c C:\Users\drake\Repositories\cs1440\AnalystComparer\Utils.cpp
+
+CMakeFiles/AnalystComparer.dir/Utils.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AnalystComparer.dir/Utils.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-6~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\drake\Repositories\cs1440\AnalystComparer\Utils.cpp > CMakeFiles\AnalystComparer.dir\Utils.cpp.i
+
+CMakeFiles/AnalystComparer.dir/Utils.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AnalystComparer.dir/Utils.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-6~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\drake\Repositories\cs1440\AnalystComparer\Utils.cpp -o CMakeFiles\AnalystComparer.dir\Utils.cpp.s
+
+CMakeFiles/AnalystComparer.dir/Utils.cpp.obj.requires:
+
+.PHONY : CMakeFiles/AnalystComparer.dir/Utils.cpp.obj.requires
+
+CMakeFiles/AnalystComparer.dir/Utils.cpp.obj.provides: CMakeFiles/AnalystComparer.dir/Utils.cpp.obj.requires
+	$(MAKE) -f CMakeFiles\AnalystComparer.dir\build.make CMakeFiles/AnalystComparer.dir/Utils.cpp.obj.provides.build
+.PHONY : CMakeFiles/AnalystComparer.dir/Utils.cpp.obj.provides
+
+CMakeFiles/AnalystComparer.dir/Utils.cpp.obj.provides.build: CMakeFiles/AnalystComparer.dir/Utils.cpp.obj
+
+
+CMakeFiles/AnalystComparer.dir/Comparer.cpp.obj: CMakeFiles/AnalystComparer.dir/flags.make
+CMakeFiles/AnalystComparer.dir/Comparer.cpp.obj: ../Comparer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\drake\Repositories\cs1440\AnalystComparer\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/AnalystComparer.dir/Comparer.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-6~1.0-P\mingw32\bin\G__~1.EXE   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\AnalystComparer.dir\Comparer.cpp.obj -c C:\Users\drake\Repositories\cs1440\AnalystComparer\Comparer.cpp
+
+CMakeFiles/AnalystComparer.dir/Comparer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AnalystComparer.dir/Comparer.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-6~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\drake\Repositories\cs1440\AnalystComparer\Comparer.cpp > CMakeFiles\AnalystComparer.dir\Comparer.cpp.i
+
+CMakeFiles/AnalystComparer.dir/Comparer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AnalystComparer.dir/Comparer.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-6~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\drake\Repositories\cs1440\AnalystComparer\Comparer.cpp -o CMakeFiles\AnalystComparer.dir\Comparer.cpp.s
+
+CMakeFiles/AnalystComparer.dir/Comparer.cpp.obj.requires:
+
+.PHONY : CMakeFiles/AnalystComparer.dir/Comparer.cpp.obj.requires
+
+CMakeFiles/AnalystComparer.dir/Comparer.cpp.obj.provides: CMakeFiles/AnalystComparer.dir/Comparer.cpp.obj.requires
+	$(MAKE) -f CMakeFiles\AnalystComparer.dir\build.make CMakeFiles/AnalystComparer.dir/Comparer.cpp.obj.provides.build
+.PHONY : CMakeFiles/AnalystComparer.dir/Comparer.cpp.obj.provides
+
+CMakeFiles/AnalystComparer.dir/Comparer.cpp.obj.provides.build: CMakeFiles/AnalystComparer.dir/Comparer.cpp.obj
+
+
+CMakeFiles/AnalystComparer.dir/Analyst.cpp.obj: CMakeFiles/AnalystComparer.dir/flags.make
+CMakeFiles/AnalystComparer.dir/Analyst.cpp.obj: ../Analyst.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\drake\Repositories\cs1440\AnalystComparer\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/AnalystComparer.dir/Analyst.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-6~1.0-P\mingw32\bin\G__~1.EXE   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\AnalystComparer.dir\Analyst.cpp.obj -c C:\Users\drake\Repositories\cs1440\AnalystComparer\Analyst.cpp
+
+CMakeFiles/AnalystComparer.dir/Analyst.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AnalystComparer.dir/Analyst.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-6~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\drake\Repositories\cs1440\AnalystComparer\Analyst.cpp > CMakeFiles\AnalystComparer.dir\Analyst.cpp.i
+
+CMakeFiles/AnalystComparer.dir/Analyst.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AnalystComparer.dir/Analyst.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-6~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\drake\Repositories\cs1440\AnalystComparer\Analyst.cpp -o CMakeFiles\AnalystComparer.dir\Analyst.cpp.s
+
+CMakeFiles/AnalystComparer.dir/Analyst.cpp.obj.requires:
+
+.PHONY : CMakeFiles/AnalystComparer.dir/Analyst.cpp.obj.requires
+
+CMakeFiles/AnalystComparer.dir/Analyst.cpp.obj.provides: CMakeFiles/AnalystComparer.dir/Analyst.cpp.obj.requires
+	$(MAKE) -f CMakeFiles\AnalystComparer.dir\build.make CMakeFiles/AnalystComparer.dir/Analyst.cpp.obj.provides.build
+.PHONY : CMakeFiles/AnalystComparer.dir/Analyst.cpp.obj.provides
+
+CMakeFiles/AnalystComparer.dir/Analyst.cpp.obj.provides.build: CMakeFiles/AnalystComparer.dir/Analyst.cpp.obj
+
+
+CMakeFiles/AnalystComparer.dir/History.cpp.obj: CMakeFiles/AnalystComparer.dir/flags.make
+CMakeFiles/AnalystComparer.dir/History.cpp.obj: ../History.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\drake\Repositories\cs1440\AnalystComparer\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/AnalystComparer.dir/History.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-6~1.0-P\mingw32\bin\G__~1.EXE   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\AnalystComparer.dir\History.cpp.obj -c C:\Users\drake\Repositories\cs1440\AnalystComparer\History.cpp
+
+CMakeFiles/AnalystComparer.dir/History.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AnalystComparer.dir/History.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-6~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\drake\Repositories\cs1440\AnalystComparer\History.cpp > CMakeFiles\AnalystComparer.dir\History.cpp.i
+
+CMakeFiles/AnalystComparer.dir/History.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AnalystComparer.dir/History.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-6~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\drake\Repositories\cs1440\AnalystComparer\History.cpp -o CMakeFiles\AnalystComparer.dir\History.cpp.s
+
+CMakeFiles/AnalystComparer.dir/History.cpp.obj.requires:
+
+.PHONY : CMakeFiles/AnalystComparer.dir/History.cpp.obj.requires
+
+CMakeFiles/AnalystComparer.dir/History.cpp.obj.provides: CMakeFiles/AnalystComparer.dir/History.cpp.obj.requires
+	$(MAKE) -f CMakeFiles\AnalystComparer.dir\build.make CMakeFiles/AnalystComparer.dir/History.cpp.obj.provides.build
+.PHONY : CMakeFiles/AnalystComparer.dir/History.cpp.obj.provides
+
+CMakeFiles/AnalystComparer.dir/History.cpp.obj.provides.build: CMakeFiles/AnalystComparer.dir/History.cpp.obj
+
+
+CMakeFiles/AnalystComparer.dir/PurchaseSale.cpp.obj: CMakeFiles/AnalystComparer.dir/flags.make
+CMakeFiles/AnalystComparer.dir/PurchaseSale.cpp.obj: ../PurchaseSale.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\drake\Repositories\cs1440\AnalystComparer\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/AnalystComparer.dir/PurchaseSale.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-6~1.0-P\mingw32\bin\G__~1.EXE   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\AnalystComparer.dir\PurchaseSale.cpp.obj -c C:\Users\drake\Repositories\cs1440\AnalystComparer\PurchaseSale.cpp
+
+CMakeFiles/AnalystComparer.dir/PurchaseSale.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AnalystComparer.dir/PurchaseSale.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-6~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\drake\Repositories\cs1440\AnalystComparer\PurchaseSale.cpp > CMakeFiles\AnalystComparer.dir\PurchaseSale.cpp.i
+
+CMakeFiles/AnalystComparer.dir/PurchaseSale.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AnalystComparer.dir/PurchaseSale.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-6~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\drake\Repositories\cs1440\AnalystComparer\PurchaseSale.cpp -o CMakeFiles\AnalystComparer.dir\PurchaseSale.cpp.s
+
+CMakeFiles/AnalystComparer.dir/PurchaseSale.cpp.obj.requires:
+
+.PHONY : CMakeFiles/AnalystComparer.dir/PurchaseSale.cpp.obj.requires
+
+CMakeFiles/AnalystComparer.dir/PurchaseSale.cpp.obj.provides: CMakeFiles/AnalystComparer.dir/PurchaseSale.cpp.obj.requires
+	$(MAKE) -f CMakeFiles\AnalystComparer.dir\build.make CMakeFiles/AnalystComparer.dir/PurchaseSale.cpp.obj.provides.build
+.PHONY : CMakeFiles/AnalystComparer.dir/PurchaseSale.cpp.obj.provides
+
+CMakeFiles/AnalystComparer.dir/PurchaseSale.cpp.obj.provides.build: CMakeFiles/AnalystComparer.dir/PurchaseSale.cpp.obj
+
+
+# Object files for target AnalystComparer
+AnalystComparer_OBJECTS = \
+"CMakeFiles/AnalystComparer.dir/main.cpp.obj" \
+"CMakeFiles/AnalystComparer.dir/Utils.cpp.obj" \
+"CMakeFiles/AnalystComparer.dir/Comparer.cpp.obj" \
+"CMakeFiles/AnalystComparer.dir/Analyst.cpp.obj" \
+"CMakeFiles/AnalystComparer.dir/History.cpp.obj" \
+"CMakeFiles/AnalystComparer.dir/PurchaseSale.cpp.obj"
+
+# External object files for target AnalystComparer
+AnalystComparer_EXTERNAL_OBJECTS =
+
+AnalystComparer.exe: CMakeFiles/AnalystComparer.dir/main.cpp.obj
+AnalystComparer.exe: CMakeFiles/AnalystComparer.dir/Utils.cpp.obj
+AnalystComparer.exe: CMakeFiles/AnalystComparer.dir/Comparer.cpp.obj
+AnalystComparer.exe: CMakeFiles/AnalystComparer.dir/Analyst.cpp.obj
+AnalystComparer.exe: CMakeFiles/AnalystComparer.dir/History.cpp.obj
+AnalystComparer.exe: CMakeFiles/AnalystComparer.dir/PurchaseSale.cpp.obj
+AnalystComparer.exe: CMakeFiles/AnalystComparer.dir/build.make
+AnalystComparer.exe: CMakeFiles/AnalystComparer.dir/linklibs.rsp
+AnalystComparer.exe: CMakeFiles/AnalystComparer.dir/objects1.rsp
+AnalystComparer.exe: CMakeFiles/AnalystComparer.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\drake\Repositories\cs1440\AnalystComparer\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable AnalystComparer.exe"
+	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\AnalystComparer.dir\link.txt --verbose=$(VERBOSE)
+
+# Rule to build all files generated by this target.
+CMakeFiles/AnalystComparer.dir/build: AnalystComparer.exe
+
+.PHONY : CMakeFiles/AnalystComparer.dir/build
+
+CMakeFiles/AnalystComparer.dir/requires: CMakeFiles/AnalystComparer.dir/main.cpp.obj.requires
+CMakeFiles/AnalystComparer.dir/requires: CMakeFiles/AnalystComparer.dir/Utils.cpp.obj.requires
+CMakeFiles/AnalystComparer.dir/requires: CMakeFiles/AnalystComparer.dir/Comparer.cpp.obj.requires
+CMakeFiles/AnalystComparer.dir/requires: CMakeFiles/AnalystComparer.dir/Analyst.cpp.obj.requires
+CMakeFiles/AnalystComparer.dir/requires: CMakeFiles/AnalystComparer.dir/History.cpp.obj.requires
+CMakeFiles/AnalystComparer.dir/requires: CMakeFiles/AnalystComparer.dir/PurchaseSale.cpp.obj.requires
 
 .PHONY : CMakeFiles/AnalystComparer.dir/requires
 
