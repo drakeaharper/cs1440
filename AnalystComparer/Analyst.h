@@ -14,11 +14,12 @@ class Analyst
 {
 public:
     Analyst();
-    int load(std::ifstream inputStream);
+    int load(std::ifstream& inputStream);
     float getStockPerformance();
     std::string getName() {return m_name;}
     std::string getInitials() {return m_initials;}
-    History getHistory() {return m_histroy;}
+    History getHistory() {return m_history;}
+
 private:
     std::string m_name;
     std::string m_initials;

@@ -5,6 +5,7 @@
 #include <iostream>
 #include <fstream>
 #include <iomanip>
+#include <algorithm>
 #include "Comparer.h"
 #include "Utils.h"
 
@@ -35,7 +36,11 @@ int Comparer::load(int argc, char* argv[])
         m_analysts[analystIndex] = new Analyst();
         if (m_analysts[analystIndex]->load(inputStream) < 0)
         {
-            std::cout << "Failed to load " << argc[analystIndex] << std::endl;
+            std::cout << "Failed to load " << argv[analystIndex] << std::endl;
+        }
+        else
+        {
+            analystIndex++;
         }
         // Example code:
         // m_analysts[analystIndex] = new Analyst();
@@ -90,20 +95,20 @@ void Comparer::loadSymbols()
     // the array and the symbol is array to the array.
     //
     // Example code:
-    // for (int i = 0; i < m_analystCount; i++)
-    // {
-    //    History& history = m_analysts[i]->getHistory();
-    //    history.resetIterator();
-    //    const PurchaseSale* purchaseSale;
-    //    while ((purchaseSale = history.nextPurchaseSale()) != nullptr)
-    //    {
-    //        std::string symbol = purchaseSale->getSymbol();
-    //        std::string *existingSymbol = std::find(std::begin(m_symbols), std::end(m_symbols), symbol);
-    //        if (existingSymbol == std::end(m_symbols)) {
-    //            m_symbols[m_symbolsCount++] = symbol;
-    //        }
-    //    }
-    // }
+     for (int i = 0; i < m_analystCount; i++)
+     {
+        History& history = m_analysts[i]->getHistory();
+        history.resetIterator();
+        const PurchaseSale* purchaseSale;
+        while ((purchaseSale = history.nextPurchaseSale()) != nullptr)
+        {
+            std::string symbol = purchaseSale->getSymbol();
+            std::string *existingSymbol = std::find(std::begin(m_symbols), std::end(m_symbols), symbol);
+            if (existingSymbol == std::end(m_symbols)) {
+                m_symbols[m_symbolsCount++] = symbol;
+            }
+        }
+     }
 }
 
 

@@ -8,18 +8,19 @@
 #include "PurchaseSale.h"
 #include <iostream>
 #include <string>
+#include <fstream>
 
 class History
 {
 public:
-    History();
-    int load(ifstream inputStream);
+    void load(std::ifstream& inputStream);
     int getSimulationDays();
     int getInitialMoney();
     int computeTotalProfitLoss();
     int computeProfitLossPerDay();
-    void resetIteration();
+    void resetIterator();
     PurchaseSale nextPurchaseSale();
+
 private:
     int m_simulationDays;
     int m_seedMoney;

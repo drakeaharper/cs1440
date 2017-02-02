@@ -5,11 +5,13 @@
 #ifndef ANALYSTCOMPARER_PURCHASESALE_H
 #define ANALYSTCOMPARER_PURCHASESALE_H
 
+#include <string>
+#include <fstream>
 
 class PurchaseSale
 {
 public:
-    PurchaseSale(ifstream inputStream);
+    PurchaseSale(std::ifstream& inputStream);
     int computeInvestmentAmount();
     int computeProfitLoss();
     int getPurchaseDateTime();

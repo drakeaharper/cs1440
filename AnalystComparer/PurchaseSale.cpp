@@ -3,6 +3,7 @@
 //
 
 #include "PurchaseSale.h"
+#include "Utils.h"
 
 PurchaseSale::PurchaseSale(std::ifstream& inputStream)
 {

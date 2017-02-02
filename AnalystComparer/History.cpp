@@ -3,43 +3,66 @@
 //
 
 #include "History.h"
-History()
+#include "Utils.h"
+
+void History::load(std::ifstream& inputStream)
 {
-    load(inputStream);
+    while (inputStream.is_open() && !inputStream.eof())
+    {
+        std::string line = getTrimmedLine(inputStream);
+        m_simulationDays = stoi(line);
+
+        line = getTrimmedLine(inputStream);
+        m_seedMoney = stoi(line);
+
+        line = getTrimmedLine(inputStream);
+        m_purchaseSalesCount = stoi(line);
+    }
+
+    m_purchaseSales = new PurchaseSale*[m_purchaseSalesCount];
+
+    for (int i = 0; i < m_purchaseSalesCount; i++)
+    {
+        m_purchaseSales[i] = new PurchaseSale(inputStream);
+    }
+
+
 }
 
-int load(ifstream inputStream)
-{
-
-}
-
-int getSimulationDays()
+int History::getSimulationDays()
 {
     return m_simulationDays;
 }
 
-int getInitialMoney()
+int History::getInitialMoney()
 {
     return m_seedMoney;
 }
 
-int computeTotalProfitLoss()
+int History::computeTotalProfitLoss()
 {
-    m_purchaseSales;
+    int totalProfitLoss = 0;
+    for (int i = 0; i < m_purchaseSalesCount; i++)
+    {
+        totalProfitLoss += m_purchaseSales[i]->computeProfitLoss();
+    }
 
+    return totalProfitLoss;
 }
 
-int computeProfitLossPerDay()
+int History::computeProfitLossPerDay()
 {
+    int profitLossPerDay = computeTotalProfitLoss() / getSimulationDays();
 
+    return profitLossPerDay;
 }
 
-void resetIteration()
+void History::resetIterator()
 {
-    m_purchaseSaleCount = 0;
+    m_purchaseSalesCount = 0;
 }
 
-PurchaseSale nextPurchaseSale()
+PurchaseSale History::nextPurchaseSale()
 {
 
 }
