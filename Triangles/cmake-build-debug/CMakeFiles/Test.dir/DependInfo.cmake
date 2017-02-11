@@ -4,17 +4,17 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/drake/Repositories/cs1440/Triangles/Edge.cpp" "C:/Users/drake/Repositories/cs1440/Triangles/cmake-build-debug/CMakeFiles/Test.dir/Edge.cpp.obj"
-  "C:/Users/drake/Repositories/cs1440/Triangles/Point.cpp" "C:/Users/drake/Repositories/cs1440/Triangles/cmake-build-debug/CMakeFiles/Test.dir/Point.cpp.obj"
-  "C:/Users/drake/Repositories/cs1440/Triangles/Testing/EdgeTester.cpp" "C:/Users/drake/Repositories/cs1440/Triangles/cmake-build-debug/CMakeFiles/Test.dir/Testing/EdgeTester.cpp.obj"
-  "C:/Users/drake/Repositories/cs1440/Triangles/Testing/PointTester.cpp" "C:/Users/drake/Repositories/cs1440/Triangles/cmake-build-debug/CMakeFiles/Test.dir/Testing/PointTester.cpp.obj"
-  "C:/Users/drake/Repositories/cs1440/Triangles/Testing/TriangleTester.cpp" "C:/Users/drake/Repositories/cs1440/Triangles/cmake-build-debug/CMakeFiles/Test.dir/Testing/TriangleTester.cpp.obj"
-  "C:/Users/drake/Repositories/cs1440/Triangles/Testing/UtilsTester.cpp" "C:/Users/drake/Repositories/cs1440/Triangles/cmake-build-debug/CMakeFiles/Test.dir/Testing/UtilsTester.cpp.obj"
-  "C:/Users/drake/Repositories/cs1440/Triangles/Testing/testMain.cpp" "C:/Users/drake/Repositories/cs1440/Triangles/cmake-build-debug/CMakeFiles/Test.dir/Testing/testMain.cpp.obj"
-  "C:/Users/drake/Repositories/cs1440/Triangles/Triangle.cpp" "C:/Users/drake/Repositories/cs1440/Triangles/cmake-build-debug/CMakeFiles/Test.dir/Triangle.cpp.obj"
-  "C:/Users/drake/Repositories/cs1440/Triangles/Utils.cpp" "C:/Users/drake/Repositories/cs1440/Triangles/cmake-build-debug/CMakeFiles/Test.dir/Utils.cpp.obj"
+  "/Users/swc/Dropbox/UnderGit/cs1440s17-shared/Triangles/Edge.cpp" "/Users/swc/Dropbox/UnderGit/cs1440s17-shared/Triangles/cmake-build-debug/CMakeFiles/Test.dir/Edge.cpp.o"
+  "/Users/swc/Dropbox/UnderGit/cs1440s17-shared/Triangles/Point.cpp" "/Users/swc/Dropbox/UnderGit/cs1440s17-shared/Triangles/cmake-build-debug/CMakeFiles/Test.dir/Point.cpp.o"
+  "/Users/swc/Dropbox/UnderGit/cs1440s17-shared/Triangles/Testing/EdgeTester.cpp" "/Users/swc/Dropbox/UnderGit/cs1440s17-shared/Triangles/cmake-build-debug/CMakeFiles/Test.dir/Testing/EdgeTester.cpp.o"
+  "/Users/swc/Dropbox/UnderGit/cs1440s17-shared/Triangles/Testing/PointTester.cpp" "/Users/swc/Dropbox/UnderGit/cs1440s17-shared/Triangles/cmake-build-debug/CMakeFiles/Test.dir/Testing/PointTester.cpp.o"
+  "/Users/swc/Dropbox/UnderGit/cs1440s17-shared/Triangles/Testing/TriangleTester.cpp" "/Users/swc/Dropbox/UnderGit/cs1440s17-shared/Triangles/cmake-build-debug/CMakeFiles/Test.dir/Testing/TriangleTester.cpp.o"
+  "/Users/swc/Dropbox/UnderGit/cs1440s17-shared/Triangles/Testing/UtilsTester.cpp" "/Users/swc/Dropbox/UnderGit/cs1440s17-shared/Triangles/cmake-build-debug/CMakeFiles/Test.dir/Testing/UtilsTester.cpp.o"
+  "/Users/swc/Dropbox/UnderGit/cs1440s17-shared/Triangles/Testing/testMain.cpp" "/Users/swc/Dropbox/UnderGit/cs1440s17-shared/Triangles/cmake-build-debug/CMakeFiles/Test.dir/Testing/testMain.cpp.o"
+  "/Users/swc/Dropbox/UnderGit/cs1440s17-shared/Triangles/Triangle.cpp" "/Users/swc/Dropbox/UnderGit/cs1440s17-shared/Triangles/cmake-build-debug/CMakeFiles/Test.dir/Triangle.cpp.o"
+  "/Users/swc/Dropbox/UnderGit/cs1440s17-shared/Triangles/Utils.cpp" "/Users/swc/Dropbox/UnderGit/cs1440s17-shared/Triangles/cmake-build-debug/CMakeFiles/Test.dir/Utils.cpp.o"
   )
-set(CMAKE_CXX_COMPILER_ID "GNU")
+set(CMAKE_CXX_COMPILER_ID "AppleClang")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH

@@ -4,13 +4,13 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/drake/Repositories/cs1440/Triangles/Edge.cpp" "C:/Users/drake/Repositories/cs1440/Triangles/cmake-build-debug/CMakeFiles/Triangles.dir/Edge.cpp.obj"
-  "C:/Users/drake/Repositories/cs1440/Triangles/Point.cpp" "C:/Users/drake/Repositories/cs1440/Triangles/cmake-build-debug/CMakeFiles/Triangles.dir/Point.cpp.obj"
-  "C:/Users/drake/Repositories/cs1440/Triangles/Triangle.cpp" "C:/Users/drake/Repositories/cs1440/Triangles/cmake-build-debug/CMakeFiles/Triangles.dir/Triangle.cpp.obj"
-  "C:/Users/drake/Repositories/cs1440/Triangles/Utils.cpp" "C:/Users/drake/Repositories/cs1440/Triangles/cmake-build-debug/CMakeFiles/Triangles.dir/Utils.cpp.obj"
-  "C:/Users/drake/Repositories/cs1440/Triangles/main.cpp" "C:/Users/drake/Repositories/cs1440/Triangles/cmake-build-debug/CMakeFiles/Triangles.dir/main.cpp.obj"
+  "/Users/swc/Dropbox/UnderGit/cs1440s17-shared/Triangles/Edge.cpp" "/Users/swc/Dropbox/UnderGit/cs1440s17-shared/Triangles/cmake-build-debug/CMakeFiles/Triangles.dir/Edge.cpp.o"
+  "/Users/swc/Dropbox/UnderGit/cs1440s17-shared/Triangles/Point.cpp" "/Users/swc/Dropbox/UnderGit/cs1440s17-shared/Triangles/cmake-build-debug/CMakeFiles/Triangles.dir/Point.cpp.o"
+  "/Users/swc/Dropbox/UnderGit/cs1440s17-shared/Triangles/Triangle.cpp" "/Users/swc/Dropbox/UnderGit/cs1440s17-shared/Triangles/cmake-build-debug/CMakeFiles/Triangles.dir/Triangle.cpp.o"
+  "/Users/swc/Dropbox/UnderGit/cs1440s17-shared/Triangles/Utils.cpp" "/Users/swc/Dropbox/UnderGit/cs1440s17-shared/Triangles/cmake-build-debug/CMakeFiles/Triangles.dir/Utils.cpp.o"
+  "/Users/swc/Dropbox/UnderGit/cs1440s17-shared/Triangles/main.cpp" "/Users/swc/Dropbox/UnderGit/cs1440s17-shared/Triangles/cmake-build-debug/CMakeFiles/Triangles.dir/main.cpp.o"
   )
-set(CMAKE_CXX_COMPILER_ID "GNU")
+set(CMAKE_CXX_COMPILER_ID "AppleClang")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH

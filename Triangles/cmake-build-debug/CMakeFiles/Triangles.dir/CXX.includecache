@@ -6,53 +6,53 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/drake/Repositories/cs1440/Triangles/Edge.cpp
+/Users/swc/Dropbox/UnderGit/cs1440s17-shared/Triangles/Edge.cpp
 cmath
 -
 complex
 -
 Edge.h
-C:/Users/drake/Repositories/cs1440/Triangles/Edge.h
+/Users/swc/Dropbox/UnderGit/cs1440s17-shared/Triangles/Edge.h
 Utils.h
-C:/Users/drake/Repositories/cs1440/Triangles/Utils.h
+/Users/swc/Dropbox/UnderGit/cs1440s17-shared/Triangles/Utils.h
 
-C:/Users/drake/Repositories/cs1440/Triangles/Edge.h
+/Users/swc/Dropbox/UnderGit/cs1440s17-shared/Triangles/Edge.h
 Point.h
-C:/Users/drake/Repositories/cs1440/Triangles/Point.h
+/Users/swc/Dropbox/UnderGit/cs1440s17-shared/Triangles/Point.h
 
-C:/Users/drake/Repositories/cs1440/Triangles/Point.cpp
+/Users/swc/Dropbox/UnderGit/cs1440s17-shared/Triangles/Point.cpp
 string
 -
 cmath
 -
 Point.h
-C:/Users/drake/Repositories/cs1440/Triangles/Point.h
+/Users/swc/Dropbox/UnderGit/cs1440s17-shared/Triangles/Point.h
 Edge.h
-C:/Users/drake/Repositories/cs1440/Triangles/Edge.h
+/Users/swc/Dropbox/UnderGit/cs1440s17-shared/Triangles/Edge.h
 Utils.h
-C:/Users/drake/Repositories/cs1440/Triangles/Utils.h
+/Users/swc/Dropbox/UnderGit/cs1440s17-shared/Triangles/Utils.h
 
-C:/Users/drake/Repositories/cs1440/Triangles/Point.h
+/Users/swc/Dropbox/UnderGit/cs1440s17-shared/Triangles/Point.h
 string
 -
 
-C:/Users/drake/Repositories/cs1440/Triangles/Triangle.cpp
+/Users/swc/Dropbox/UnderGit/cs1440s17-shared/Triangles/Triangle.cpp
 Triangle.h
-C:/Users/drake/Repositories/cs1440/Triangles/Triangle.h
+/Users/swc/Dropbox/UnderGit/cs1440s17-shared/Triangles/Triangle.h
 Utils.h
-C:/Users/drake/Repositories/cs1440/Triangles/Utils.h
+/Users/swc/Dropbox/UnderGit/cs1440s17-shared/Triangles/Utils.h
 cmath
 -
 
-C:/Users/drake/Repositories/cs1440/Triangles/Triangle.h
+/Users/swc/Dropbox/UnderGit/cs1440s17-shared/Triangles/Triangle.h
 string
 -
 Point.h
-C:/Users/drake/Repositories/cs1440/Triangles/Point.h
+/Users/swc/Dropbox/UnderGit/cs1440s17-shared/Triangles/Point.h
 Edge.h
-C:/Users/drake/Repositories/cs1440/Triangles/Edge.h
+/Users/swc/Dropbox/UnderGit/cs1440s17-shared/Triangles/Edge.h
 
-C:/Users/drake/Repositories/cs1440/Triangles/Utils.cpp
+/Users/swc/Dropbox/UnderGit/cs1440s17-shared/Triangles/Utils.cpp
 algorithm
 -
 string
@@ -64,17 +64,17 @@ fstream
 cmath
 -
 Utils.h
-C:/Users/drake/Repositories/cs1440/Triangles/Utils.h
+/Users/swc/Dropbox/UnderGit/cs1440s17-shared/Triangles/Utils.h
 
-C:/Users/drake/Repositories/cs1440/Triangles/Utils.h
+/Users/swc/Dropbox/UnderGit/cs1440s17-shared/Triangles/Utils.h
 string
 -
 fstream
 -
 
-C:/Users/drake/Repositories/cs1440/Triangles/main.cpp
+/Users/swc/Dropbox/UnderGit/cs1440s17-shared/Triangles/main.cpp
 iostream
 -
 Triangle.h
-C:/Users/drake/Repositories/cs1440/Triangles/Triangle.h
+/Users/swc/Dropbox/UnderGit/cs1440s17-shared/Triangles/Triangle.h
 
