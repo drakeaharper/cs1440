@@ -1,11 +1,13 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Triangles.dir/main.cpp.o"
-  "CMakeFiles/Triangles.dir/Point.cpp.o"
-  "CMakeFiles/Triangles.dir/Edge.cpp.o"
-  "CMakeFiles/Triangles.dir/Triangle.cpp.o"
-  "CMakeFiles/Triangles.dir/Utils.cpp.o"
+  "CMakeFiles/Triangles.dir/main.cpp.obj"
+  "CMakeFiles/Triangles.dir/Point.cpp.obj"
+  "CMakeFiles/Triangles.dir/Edge.cpp.obj"
+  "CMakeFiles/Triangles.dir/Triangle.cpp.obj"
+  "CMakeFiles/Triangles.dir/Utils.cpp.obj"
   "Triangles.pdb"
-  "Triangles"
+  "Triangles.exe"
+  "Triangles.exe.manifest"
+  "libTriangles.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.

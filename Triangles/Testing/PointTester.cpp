@@ -181,6 +181,19 @@ void PointTester::testConstructorWithStrings()
     }
 
     // TODO: Write additional meaningful test cases for Point's string-based constructor
+
+    Point q1("INFINITY,0,0");
+    if (q1.isValid())
+    {
+        std::cout << "Failure in constructing Point(\"INFINITY,0,0\") isValid()="
+                  << q1.isValid()
+                  << " x=" << q1.getX()
+                  << " y=" << q1.getY()
+                  << " z=" << q1.getZ()
+                  << std::endl;
+        return;
+    }
+
 }
 
 void PointTester::testInvalid() {

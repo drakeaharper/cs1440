@@ -1,4 +1,4 @@
-/Users/swc/Dropbox/UnderGit/cs1440s17-instructor/Homework/HW3/Triangles/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/swc/Dropbox/UnderGit/cs1440s17-instructor/Homework/HW3/Triangles/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/Users/swc/Dropbox/UnderGit/cs1440s17-instructor/Homework/HW3/Triangles/cmake-build-debug/CMakeFiles/Test.dir
-/Users/swc/Dropbox/UnderGit/cs1440s17-instructor/Homework/HW3/Triangles/cmake-build-debug/CMakeFiles/Triangles.dir
+C:/Users/drake/Repositories/cs1440/Triangles/cmake-build-debug/CMakeFiles/Triangles.dir
+C:/Users/drake/Repositories/cs1440/Triangles/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/drake/Repositories/cs1440/Triangles/cmake-build-debug/CMakeFiles/Test.dir
+C:/Users/drake/Repositories/cs1440/Triangles/cmake-build-debug/CMakeFiles/edit_cache.dir
