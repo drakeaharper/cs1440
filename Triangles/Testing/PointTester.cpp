@@ -194,6 +194,66 @@ void PointTester::testConstructorWithStrings()
         return;
     }
 
+    Point q2("0,INFINITY,0");
+    if (q2.isValid())
+    {
+        std::cout << "Failure in constructing Point(\"0,INFINITY,0\") isValid()="
+                  << q2.isValid()
+                  << " x=" << q2.getX()
+                  << " y=" << q2.getY()
+                  << " z=" << q2.getZ()
+                  << std::endl;
+        return;
+    }
+
+    Point q3("0,0,INFINITY");
+    if (q3.isValid())
+    {
+        std::cout << "Failure in constructing Point(\"0,0,INFINITY\") isValid()="
+                  << q3.isValid()
+                  << " x=" << q3.getX()
+                  << " y=" << q3.getY()
+                  << " z=" << q3.getZ()
+                  << std::endl;
+        return;
+    }
+
+    Point q4("0,0,c");
+    if (q4.isValid())
+    {
+        std::cout << "Failure in constructing Point(\"0,0,c\") isValid()="
+                  << q4.isValid()
+                  << " x=" << q4.getX()
+                  << " y=" << q4.getY()
+                  << " z=" << q4.getZ()
+                  << std::endl;
+        return;
+    }
+
+    Point q5("0,c,0");
+    if (q5.isValid())
+    {
+        std::cout << "Failure in constructing Point(\"0,c,0\") isValid()="
+                  << q5.isValid()
+                  << " x=" << q5.getX()
+                  << " y=" << q5.getY()
+                  << " z=" << q5.getZ()
+                  << std::endl;
+        return;
+    }
+
+    Point q6("c,0,0");
+    if (q6.isValid())
+    {
+        std::cout << "Failure in constructing Point(\"c,0,0\") isValid()="
+                  << q1.isValid()
+                  << " x=" << q6.getX()
+                  << " y=" << q6.getY()
+                  << " z=" << q6.getZ()
+                  << std::endl;
+        return;
+    }
+
 }
 
 void PointTester::testInvalid() {

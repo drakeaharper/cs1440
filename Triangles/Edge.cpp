@@ -91,7 +91,7 @@ double Edge::getSlopeZ() const
         double sumOfSquares = std::pow(diffX, 2) + std::pow(diffY, 2);
         double xyOffset = std::sqrt(sumOfSquares);
 
-        if (xyOffset != 0)
+        if (xyOffset == 0)
         {
             result = INFINITY;
         }
