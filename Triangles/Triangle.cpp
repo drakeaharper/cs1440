@@ -61,7 +61,7 @@ char Triangle::getTriangleType() const
     char result = 'X';
     if (isValid())
     {
-        if (!isTriangle())
+        if (isTriangle())
         {
             double a = m_edges[0]->getLength();
             double b = m_edges[1]->getLength();
@@ -73,7 +73,7 @@ char Triangle::getTriangleType() const
             // If any two sides are the same, then its an isosceles
             else if (appromixatelyEquals(a,b,m_edgeLengthThreshold) ||
                      appromixatelyEquals(b,c,m_edgeLengthThreshold) ||
-                     appromixatelyEquals(c,c,m_edgeLengthThreshold))
+                     appromixatelyEquals(c,a,m_edgeLengthThreshold))
             {
                 result = 'I';
             }
@@ -102,7 +102,7 @@ double Triangle::computerArea() const
         double a = m_edges[0]->getLength();
         double b = m_edges[1]->getLength();
         double c = m_edges[2]->getLength();
-        double s = ( a + b + b)/2;
+        double s = ( a + b + c)/2;
         area = sqrt(s*(s-a)*(s-b)*(s-c));
     }
     return area;
