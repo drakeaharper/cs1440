@@ -89,12 +89,12 @@ void MenuTester::testConstructorAndGetter()
 
         Menu menu("");
 
-        if (menu.getHeader()=="")
+        if (menu.getHeader()!="")
         {
             std::cout << "Failure in constructor: unexpected value for getHeader" << std::endl;
             return;
         }
-        if (menu.getOptionCount()==0)
+        if (menu.getOptionCount()!=0)
         {
             std::cout << "Failure in constructor: unexpected value for getOptionCount of " << menu.getOptionCount() << std::endl;
             return;
