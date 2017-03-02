@@ -50,7 +50,7 @@ int Card::getNumber()
 
 void Card::printCard(std::ostream& out)
 {
-    out << "Card #" << m_index + 1 << "\n";
+    out << "Card #" << m_index << "\n";
     for (int i = 0; i < m_size; i++)
     {
         makeBreak(out);

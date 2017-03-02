@@ -21,7 +21,7 @@ Deck::~Deck()
     // TODO: Implement
     for (int i = 0; i < m_howMany; i++)
     {
-        delete [] myCards[i];
+        delete myCards[i];
     }
     delete [] myCards;
 }
