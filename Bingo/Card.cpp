@@ -9,6 +9,7 @@ Card::Card(int size, int maxNumber, int index)
     m_size = size;
     m_index = index;
     m_maxNumber = maxNumber;
+    m_position = 0;
     makeRandomArray(m_maxNumber);
 }
 
@@ -49,9 +50,13 @@ int Card::getNumber()
 
 void Card::printCard(std::ostream& out)
 {
+    out << "Card #" << m_index + 1 << "\n";
     for (int i = 0; i < m_size; i++)
     {
         makeBreak(out);
         makeRow(out);
     }
+    makeBreak(out);
+    out << "\n";
+    out << "\n";
 }
