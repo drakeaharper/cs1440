@@ -42,8 +42,8 @@ void UserInterface::run()
 
 void UserInterface::createDeck()
 {
-    // Get the user to specify the card size, max number, and number of cards
-    int cardSize = getNumberInput("Enter card size", 3, 15);
+    // Get the user to specify the myCards size, max number, and number of cards
+    int cardSize = getNumberInput("Enter myCards size", 3, 15);
     if (cardSize < 0)
         return;
 
@@ -70,7 +70,7 @@ void UserInterface::createDeck()
 void UserInterface::deckMenu()
 {
     Menu menu("Deck");
-    menu.addOption("P", "Print a card to the screen");
+    menu.addOption("P", "Print a myCards to the screen");
     menu.addOption("D", "Display the whole deck to the screen");
     menu.addOption("S", "Save the whole deck to a file");
 
@@ -100,7 +100,7 @@ void UserInterface::deckMenu()
 
 void UserInterface::printCard()
 {
-    int cardToPrint = getNumberInput("Id of card to print", 1, 9999);
+    int cardToPrint = getNumberInput("Id of myCards to print", 1, 9999);
     if (cardToPrint>0)
     {
         std::cout << std::endl;

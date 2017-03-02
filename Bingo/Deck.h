@@ -6,10 +6,15 @@
 #define BINGO_DECK_H
 
 #include <ostream>
+#include "Card.h"
 
 // TODO: Extend this definition as you see fit
 
-class Deck {
+class Deck
+{
+private:
+    Card** myCards;
+    int m_howMany;
 
 public:
     Deck(int cardSize, int cardCount, int numberMax);

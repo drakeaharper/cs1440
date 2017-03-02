@@ -1,13 +1,15 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Test.dir/Testing/testMain.cpp.o"
-  "CMakeFiles/Test.dir/UserInterface.cpp.o"
-  "CMakeFiles/Test.dir/Deck.cpp.o"
-  "CMakeFiles/Test.dir/MenuOption.cpp.o"
-  "CMakeFiles/Test.dir/Menu.cpp.o"
-  "CMakeFiles/Test.dir/Testing/MenuTester.cpp.o"
-  "CMakeFiles/Test.dir/Testing/MenuOptionTester.cpp.o"
+  "CMakeFiles/Test.dir/Testing/testMain.cpp.obj"
+  "CMakeFiles/Test.dir/UserInterface.cpp.obj"
+  "CMakeFiles/Test.dir/Deck.cpp.obj"
+  "CMakeFiles/Test.dir/MenuOption.cpp.obj"
+  "CMakeFiles/Test.dir/Menu.cpp.obj"
+  "CMakeFiles/Test.dir/Testing/MenuTester.cpp.obj"
+  "CMakeFiles/Test.dir/Testing/MenuOptionTester.cpp.obj"
   "Test.pdb"
-  "Test"
+  "Test.exe"
+  "Test.exe.manifest"
+  "libTest.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.

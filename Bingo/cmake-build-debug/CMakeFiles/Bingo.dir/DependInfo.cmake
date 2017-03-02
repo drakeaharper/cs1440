@@ -4,13 +4,14 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/swc/Dropbox/UnderGit/cs1440s17-shared/Bingo/Deck.cpp" "/Users/swc/Dropbox/UnderGit/cs1440s17-shared/Bingo/cmake-build-debug/CMakeFiles/Bingo.dir/Deck.cpp.o"
-  "/Users/swc/Dropbox/UnderGit/cs1440s17-shared/Bingo/Menu.cpp" "/Users/swc/Dropbox/UnderGit/cs1440s17-shared/Bingo/cmake-build-debug/CMakeFiles/Bingo.dir/Menu.cpp.o"
-  "/Users/swc/Dropbox/UnderGit/cs1440s17-shared/Bingo/MenuOption.cpp" "/Users/swc/Dropbox/UnderGit/cs1440s17-shared/Bingo/cmake-build-debug/CMakeFiles/Bingo.dir/MenuOption.cpp.o"
-  "/Users/swc/Dropbox/UnderGit/cs1440s17-shared/Bingo/UserInterface.cpp" "/Users/swc/Dropbox/UnderGit/cs1440s17-shared/Bingo/cmake-build-debug/CMakeFiles/Bingo.dir/UserInterface.cpp.o"
-  "/Users/swc/Dropbox/UnderGit/cs1440s17-shared/Bingo/main.cpp" "/Users/swc/Dropbox/UnderGit/cs1440s17-shared/Bingo/cmake-build-debug/CMakeFiles/Bingo.dir/main.cpp.o"
+  "C:/Users/drake/Repositories/cs1440/Bingo/Card.cpp" "C:/Users/drake/Repositories/cs1440/Bingo/cmake-build-debug/CMakeFiles/Bingo.dir/Card.cpp.obj"
+  "C:/Users/drake/Repositories/cs1440/Bingo/Deck.cpp" "C:/Users/drake/Repositories/cs1440/Bingo/cmake-build-debug/CMakeFiles/Bingo.dir/Deck.cpp.obj"
+  "C:/Users/drake/Repositories/cs1440/Bingo/Menu.cpp" "C:/Users/drake/Repositories/cs1440/Bingo/cmake-build-debug/CMakeFiles/Bingo.dir/Menu.cpp.obj"
+  "C:/Users/drake/Repositories/cs1440/Bingo/MenuOption.cpp" "C:/Users/drake/Repositories/cs1440/Bingo/cmake-build-debug/CMakeFiles/Bingo.dir/MenuOption.cpp.obj"
+  "C:/Users/drake/Repositories/cs1440/Bingo/UserInterface.cpp" "C:/Users/drake/Repositories/cs1440/Bingo/cmake-build-debug/CMakeFiles/Bingo.dir/UserInterface.cpp.obj"
+  "C:/Users/drake/Repositories/cs1440/Bingo/main.cpp" "C:/Users/drake/Repositories/cs1440/Bingo/cmake-build-debug/CMakeFiles/Bingo.dir/main.cpp.obj"
   )
-set(CMAKE_CXX_COMPILER_ID "AppleClang")
+set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH

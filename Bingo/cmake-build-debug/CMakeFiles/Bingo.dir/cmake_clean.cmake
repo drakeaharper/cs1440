@@ -1,11 +1,14 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Bingo.dir/main.cpp.o"
-  "CMakeFiles/Bingo.dir/UserInterface.cpp.o"
-  "CMakeFiles/Bingo.dir/Deck.cpp.o"
-  "CMakeFiles/Bingo.dir/MenuOption.cpp.o"
-  "CMakeFiles/Bingo.dir/Menu.cpp.o"
+  "CMakeFiles/Bingo.dir/main.cpp.obj"
+  "CMakeFiles/Bingo.dir/UserInterface.cpp.obj"
+  "CMakeFiles/Bingo.dir/Deck.cpp.obj"
+  "CMakeFiles/Bingo.dir/MenuOption.cpp.obj"
+  "CMakeFiles/Bingo.dir/Menu.cpp.obj"
+  "CMakeFiles/Bingo.dir/Card.cpp.obj"
   "Bingo.pdb"
-  "Bingo"
+  "Bingo.exe"
+  "Bingo.exe.manifest"
+  "libBingo.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.

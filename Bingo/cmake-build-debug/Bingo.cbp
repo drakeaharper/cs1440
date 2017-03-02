@@ -8,171 +8,177 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/Users/swc/Dropbox/UnderGit/cs1440s17-shared/Bingo/cmake-build-debug"/>
+				<Option working_dir="C:/Users/drake/Repositories/cs1440/Bingo/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/swc/Dropbox/UnderGit/cs1440s17-shared/Bingo/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/swc/Dropbox/UnderGit/cs1440s17-shared/Bingo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/swc/Dropbox/UnderGit/cs1440s17-shared/Bingo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/swc/Dropbox/UnderGit/cs1440s17-shared/Bingo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="edit_cache">
-				<Option working_dir="/Users/swc/Dropbox/UnderGit/cs1440s17-shared/Bingo/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/swc/Dropbox/UnderGit/cs1440s17-shared/Bingo/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/swc/Dropbox/UnderGit/cs1440s17-shared/Bingo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/swc/Dropbox/UnderGit/cs1440s17-shared/Bingo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/swc/Dropbox/UnderGit/cs1440s17-shared/Bingo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="rebuild_cache">
-				<Option working_dir="/Users/swc/Dropbox/UnderGit/cs1440s17-shared/Bingo/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/swc/Dropbox/UnderGit/cs1440s17-shared/Bingo/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/swc/Dropbox/UnderGit/cs1440s17-shared/Bingo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/swc/Dropbox/UnderGit/cs1440s17-shared/Bingo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/swc/Dropbox/UnderGit/cs1440s17-shared/Bingo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="Test">
-				<Option output="/Users/swc/Dropbox/UnderGit/cs1440s17-shared/Bingo/cmake-build-debug/Test" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/swc/Dropbox/UnderGit/cs1440s17-shared/Bingo/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.0.0/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/swc/Dropbox/UnderGit/cs1440s17-shared/Bingo/cmake-build-debug/Makefile&quot;  VERBOSE=1 Test"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/swc/Dropbox/UnderGit/cs1440s17-shared/Bingo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/swc/Dropbox/UnderGit/cs1440s17-shared/Bingo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/swc/Dropbox/UnderGit/cs1440s17-shared/Bingo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="Test/fast">
-				<Option output="/Users/swc/Dropbox/UnderGit/cs1440s17-shared/Bingo/cmake-build-debug/Test" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/swc/Dropbox/UnderGit/cs1440s17-shared/Bingo/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.0.0/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/swc/Dropbox/UnderGit/cs1440s17-shared/Bingo/cmake-build-debug/Makefile&quot;  VERBOSE=1 Test/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/swc/Dropbox/UnderGit/cs1440s17-shared/Bingo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/swc/Dropbox/UnderGit/cs1440s17-shared/Bingo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/swc/Dropbox/UnderGit/cs1440s17-shared/Bingo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-6~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/drake/Repositories/cs1440/Bingo/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-6~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/drake/Repositories/cs1440/Bingo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-6~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/drake/Repositories/cs1440/Bingo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-6~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/drake/Repositories/cs1440/Bingo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Bingo">
-				<Option output="/Users/swc/Dropbox/UnderGit/cs1440s17-shared/Bingo/cmake-build-debug/Bingo" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/swc/Dropbox/UnderGit/cs1440s17-shared/Bingo/cmake-build-debug"/>
+				<Option output="C:/Users/drake/Repositories/cs1440/Bingo/cmake-build-debug/Bingo.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/drake/Repositories/cs1440/Bingo/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.0.0/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-6.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/6.2.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-6.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/6.2.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-6.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/6.2.0/../../../../i686-w64-mingw32/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-6.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/6.2.0/include/c++"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-6.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/6.2.0/include/c++/i686-w64-mingw32"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-6.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/6.2.0/include/c++/backward"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/swc/Dropbox/UnderGit/cs1440s17-shared/Bingo/cmake-build-debug/Makefile&quot;  VERBOSE=1 Bingo"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/swc/Dropbox/UnderGit/cs1440s17-shared/Bingo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/swc/Dropbox/UnderGit/cs1440s17-shared/Bingo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/swc/Dropbox/UnderGit/cs1440s17-shared/Bingo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-6~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/drake/Repositories/cs1440/Bingo/cmake-build-debug/Makefile&quot;  VERBOSE=1 Bingo"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-6~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/drake/Repositories/cs1440/Bingo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-6~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/drake/Repositories/cs1440/Bingo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-6~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/drake/Repositories/cs1440/Bingo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Bingo/fast">
-				<Option output="/Users/swc/Dropbox/UnderGit/cs1440s17-shared/Bingo/cmake-build-debug/Bingo" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/swc/Dropbox/UnderGit/cs1440s17-shared/Bingo/cmake-build-debug"/>
+				<Option output="C:/Users/drake/Repositories/cs1440/Bingo/cmake-build-debug/Bingo.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/drake/Repositories/cs1440/Bingo/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.0.0/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-6.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/6.2.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-6.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/6.2.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-6.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/6.2.0/../../../../i686-w64-mingw32/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-6.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/6.2.0/include/c++"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-6.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/6.2.0/include/c++/i686-w64-mingw32"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-6.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/6.2.0/include/c++/backward"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/swc/Dropbox/UnderGit/cs1440s17-shared/Bingo/cmake-build-debug/Makefile&quot;  VERBOSE=1 Bingo/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/swc/Dropbox/UnderGit/cs1440s17-shared/Bingo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/swc/Dropbox/UnderGit/cs1440s17-shared/Bingo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/swc/Dropbox/UnderGit/cs1440s17-shared/Bingo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-6~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/drake/Repositories/cs1440/Bingo/cmake-build-debug/Makefile&quot;  VERBOSE=1 Bingo/fast"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-6~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/drake/Repositories/cs1440/Bingo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-6~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/drake/Repositories/cs1440/Bingo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-6~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/drake/Repositories/cs1440/Bingo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/drake/Repositories/cs1440/Bingo/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-6~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/drake/Repositories/cs1440/Bingo/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-6~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/drake/Repositories/cs1440/Bingo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-6~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/drake/Repositories/cs1440/Bingo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-6~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/drake/Repositories/cs1440/Bingo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Test">
+				<Option output="C:/Users/drake/Repositories/cs1440/Bingo/cmake-build-debug/Test.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/drake/Repositories/cs1440/Bingo/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-6.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/6.2.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-6.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/6.2.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-6.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/6.2.0/../../../../i686-w64-mingw32/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-6.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/6.2.0/include/c++"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-6.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/6.2.0/include/c++/i686-w64-mingw32"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-6.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/6.2.0/include/c++/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-6~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/drake/Repositories/cs1440/Bingo/cmake-build-debug/Makefile&quot;  VERBOSE=1 Test"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-6~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/drake/Repositories/cs1440/Bingo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-6~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/drake/Repositories/cs1440/Bingo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-6~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/drake/Repositories/cs1440/Bingo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Test/fast">
+				<Option output="C:/Users/drake/Repositories/cs1440/Bingo/cmake-build-debug/Test.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/drake/Repositories/cs1440/Bingo/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-6.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/6.2.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-6.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/6.2.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-6.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/6.2.0/../../../../i686-w64-mingw32/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-6.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/6.2.0/include/c++"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-6.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/6.2.0/include/c++/i686-w64-mingw32"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-6.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/6.2.0/include/c++/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-6~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/drake/Repositories/cs1440/Bingo/cmake-build-debug/Makefile&quot;  VERBOSE=1 Test/fast"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-6~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/drake/Repositories/cs1440/Bingo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-6~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/drake/Repositories/cs1440/Bingo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-6~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/drake/Repositories/cs1440/Bingo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/drake/Repositories/cs1440/Bingo/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-6~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/drake/Repositories/cs1440/Bingo/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-6~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/drake/Repositories/cs1440/Bingo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-6~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/drake/Repositories/cs1440/Bingo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-6~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/drake/Repositories/cs1440/Bingo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/swc/Dropbox/UnderGit/cs1440s17-shared/Bingo/Deck.cpp">
-			<Option target="Test"/>
+		<Unit filename="C:/Users/drake/Repositories/cs1440/Bingo/Card.cpp">
 			<Option target="Bingo"/>
 		</Unit>
-		<Unit filename="/Users/swc/Dropbox/UnderGit/cs1440s17-shared/Bingo/Deck.h">
-			<Option target="Test"/>
+		<Unit filename="C:/Users/drake/Repositories/cs1440/Bingo/Card.h">
 			<Option target="Bingo"/>
 		</Unit>
-		<Unit filename="/Users/swc/Dropbox/UnderGit/cs1440s17-shared/Bingo/Menu.cpp">
+		<Unit filename="C:/Users/drake/Repositories/cs1440/Bingo/Deck.cpp">
+			<Option target="Bingo"/>
 			<Option target="Test"/>
+		</Unit>
+		<Unit filename="C:/Users/drake/Repositories/cs1440/Bingo/Deck.h">
+			<Option target="Bingo"/>
+			<Option target="Test"/>
+		</Unit>
+		<Unit filename="C:/Users/drake/Repositories/cs1440/Bingo/Menu.cpp">
+			<Option target="Bingo"/>
+			<Option target="Test"/>
+		</Unit>
+		<Unit filename="C:/Users/drake/Repositories/cs1440/Bingo/Menu.h">
+			<Option target="Bingo"/>
+			<Option target="Test"/>
+		</Unit>
+		<Unit filename="C:/Users/drake/Repositories/cs1440/Bingo/MenuOption.cpp">
+			<Option target="Bingo"/>
+			<Option target="Test"/>
+		</Unit>
+		<Unit filename="C:/Users/drake/Repositories/cs1440/Bingo/MenuOption.h">
+			<Option target="Bingo"/>
+			<Option target="Test"/>
+		</Unit>
+		<Unit filename="C:/Users/drake/Repositories/cs1440/Bingo/Testing/MenuOptionTester.cpp">
+			<Option target="Test"/>
+		</Unit>
+		<Unit filename="C:/Users/drake/Repositories/cs1440/Bingo/Testing/MenuOptionTester.h">
+			<Option target="Test"/>
+		</Unit>
+		<Unit filename="C:/Users/drake/Repositories/cs1440/Bingo/Testing/MenuTester.cpp">
+			<Option target="Test"/>
+		</Unit>
+		<Unit filename="C:/Users/drake/Repositories/cs1440/Bingo/Testing/MenuTester.h">
+			<Option target="Test"/>
+		</Unit>
+		<Unit filename="C:/Users/drake/Repositories/cs1440/Bingo/Testing/testMain.cpp">
+			<Option target="Test"/>
+		</Unit>
+		<Unit filename="C:/Users/drake/Repositories/cs1440/Bingo/UserInterface.cpp">
+			<Option target="Bingo"/>
+			<Option target="Test"/>
+		</Unit>
+		<Unit filename="C:/Users/drake/Repositories/cs1440/Bingo/UserInterface.h">
+			<Option target="Bingo"/>
+			<Option target="Test"/>
+		</Unit>
+		<Unit filename="C:/Users/drake/Repositories/cs1440/Bingo/main.cpp">
 			<Option target="Bingo"/>
 		</Unit>
-		<Unit filename="/Users/swc/Dropbox/UnderGit/cs1440s17-shared/Bingo/Menu.h">
-			<Option target="Test"/>
-			<Option target="Bingo"/>
-		</Unit>
-		<Unit filename="/Users/swc/Dropbox/UnderGit/cs1440s17-shared/Bingo/MenuOption.cpp">
-			<Option target="Test"/>
-			<Option target="Bingo"/>
-		</Unit>
-		<Unit filename="/Users/swc/Dropbox/UnderGit/cs1440s17-shared/Bingo/MenuOption.h">
-			<Option target="Test"/>
-			<Option target="Bingo"/>
-		</Unit>
-		<Unit filename="/Users/swc/Dropbox/UnderGit/cs1440s17-shared/Bingo/Testing/MenuOptionTester.cpp">
-			<Option target="Test"/>
-		</Unit>
-		<Unit filename="/Users/swc/Dropbox/UnderGit/cs1440s17-shared/Bingo/Testing/MenuOptionTester.h">
-			<Option target="Test"/>
-		</Unit>
-		<Unit filename="/Users/swc/Dropbox/UnderGit/cs1440s17-shared/Bingo/Testing/MenuTester.cpp">
-			<Option target="Test"/>
-		</Unit>
-		<Unit filename="/Users/swc/Dropbox/UnderGit/cs1440s17-shared/Bingo/Testing/MenuTester.h">
-			<Option target="Test"/>
-		</Unit>
-		<Unit filename="/Users/swc/Dropbox/UnderGit/cs1440s17-shared/Bingo/Testing/testMain.cpp">
-			<Option target="Test"/>
-		</Unit>
-		<Unit filename="/Users/swc/Dropbox/UnderGit/cs1440s17-shared/Bingo/UserInterface.cpp">
-			<Option target="Test"/>
-			<Option target="Bingo"/>
-		</Unit>
-		<Unit filename="/Users/swc/Dropbox/UnderGit/cs1440s17-shared/Bingo/UserInterface.h">
-			<Option target="Test"/>
-			<Option target="Bingo"/>
-		</Unit>
-		<Unit filename="/Users/swc/Dropbox/UnderGit/cs1440s17-shared/Bingo/main.cpp">
-			<Option target="Bingo"/>
-		</Unit>
-		<Unit filename="/Users/swc/Dropbox/UnderGit/cs1440s17-shared/Bingo/CMakeLists.txt">
+		<Unit filename="C:/Users/drake/Repositories/cs1440/Bingo/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

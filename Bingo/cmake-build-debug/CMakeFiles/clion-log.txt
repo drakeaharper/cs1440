@@ -1,4 +1,4 @@
-/Applications/CLion.app/Contents/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/swc/Dropbox/UnderGit/cs1440s17-shared/Bingo
+"C:\Program Files (x86)\JetBrains\CLion 2016.3.2\bin\cmake\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" C:\Users\drake\Repositories\cs1440\Bingo
 -- Configuring done
 -- Generating done
--- Build files have been written to: /Users/swc/Dropbox/UnderGit/cs1440s17-shared/Bingo/cmake-build-debug
+-- Build files have been written to: C:/Users/drake/Repositories/cs1440/Bingo/cmake-build-debug

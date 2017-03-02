@@ -9,7 +9,7 @@ set(SOURCE_FILES
             MenuOption.cpp MenuOption.h
             Menu.cpp Menu.h)
 
-add_executable(Bingo main.cpp ${SOURCE_FILES})
+add_executable(Bingo main.cpp ${SOURCE_FILES} Card.cpp Card.h)
 
 set(TEST_FILES
         Testing/MenuTester.cpp Testing/MenuTester.h
