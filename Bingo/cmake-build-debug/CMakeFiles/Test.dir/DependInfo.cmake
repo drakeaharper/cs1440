@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "C:/Users/drake/Repositories/cs1440/Bingo/MenuOption.cpp" "C:/Users/drake/Repositories/cs1440/Bingo/cmake-build-debug/CMakeFiles/Test.dir/MenuOption.cpp.obj"
   "C:/Users/drake/Repositories/cs1440/Bingo/Testing/MenuOptionTester.cpp" "C:/Users/drake/Repositories/cs1440/Bingo/cmake-build-debug/CMakeFiles/Test.dir/Testing/MenuOptionTester.cpp.obj"
   "C:/Users/drake/Repositories/cs1440/Bingo/Testing/MenuTester.cpp" "C:/Users/drake/Repositories/cs1440/Bingo/cmake-build-debug/CMakeFiles/Test.dir/Testing/MenuTester.cpp.obj"
+  "C:/Users/drake/Repositories/cs1440/Bingo/Testing/cardTester.cpp" "C:/Users/drake/Repositories/cs1440/Bingo/cmake-build-debug/CMakeFiles/Test.dir/Testing/cardTester.cpp.obj"
   "C:/Users/drake/Repositories/cs1440/Bingo/Testing/testMain.cpp" "C:/Users/drake/Repositories/cs1440/Bingo/cmake-build-debug/CMakeFiles/Test.dir/Testing/testMain.cpp.obj"
   "C:/Users/drake/Repositories/cs1440/Bingo/UserInterface.cpp" "C:/Users/drake/Repositories/cs1440/Bingo/cmake-build-debug/CMakeFiles/Test.dir/UserInterface.cpp.obj"
   )

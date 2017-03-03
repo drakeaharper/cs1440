@@ -21,10 +21,16 @@ public:
     void makeRandomArray(int max);
     int getNumber();
     void printCard(std::ostream& out);
+    int getSize()  { return m_size; }
+    int getMaxNumber() { return m_maxNumber; }
+    int getPosition() { return m_position; }
+    int getIndex() { return m_index; }
+    int getGridPosition(int x, int y);
 
 
 private:
     std::vector<int> m_numberVector;
+    std::vector<int> m_gridTracker;
     unsigned int m_position;
     int m_size;
     int m_maxNumber;

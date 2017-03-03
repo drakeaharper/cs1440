@@ -6,6 +6,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/Test.dir/Menu.cpp.obj"
   "CMakeFiles/Test.dir/Testing/MenuTester.cpp.obj"
   "CMakeFiles/Test.dir/Testing/MenuOptionTester.cpp.obj"
+  "CMakeFiles/Test.dir/Testing/cardTester.cpp.obj"
   "Test.pdb"
   "Test.exe"
   "Test.exe.manifest"

@@ -13,13 +13,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="97110257-4ff2-44f7-930d-307abc813a09" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Testing/cardTester.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Testing/cardTester.h" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/Bingo.exe" afterPath="$PROJECT_DIR$/cmake-build-debug/Bingo.exe" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Bingo.dir/Card.cpp.obj" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Bingo.dir/Card.cpp.obj" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Bingo.dir/Deck.cpp.obj" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Bingo.dir/Deck.cpp.obj" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Bingo.dir/objects.a" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Bingo.dir/objects.a" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CMakeLists.txt" afterPath="$PROJECT_DIR$/CMakeLists.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Card.cpp" afterPath="$PROJECT_DIR$/Card.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Card.h" afterPath="$PROJECT_DIR$/Card.h" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Deck.cpp" afterPath="$PROJECT_DIR$/Deck.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/Bingo.cbp" afterPath="$PROJECT_DIR$/cmake-build-debug/Bingo.cbp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Test.dir/DependInfo.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Test.dir/DependInfo.cmake" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Test.dir/build.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Test.dir/build.make" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Test.dir/cmake_clean.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Test.dir/cmake_clean.cmake" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Test.dir/objects1.rsp" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Test.dir/objects1.rsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Test.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Test.dir/progress.make" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" />
     </list>
     <ignored path="Bingo.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -62,11 +74,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Deck.cpp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Deck.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Deck.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="499">
-              <caret line="23" column="14" lean-forward="false" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
+            <state relative-caret-position="650">
+              <caret line="26" column="22" lean-forward="false" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cardTester.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Testing/cardTester.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cardTester.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Testing/cardTester.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -76,17 +108,17 @@
         <entry file="file://$PROJECT_DIR$/UserInterface.cpp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="300">
-              <caret line="19" column="51" lean-forward="true" selection-start-line="18" selection-start-column="3" selection-end-line="19" selection-end-column="51" />
+              <caret line="19" column="51" lean-forward="false" selection-start-line="18" selection-start-column="3" selection-end-line="19" selection-end-column="51" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Card.cpp" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Card.cpp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Card.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="824">
-              <caret line="52" column="30" lean-forward="false" selection-start-line="52" selection-start-column="30" selection-end-line="52" selection-end-column="30" />
+            <state relative-caret-position="1149">
+              <caret line="75" column="25" lean-forward="false" selection-start-line="75" selection-start-column="25" selection-end-line="75" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -95,8 +127,8 @@
       <file leaf-file-name="Card.h" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Card.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="625">
-              <caret line="25" column="8" lean-forward="false" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
+            <state relative-caret-position="675">
+              <caret line="27" column="36" lean-forward="false" selection-start-line="27" selection-start-column="36" selection-end-line="27" selection-end-column="36" />
               <folding>
                 <element signature="e#83#100#0" expanded="true" />
               </folding>
@@ -108,7 +140,7 @@
         <entry file="file://$PROJECT_DIR$/UserInterface.h">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="325">
-              <caret line="13" column="8" lean-forward="true" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
+              <caret line="13" column="8" lean-forward="false" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -160,10 +192,11 @@
         <option value="$PROJECT_DIR$/Testing/MenuOptionTester.cpp" />
         <option value="$PROJECT_DIR$/Testing/MenuTester.cpp" />
         <option value="$PROJECT_DIR$/Deck.h" />
-        <option value="$PROJECT_DIR$/Card.h" />
-        <option value="$PROJECT_DIR$/Card.cpp" />
         <option value="$PROJECT_DIR$/main.cpp" />
         <option value="$PROJECT_DIR$/Deck.cpp" />
+        <option value="$PROJECT_DIR$/Testing/cardTester.h" />
+        <option value="$PROJECT_DIR$/Card.h" />
+        <option value="$PROJECT_DIR$/Card.cpp" />
       </list>
     </option>
   </component>
@@ -448,12 +481,12 @@
       <workItem from="1488229894012" duration="1087000" />
       <workItem from="1488305036864" duration="1303000" />
       <workItem from="1488404771905" duration="1812000" />
-      <workItem from="1488476158618" duration="7026000" />
+      <workItem from="1488476158618" duration="10320000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42753000" />
+    <option name="totallyTimeSpent" value="46047000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="2182" height="1402" extended-state="6" />
@@ -608,11 +641,9 @@
     <entry file="file://$PROJECT_DIR$/BingoNumber.h" />
     <entry file="file://$PROJECT_DIR$/Testing/BingoNumberTester.h" />
     <entry file="file://$PROJECT_DIR$/Testing/BingoNumberTester.cpp" />
-    <entry file="file://$PROJECT_DIR$/Testing/CardTester.h" />
     <entry file="file://$PROJECT_DIR$/Testing/DeckTester.h" />
     <entry file="file://$PROJECT_DIR$/Testing/DeckTester.cpp" />
     <entry file="file://$PROJECT_DIR$/Testing/NumberSetTester.cpp" />
-    <entry file="file://$PROJECT_DIR$/Testing/CardTester.cpp" />
     <entry file="file://$PROJECT_DIR$/Testing/NumberSetTester.h" />
     <entry file="file://$PROJECT_DIR$/Testing/MenuOptionTester.h">
       <provider selected="true" editor-type-id="text-editor">
@@ -695,7 +726,7 @@
     <entry file="file://$PROJECT_DIR$/UserInterface.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="325">
-          <caret line="13" column="8" lean-forward="true" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
+          <caret line="13" column="8" lean-forward="false" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
           <folding />
         </state>
       </provider>
@@ -708,28 +739,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Card.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="625">
-          <caret line="25" column="8" lean-forward="false" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
-          <folding>
-            <element signature="e#83#100#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Card.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="824">
-          <caret line="52" column="30" lean-forward="false" selection-start-line="52" selection-start-column="30" selection-end-line="52" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/UserInterface.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
-          <caret line="19" column="51" lean-forward="true" selection-start-line="18" selection-start-column="3" selection-end-line="19" selection-end-column="51" />
+          <caret line="19" column="51" lean-forward="false" selection-start-line="18" selection-start-column="3" selection-end-line="19" selection-end-column="51" />
           <folding />
         </state>
       </provider>
@@ -746,8 +759,42 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Deck.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="499">
-          <caret line="23" column="14" lean-forward="false" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
+        <state relative-caret-position="650">
+          <caret line="26" column="22" lean-forward="false" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Testing/cardTester.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Testing/cardTester.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Card.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="27" column="36" lean-forward="false" selection-start-line="27" selection-start-column="36" selection-end-line="27" selection-end-column="36" />
+          <folding>
+            <element signature="e#83#100#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Card.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1149">
+          <caret line="75" column="25" lean-forward="false" selection-start-line="75" selection-start-column="25" selection-end-line="75" selection-end-column="25" />
           <folding />
         </state>
       </provider>

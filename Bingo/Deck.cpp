@@ -24,6 +24,7 @@ Deck::~Deck()
         delete myCards[i];
     }
     delete [] myCards;
+    myCards = nullptr;
 }
 
 void Deck::print(std::ostream& out) const

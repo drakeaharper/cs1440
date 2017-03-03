@@ -18,7 +18,9 @@ void Card::makeRow(std::ostream& out)
     out << "|";
     for (int i = 0; i < m_size; i++)
     {
-        out << std::setw(4) << getNumber() << "|";
+        int temp = getNumber();
+        m_gridTracker.push_back(temp);
+        out << std::setw(4) << temp << "|";
     }
     out << "\n";
 }
@@ -59,4 +61,18 @@ void Card::printCard(std::ostream& out)
     makeBreak(out);
     out << "\n";
     out << "\n";
+}
+
+int Card::getGridPosition(int x, int y)
+{
+    int gridPosition = 0;
+
+    if (y > 1)
+    {
+        gridPosition = x * y;
+    }
+    else
+    {
+        gridPosition = x;
+    }
 }

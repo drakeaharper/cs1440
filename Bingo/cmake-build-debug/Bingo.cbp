@@ -164,6 +164,12 @@
 		<Unit filename="C:/Users/drake/Repositories/cs1440/Bingo/Testing/MenuTester.h">
 			<Option target="Test"/>
 		</Unit>
+		<Unit filename="C:/Users/drake/Repositories/cs1440/Bingo/Testing/cardTester.cpp">
+			<Option target="Test"/>
+		</Unit>
+		<Unit filename="C:/Users/drake/Repositories/cs1440/Bingo/Testing/cardTester.h">
+			<Option target="Test"/>
+		</Unit>
 		<Unit filename="C:/Users/drake/Repositories/cs1440/Bingo/Testing/testMain.cpp">
 			<Option target="Test"/>
 		</Unit>

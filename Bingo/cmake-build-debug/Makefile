@@ -306,6 +306,33 @@ Testing/MenuTester.cpp.s:
 	$(MAKE) -f CMakeFiles\Test.dir\build.make CMakeFiles/Test.dir/Testing/MenuTester.cpp.s
 .PHONY : Testing/MenuTester.cpp.s
 
+Testing/cardTester.obj: Testing/cardTester.cpp.obj
+
+.PHONY : Testing/cardTester.obj
+
+# target to build an object file
+Testing/cardTester.cpp.obj:
+	$(MAKE) -f CMakeFiles\Test.dir\build.make CMakeFiles/Test.dir/Testing/cardTester.cpp.obj
+.PHONY : Testing/cardTester.cpp.obj
+
+Testing/cardTester.i: Testing/cardTester.cpp.i
+
+.PHONY : Testing/cardTester.i
+
+# target to preprocess a source file
+Testing/cardTester.cpp.i:
+	$(MAKE) -f CMakeFiles\Test.dir\build.make CMakeFiles/Test.dir/Testing/cardTester.cpp.i
+.PHONY : Testing/cardTester.cpp.i
+
+Testing/cardTester.s: Testing/cardTester.cpp.s
+
+.PHONY : Testing/cardTester.s
+
+# target to generate assembly for a file
+Testing/cardTester.cpp.s:
+	$(MAKE) -f CMakeFiles\Test.dir\build.make CMakeFiles/Test.dir/Testing/cardTester.cpp.s
+.PHONY : Testing/cardTester.cpp.s
+
 Testing/testMain.obj: Testing/testMain.cpp.obj
 
 .PHONY : Testing/testMain.obj
@@ -418,6 +445,9 @@ help:
 	@echo ... Testing/MenuTester.obj
 	@echo ... Testing/MenuTester.i
 	@echo ... Testing/MenuTester.s
+	@echo ... Testing/cardTester.obj
+	@echo ... Testing/cardTester.i
+	@echo ... Testing/cardTester.s
 	@echo ... Testing/testMain.obj
 	@echo ... Testing/testMain.i
 	@echo ... Testing/testMain.s
