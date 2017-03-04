@@ -10,7 +10,6 @@
 
 int main()
 {
-
     // Initialize the random number generator
     unsigned int seed = (unsigned int) time(NULL);
     srand(seed);
@@ -22,4 +21,6 @@ int main()
 
     MenuTester menuTester;
     menuTester.testConstructorAndGetter();
+
+    //testing is in line with the code
 }

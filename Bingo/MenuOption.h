@@ -18,4 +18,5 @@ public:
     const std::string& getDescription() const { return m_description; }
 };
 
+
 #endif //BINGO_MENUOPTION_H

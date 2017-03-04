@@ -112,7 +112,5 @@ void MenuTester::testConstructorAndGetter()
             std::cout << "Failure in constructor: unexpected option" << std::endl;
             return;
         }
-
     }
-
 }

@@ -19,8 +19,9 @@ public:
     void makeRow(std::ostream& out);
     void makeBreak(std::ostream& out);
     void makeRandomArray(int max);
-    int getNumber();
     void printCard(std::ostream& out);
+    
+    int getNumber();
     int getSize()  { return m_size; }
     int getMaxNumber() { return m_maxNumber; }
     int getPosition() { return m_position; }

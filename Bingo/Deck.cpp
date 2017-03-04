@@ -41,6 +41,3 @@ void Deck::print(std::ostream& out, int cardIndex) const
     // TODO: Implement
     myCards[cardIndex]->printCard(out);
 }
-
-
-

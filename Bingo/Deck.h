@@ -13,10 +13,10 @@
 class Deck
 {
 private:
-    Card** myCards;
     int m_howMany;
 
 public:
+    Card** myCards;
     Deck(int cardSize, int cardCount, int numberMax);
     ~Deck();
 

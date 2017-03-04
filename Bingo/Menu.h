@@ -30,4 +30,5 @@ private:
     void growOptionAllocation();
 };
 
+
 #endif //BINGO_MENU_H

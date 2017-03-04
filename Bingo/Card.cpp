@@ -7,8 +7,29 @@
 Card::Card(int size, int maxNumber, int index)
 {
     m_size = size;
+
+    if (m_size < 3)
+    {
+        std::cout << "Value of size " << m_size << " is invalid.\n";
+        return;
+    }
+
     m_index = index;
+
+    if (index < 3)
+    {
+        std::cout << "Index of " << m_index << " is invalid.\n";
+        return;
+    }
+
     m_maxNumber = maxNumber;
+
+    if (m_maxNumber < m_size*m_size*2 || m_maxNumber > m_size*m_size*4)
+    {
+        std::cout << "Max value of " << m_maxNumber << " is invalid.\n";
+        return;
+    }
+
     m_position = 0;
     makeRandomArray(m_maxNumber);
 }
@@ -37,9 +58,17 @@ void Card::makeBreak(std::ostream& out)
 
 void Card::makeRandomArray(int max)
 {
-    for (int i = 0; i < max; i++)
+    std::vector<int> tempVect;
+    for (int i = 1; i < max; i++)
     {
         m_numberVector.push_back(i);
+        tempVect.push_back(i);
+
+        if (m_numberVector[i - 1] > max)
+        {
+            std::cout << "Number at " << i - 1 << " is invalid." << std::endl;
+            std::cout << "The number is " << m_numberVector[i - 1] << std::endl << std::endl;
+        }
     }
 
     std::random_shuffle(m_numberVector.begin(), m_numberVector.end());
@@ -69,10 +98,13 @@ int Card::getGridPosition(int x, int y)
 
     if (y > 1)
     {
-        gridPosition = x * y;
+        int temp = (y - 1) * m_size;
+        gridPosition = x + temp;
     }
     else
     {
         gridPosition = x;
     }
+
+    return gridPosition;
 }

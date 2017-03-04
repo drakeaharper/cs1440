@@ -27,6 +27,7 @@ void MenuOptionTester::testConstructorAndGetter()
             return;
         }
     }
+    
 
     {
         std::cout << "Test case 2" << std::endl;
