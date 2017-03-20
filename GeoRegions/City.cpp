@@ -5,3 +5,8 @@
 #include "City.h"
 
 // TODO: Implement functionality of City class
+
+City::City()
+{
+    validate();
+}

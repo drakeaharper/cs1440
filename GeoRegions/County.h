@@ -7,4 +7,11 @@
 
 // TODO: Finish definition for a County class
 
+#include "Region.h"
+
+class County : public Region
+{
+    County();
+};
+
 #endif //GEO_REGIONS_COUNTY_H

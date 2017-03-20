@@ -14,9 +14,9 @@ class Deck
 {
 private:
     int m_howMany;
+    Card** myCards;
 
 public:
-    Card** myCards;
     Deck(int cardSize, int cardCount, int numberMax);
     ~Deck();
 

@@ -7,4 +7,11 @@
 
 // TODO: Finish definition for a State class
 
+#include "Region.h"
+
+class State : public Region
+{
+    State();
+};
+
 #endif //GEO_REGIONS_STATE_H

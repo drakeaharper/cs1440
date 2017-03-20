@@ -6,3 +6,8 @@
 
 
 // TODO: Implement functionality of County class
+
+County::County()
+{
+    validate();
+}
