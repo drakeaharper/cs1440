@@ -16,7 +16,7 @@ Card::Card(int size, int maxNumber, int index)
 
     m_index = index;
 
-    if (index < 3)
+    if (index < 0 || index > m_size)
     {
         std::cout << "Index of " << m_index << " is invalid.\n";
         return;
