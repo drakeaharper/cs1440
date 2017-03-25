@@ -20,6 +20,8 @@ protected:
     bool            m_isValid = false;
 
     // TODO: Add data members to manage sub-regions
+    unsigned int m_allocated = 0;
+    unsigned int subregionCount = 0;
 
 private:
     static unsigned int m_nextId;
@@ -35,6 +37,7 @@ protected:
     Region(RegionType type, const std::string data[]);
 
 public:
+    Region** subRegions;
     ~Region();
     unsigned int getId() const { return m_id; }
     RegionType  getType() const { return m_regionType; }
@@ -46,9 +49,14 @@ public:
     double getArea() const { return m_area; }
     void setArea(double area) { m_area = area; }
     bool getIsValid() const { return m_isValid; }
+    unsigned int getSubRegionCount() { return subregionCount; }
+    Region* getSubRegionByIndex(unsigned int index) { return subRegions[index]; }
+    unsigned int getNextID() { return m_nextId; }
 
     // TODO: Add methods to manage sub-regions
-
+    void addChild(Region* newChild);
+    void resize();
+    void setID(unsigned int newID) { m_id = newID; }
     // TODO: Add method to compute total population, as m_population + the total population for all sub-regions
     unsigned int computeTotalPopulation();
 

@@ -5,9 +5,9 @@
 #include "County.h"
 
 
-// TODO: Implement functionality of County class
+// DONE: Implement functionality of County class
 
-County::County()
+County::County(const std::string data[]) : Region(NationType, data)
 {
     validate();
 }

@@ -93,7 +93,8 @@ void UserInterface::add()
         if (data != "") {
             Region *region = Region::create(m_subRegionType, data);
             if (region != nullptr) {
-                // TODO: Add region to the m_currentRegion
+                // DONE: Add region to the m_currentRegion
+                m_currentRegion->addChild(region);
                 std::cout << Region::regionLabel(m_subRegionType) << " added" << std::endl;
             } else {
                 std::cout << "Invalid data - no region created" << std::endl;
@@ -123,6 +124,8 @@ void UserInterface::edit()
         {
             Region* region;
             // TODO: Look the region by Id and assign it to region variable
+           // region = m_currentRegion->subRegions[id];
+
             if (region!=nullptr)
             {
                 std::cout << "Editing: ";
@@ -217,6 +220,13 @@ void UserInterface::remove()
         if (valid && id>0)
         {
             // TODO: Look up the region by Id and assign it to the region variable
+           // delete m_currentRegion->subRegions[id];
+//
+           // for (unsigned int index = id; index < m_currentRegion->getSubregionCount(); ++index)
+           // {
+           //     m_currentRegion->subRegions[index + 1]->setID(index);
+           // }
+//
             std::cout << "Deleted!" << std::endl;
         }
         else
@@ -246,6 +256,23 @@ void UserInterface::changeToSubRegion()
         {
             Region* region;
             // TODO: Lookup the region by Id and assign it to the region variable.
+            for (unsigned int index = id; index < m_currentRegion->getNextID(); index++)
+            {
+             if ( id == m_currentRegion->getSubRegionByIndex(index)->getId())
+             {
+
+             }
+
+            }
+
+           // for (unsigned int index = 0; index < m_currentRegion->getSubregionCount(); index++)
+           // {
+           //     if (id == m_currentRegion->subRegions[index]->getId())
+           //     {
+           //         region = m_currentRegion[id];
+           //     }
+           // }
+//
             if (region!=nullptr)
             {
                 UserInterface* nextUI = nullptr;

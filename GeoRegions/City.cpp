@@ -4,9 +4,9 @@
 
 #include "City.h"
 
-// TODO: Implement functionality of City class
+// DONE: Implement functionality of City class
 
-City::City()
+City::City(const std::string data[]) : Region(NationType, data)
 {
     validate();
 }

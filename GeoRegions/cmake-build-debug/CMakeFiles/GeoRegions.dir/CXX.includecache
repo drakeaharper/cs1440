@@ -11,12 +11,20 @@ City.h
 C:/Users/drake/Repositories/cs1440/GeoRegions/City.h
 
 C:/Users/drake/Repositories/cs1440/GeoRegions/City.h
+Region.h
+C:/Users/drake/Repositories/cs1440/GeoRegions/Region.h
+string
+-
 
 C:/Users/drake/Repositories/cs1440/GeoRegions/County.cpp
 County.h
 C:/Users/drake/Repositories/cs1440/GeoRegions/County.h
 
 C:/Users/drake/Repositories/cs1440/GeoRegions/County.h
+Region.h
+C:/Users/drake/Repositories/cs1440/GeoRegions/Region.h
+string
+-
 
 C:/Users/drake/Repositories/cs1440/GeoRegions/CountyUserInterface.cpp
 CountyUserInterface.h
@@ -101,6 +109,10 @@ State.h
 C:/Users/drake/Repositories/cs1440/GeoRegions/State.h
 
 C:/Users/drake/Repositories/cs1440/GeoRegions/State.h
+Region.h
+C:/Users/drake/Repositories/cs1440/GeoRegions/Region.h
+string
+-
 
 C:/Users/drake/Repositories/cs1440/GeoRegions/StateUserInterface.cpp
 StateUserInterface.h

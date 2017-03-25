@@ -5,12 +5,14 @@
 #ifndef GEO_REGIONS_CITY_H
 #define GEO_REGIONS_CITY_H
 
-// TODO: Finish definition for a County class
+// DONE: Finish definition for a County class
 
 #include "Region.h"
+#include <string>
 
 class City : public Region
 {
-    City();
+public:
+    City(const std::string data[]);
 };
 #endif //GEO_REGIONS_CITY_H
