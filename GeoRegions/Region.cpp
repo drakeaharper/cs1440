@@ -305,3 +305,18 @@ void Region::resize()
 
     delete [] carl;
 }
+
+Region* Region::searchSubregionsByID(Region* search, unsigned int id)
+{
+    for (unsigned int index = 0; index < search->getSubRegionCount(); index++)
+    {
+        if (search->getId() != id)
+        {
+            searchSubregionsByID(search->subRegions[index], id);
+        }
+
+        return search->subRegions[index];
+    }
+
+    return 0;
+}

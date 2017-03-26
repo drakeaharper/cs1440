@@ -124,7 +124,7 @@ void UserInterface::edit()
         {
             Region* region;
             // TODO: Look the region by Id and assign it to region variable
-           // region = m_currentRegion->subRegions[id];
+            region = m_currentRegion->searchSubregionsByID(m_currentRegion, id);
 
             if (region!=nullptr)
             {
@@ -220,6 +220,9 @@ void UserInterface::remove()
         if (valid && id>0)
         {
             // TODO: Look up the region by Id and assign it to the region variable
+
+            delete m_currentRegion->searchSubregionsByID(m_currentRegion, id);
+
            // delete m_currentRegion->subRegions[id];
 //
            // for (unsigned int index = id; index < m_currentRegion->getSubregionCount(); ++index)
@@ -256,14 +259,7 @@ void UserInterface::changeToSubRegion()
         {
             Region* region;
             // TODO: Lookup the region by Id and assign it to the region variable.
-            for (unsigned int index = id; index < m_currentRegion->getNextID(); index++)
-            {
-             if ( id == m_currentRegion->getSubRegionByIndex(index)->getId())
-             {
-
-             }
-
-            }
+            region = m_currentRegion->searchSubregionsByID(m_currentRegion, id);
 
            // for (unsigned int index = 0; index < m_currentRegion->getSubregionCount(); index++)
            // {

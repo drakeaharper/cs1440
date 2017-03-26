@@ -57,6 +57,7 @@ public:
     void addChild(Region* newChild);
     void resize();
     void setID(unsigned int newID) { m_id = newID; }
+    Region* searchSubregionsByID(Region* search, unsigned int id);
     // TODO: Add method to compute total population, as m_population + the total population for all sub-regions
     unsigned int computeTotalPopulation();
 
