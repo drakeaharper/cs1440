@@ -220,16 +220,8 @@ void UserInterface::remove()
         if (valid && id>0)
         {
             // TODO: Look up the region by Id and assign it to the region variable
-
             delete m_currentRegion->searchSubregionsByID(m_currentRegion, id);
 
-           // delete m_currentRegion->subRegions[id];
-//
-           // for (unsigned int index = id; index < m_currentRegion->getSubregionCount(); ++index)
-           // {
-           //     m_currentRegion->subRegions[index + 1]->setID(index);
-           // }
-//
             std::cout << "Deleted!" << std::endl;
         }
         else
@@ -261,14 +253,6 @@ void UserInterface::changeToSubRegion()
             // TODO: Lookup the region by Id and assign it to the region variable.
             region = m_currentRegion->searchSubregionsByID(m_currentRegion, id);
 
-           // for (unsigned int index = 0; index < m_currentRegion->getSubregionCount(); index++)
-           // {
-           //     if (id == m_currentRegion->subRegions[index]->getId())
-           //     {
-           //         region = m_currentRegion[id];
-           //     }
-           // }
-//
             if (region!=nullptr)
             {
                 UserInterface* nextUI = nullptr;

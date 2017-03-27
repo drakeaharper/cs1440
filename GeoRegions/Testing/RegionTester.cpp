@@ -447,6 +447,27 @@ void RegionTester::testSubRegions()
     std::cout << "RegionTester::testSubRegions" << std::endl;
 
     // TODO: Add test cases for managing sub-regions
+    // test these functions
+    // void addChild(Region* newChild);
+    // void resize();
+
+    Region* region;
+    Region* child;
+    region->create("world,9879879,987987");
+    child->create("subregion,9089879,908987");
+    region->addChild(child);
+
+    if (region->getNextID() < 2)
+    {
+        std::cout << "Error adding Child. Child not added as subregion" << std::endl;
+    }
+
+    region->resize();
+
+    if (region->getAllocated() < 4)
+    {
+        std::cout << "Error resizing, space not allocated." << std::endl;
+    }
 }
 
 void RegionTester::testComputeTotalPopulation()
@@ -454,4 +475,25 @@ void RegionTester::testComputeTotalPopulation()
     std::cout << "RegionTester::testComputeTotalPopulation" << std::endl;
 
     // TODO: Add test cases for computeTotalPopulation
+    Region* region;
+    Region* child;
+    Region* child1;
+    Region* child2;
+    region->create("world,9879879,987987");
+    child->create("child,9089879,908987");
+    child1->create("child1,9898765,9876546");
+    child2->create("child2,76545678,87654567");
+    region->addChild(child);
+    region->addChild(child1);
+    region->addChild(child2);
+
+    unsigned int pop = 0;
+    pop += region->getPopulation();
+    pop += child->getPopulation();
+    pop += child1->getPopulation();
+    pop += child2->getPopulation();
+    if (region->computeTotalPopulation() != pop)
+    {
+        std::cout << "Error computing total population.";
+    }
 }

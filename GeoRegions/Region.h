@@ -52,12 +52,14 @@ public:
     unsigned int getSubRegionCount() { return subregionCount; }
     Region* getSubRegionByIndex(unsigned int index) { return subRegions[index]; }
     unsigned int getNextID() { return m_nextId; }
+    unsigned int getAllocated() { return m_allocated; }
 
     // TODO: Add methods to manage sub-regions
     void addChild(Region* newChild);
     void resize();
     void setID(unsigned int newID) { m_id = newID; }
     Region* searchSubregionsByID(Region* search, unsigned int id);
+
     // TODO: Add method to compute total population, as m_population + the total population for all sub-regions
     unsigned int computeTotalPopulation();
 
