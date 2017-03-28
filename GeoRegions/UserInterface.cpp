@@ -124,7 +124,9 @@ void UserInterface::edit()
         {
             Region* region;
             // TODO: Look the region by Id and assign it to region variable
-            region = m_currentRegion->searchSubregionsByID(m_currentRegion, id);
+            unsigned int index = m_currentRegion->searchByIndex(m_currentRegion, 0, id);
+
+            region = m_currentRegion->subRegions[index];
 
             if (region!=nullptr)
             {
@@ -220,7 +222,14 @@ void UserInterface::remove()
         if (valid && id>0)
         {
             // TODO: Look up the region by Id and assign it to the region variable
-            delete m_currentRegion->searchSubregionsByID(m_currentRegion, id);
+            unsigned int x = 0;
+            unsigned int index = m_currentRegion->searchByIndex(m_currentRegion, x, id);
+            if (m_currentRegion->subRegions[index] != nullptr)
+            {
+                m_currentRegion->remove(m_currentRegion, index);
+            }
+
+
 
             std::cout << "Deleted!" << std::endl;
         }

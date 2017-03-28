@@ -50,15 +50,17 @@ public:
     void setArea(double area) { m_area = area; }
     bool getIsValid() const { return m_isValid; }
     unsigned int getSubRegionCount() { return subregionCount; }
-    Region* getSubRegionByIndex(unsigned int index) { return subRegions[index]; }
     unsigned int getNextID() { return m_nextId; }
     unsigned int getAllocated() { return m_allocated; }
 
     // TODO: Add methods to manage sub-regions
+    Region* getSubRegionByIndex(unsigned int index) { return subRegions[index]; }
     void addChild(Region* newChild);
     void resize();
     void setID(unsigned int newID) { m_id = newID; }
     Region* searchSubregionsByID(Region* search, unsigned int id);
+    unsigned int searchByIndex(Region* search, unsigned int index, unsigned int id);
+    void remove(Region* &toRemove, unsigned int index);
 
     // TODO: Add method to compute total population, as m_population + the total population for all sub-regions
     unsigned int computeTotalPopulation();

@@ -320,3 +320,30 @@ Region* Region::searchSubregionsByID(Region* search, unsigned int id)
 
     return 0;
 }
+
+unsigned int Region::searchByIndex(Region* search, unsigned int index, unsigned int id)
+{
+    for (unsigned int i = 0; i < search->getSubRegionCount(); i++)
+    {
+        if (search->subRegions[index]->getId() == id)
+        {
+            index = i;
+        }
+    }
+    //if (search->subRegions[index]->getId() != id)
+    //{
+        //return searchByIndex(search, index + 1, id);
+    //}
+
+    return index;
+}
+
+void Region::remove(Region* &toRemove, unsigned int index)
+{
+    delete toRemove->subRegions[index];
+
+    for (unsigned int i = index; i < toRemove->getSubRegionCount() - 1; i++)
+    {
+        toRemove->subRegions[i] = toRemove->subRegions[i + 1];
+    }
+}
