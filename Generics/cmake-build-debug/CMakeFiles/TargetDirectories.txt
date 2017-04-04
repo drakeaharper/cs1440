@@ -1,0 +1,5 @@
+C:/Users/drake/Repositories/cs1440/Generics/cmake-build-debug/CMakeFiles/MultiDictionary.dir
+C:/Users/drake/Repositories/cs1440/Generics/cmake-build-debug/CMakeFiles/Testing.dir
+C:/Users/drake/Repositories/cs1440/Generics/cmake-build-debug/CMakeFiles/SingleDictionary.dir
+C:/Users/drake/Repositories/cs1440/Generics/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/drake/Repositories/cs1440/Generics/cmake-build-debug/CMakeFiles/rebuild_cache.dir

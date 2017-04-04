@@ -1,0 +1,51 @@
+***Dictionary***
+Dictionary: AllAboutLyndsee
+
+Index value: 0
+Key: Lyndsee
+Value: IsMyLove
+
+Index value: 1
+Key: Hair
+Value: SexyBlonde
+
+Index value: 2
+Key: EyeColor
+Value: AttractiveBlue
+
+Index value: 3
+Key: Bod
+Value: 11
+
+Index value: 4
+Key: Characteristic
+Value: SuperLoving
+
+Index value: 5
+Key: OtherCharacteristic
+Value: VerySmart
+
+Index value: 6
+Key: FavoriteQuality
+Value: LikesToCuddle
+
+Index value: 7
+Key: Smile
+Value: Beautiful
+
+Index value: 8
+Key: Laugh
+Value: Contagious
+
+Index value: 9
+Key: Marryable
+Value: Absolutely
+
+Index value: 10
+Key: MarriageDate
+Value: Aug/11/2017
+
+Index value: 11
+Key: MarriageLocation
+Value: LDSBountifulUtahTemple
+

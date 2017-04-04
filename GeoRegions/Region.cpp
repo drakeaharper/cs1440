@@ -329,6 +329,7 @@ unsigned int Region::searchByIndex(Region* search, unsigned int index, unsigned 
         {
             index = i;
         }
+        
     }
     //if (search->subRegions[index]->getId() != id)
     //{
