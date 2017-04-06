@@ -55,17 +55,6 @@ CMAKE_BINARY_DIR = C:\Users\drake\Repositories\cs1440\Generics\cmake-build-debug
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	"C:\Program Files (x86)\JetBrains\CLion 2016.3.2\bin\cmake\bin\cmake.exe" -E echo "No interactive CMake dialog available."
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-
-.PHONY : edit_cache/fast
-
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
@@ -76,6 +65,17 @@ rebuild_cache:
 rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
+
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	"C:\Program Files (x86)\JetBrains\CLion 2016.3.2\bin\cmake\bin\cmake.exe" -E echo "No interactive CMake dialog available."
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+
+.PHONY : edit_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -110,17 +110,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named MultiDictionary
+# Target rules for targets named Dictionary
 
 # Build rule for target.
-MultiDictionary: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 MultiDictionary
-.PHONY : MultiDictionary
+Dictionary: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 Dictionary
+.PHONY : Dictionary
 
 # fast build rule for target.
-MultiDictionary/fast:
-	$(MAKE) -f CMakeFiles\MultiDictionary.dir\build.make CMakeFiles/MultiDictionary.dir/build
-.PHONY : MultiDictionary/fast
+Dictionary/fast:
+	$(MAKE) -f CMakeFiles\Dictionary.dir\build.make CMakeFiles/Dictionary.dir/build
+.PHONY : Dictionary/fast
 
 #=============================================================================
 # Target rules for targets named Testing
@@ -134,19 +134,6 @@ Testing: cmake_check_build_system
 Testing/fast:
 	$(MAKE) -f CMakeFiles\Testing.dir\build.make CMakeFiles/Testing.dir/build
 .PHONY : Testing/fast
-
-#=============================================================================
-# Target rules for targets named SingleDictionary
-
-# Build rule for target.
-SingleDictionary: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 SingleDictionary
-.PHONY : SingleDictionary
-
-# fast build rule for target.
-SingleDictionary/fast:
-	$(MAKE) -f CMakeFiles\SingleDictionary.dir\build.make CMakeFiles/SingleDictionary.dir/build
-.PHONY : SingleDictionary/fast
 
 Testing/TestCasesCopyConstructors.obj: Testing/TestCasesCopyConstructors.cpp.obj
 
@@ -289,9 +276,8 @@ UserInterface.obj: UserInterface.cpp.obj
 
 # target to build an object file
 UserInterface.cpp.obj:
-	$(MAKE) -f CMakeFiles\MultiDictionary.dir\build.make CMakeFiles/MultiDictionary.dir/UserInterface.cpp.obj
+	$(MAKE) -f CMakeFiles\Dictionary.dir\build.make CMakeFiles/Dictionary.dir/UserInterface.cpp.obj
 	$(MAKE) -f CMakeFiles\Testing.dir\build.make CMakeFiles/Testing.dir/UserInterface.cpp.obj
-	$(MAKE) -f CMakeFiles\SingleDictionary.dir\build.make CMakeFiles/SingleDictionary.dir/UserInterface.cpp.obj
 .PHONY : UserInterface.cpp.obj
 
 UserInterface.i: UserInterface.cpp.i
@@ -300,9 +286,8 @@ UserInterface.i: UserInterface.cpp.i
 
 # target to preprocess a source file
 UserInterface.cpp.i:
-	$(MAKE) -f CMakeFiles\MultiDictionary.dir\build.make CMakeFiles/MultiDictionary.dir/UserInterface.cpp.i
+	$(MAKE) -f CMakeFiles\Dictionary.dir\build.make CMakeFiles/Dictionary.dir/UserInterface.cpp.i
 	$(MAKE) -f CMakeFiles\Testing.dir\build.make CMakeFiles/Testing.dir/UserInterface.cpp.i
-	$(MAKE) -f CMakeFiles\SingleDictionary.dir\build.make CMakeFiles/SingleDictionary.dir/UserInterface.cpp.i
 .PHONY : UserInterface.cpp.i
 
 UserInterface.s: UserInterface.cpp.s
@@ -311,9 +296,8 @@ UserInterface.s: UserInterface.cpp.s
 
 # target to generate assembly for a file
 UserInterface.cpp.s:
-	$(MAKE) -f CMakeFiles\MultiDictionary.dir\build.make CMakeFiles/MultiDictionary.dir/UserInterface.cpp.s
+	$(MAKE) -f CMakeFiles\Dictionary.dir\build.make CMakeFiles/Dictionary.dir/UserInterface.cpp.s
 	$(MAKE) -f CMakeFiles\Testing.dir\build.make CMakeFiles/Testing.dir/UserInterface.cpp.s
-	$(MAKE) -f CMakeFiles\SingleDictionary.dir\build.make CMakeFiles/SingleDictionary.dir/UserInterface.cpp.s
 .PHONY : UserInterface.cpp.s
 
 main.obj: main.cpp.obj
@@ -322,7 +306,7 @@ main.obj: main.cpp.obj
 
 # target to build an object file
 main.cpp.obj:
-	$(MAKE) -f CMakeFiles\MultiDictionary.dir\build.make CMakeFiles/MultiDictionary.dir/main.cpp.obj
+	$(MAKE) -f CMakeFiles\Dictionary.dir\build.make CMakeFiles/Dictionary.dir/main.cpp.obj
 .PHONY : main.cpp.obj
 
 main.i: main.cpp.i
@@ -331,7 +315,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) -f CMakeFiles\MultiDictionary.dir\build.make CMakeFiles/MultiDictionary.dir/main.cpp.i
+	$(MAKE) -f CMakeFiles\Dictionary.dir\build.make CMakeFiles/Dictionary.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -340,35 +324,8 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) -f CMakeFiles\MultiDictionary.dir\build.make CMakeFiles/MultiDictionary.dir/main.cpp.s
+	$(MAKE) -f CMakeFiles\Dictionary.dir\build.make CMakeFiles/Dictionary.dir/main.cpp.s
 .PHONY : main.cpp.s
-
-mainTwo.obj: mainTwo.cpp.obj
-
-.PHONY : mainTwo.obj
-
-# target to build an object file
-mainTwo.cpp.obj:
-	$(MAKE) -f CMakeFiles\SingleDictionary.dir\build.make CMakeFiles/SingleDictionary.dir/mainTwo.cpp.obj
-.PHONY : mainTwo.cpp.obj
-
-mainTwo.i: mainTwo.cpp.i
-
-.PHONY : mainTwo.i
-
-# target to preprocess a source file
-mainTwo.cpp.i:
-	$(MAKE) -f CMakeFiles\SingleDictionary.dir\build.make CMakeFiles/SingleDictionary.dir/mainTwo.cpp.i
-.PHONY : mainTwo.cpp.i
-
-mainTwo.s: mainTwo.cpp.s
-
-.PHONY : mainTwo.s
-
-# target to generate assembly for a file
-mainTwo.cpp.s:
-	$(MAKE) -f CMakeFiles\SingleDictionary.dir\build.make CMakeFiles/SingleDictionary.dir/mainTwo.cpp.s
-.PHONY : mainTwo.cpp.s
 
 # Help Target
 help:
@@ -376,11 +333,10 @@ help:
 	@echo ... all (the default if no target is provided)
 	@echo ... clean
 	@echo ... depend
-	@echo ... MultiDictionary
-	@echo ... Testing
-	@echo ... SingleDictionary
-	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... Dictionary
+	@echo ... Testing
+	@echo ... edit_cache
 	@echo ... Testing/TestCasesCopyConstructors.obj
 	@echo ... Testing/TestCasesCopyConstructors.i
 	@echo ... Testing/TestCasesCopyConstructors.s
@@ -402,9 +358,6 @@ help:
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
-	@echo ... mainTwo.obj
-	@echo ... mainTwo.i
-	@echo ... mainTwo.s
 .PHONY : help
 
 

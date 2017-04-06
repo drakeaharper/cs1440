@@ -49,7 +49,6 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/MultiDictionary.dir/DependInfo.cmake"
+  "CMakeFiles/Dictionary.dir/DependInfo.cmake"
   "CMakeFiles/Testing.dir/DependInfo.cmake"
-  "CMakeFiles/SingleDictionary.dir/DependInfo.cmake"
   )

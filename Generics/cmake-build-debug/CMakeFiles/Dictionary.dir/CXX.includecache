@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/drake/Repositories/cs1440/Generics/Dictionary.h
+iostream
+-
+string
+-
+vector
+-
+exception
+-
+KeyValue.h
+C:/Users/drake/Repositories/cs1440/Generics/KeyValue.h
+
+C:/Users/drake/Repositories/cs1440/Generics/KeyValue.h
+
+C:/Users/drake/Repositories/cs1440/Generics/UserInterface.cpp
+UserInterface.h
+C:/Users/drake/Repositories/cs1440/Generics/UserInterface.h
+
+C:/Users/drake/Repositories/cs1440/Generics/UserInterface.h
+iostream
+-
+string
+-
+fstream
+-
+Dictionary.h
+C:/Users/drake/Repositories/cs1440/Generics/Dictionary.h
+
+C:/Users/drake/Repositories/cs1440/Generics/main.cpp
+UserInterface.h
+C:/Users/drake/Repositories/cs1440/Generics/UserInterface.h
+
