@@ -4,8 +4,11 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/drake/Repositories/cs1440/Generics/Testing/KeyValueTester.cpp" "C:/Users/drake/Repositories/cs1440/Generics/cmake-build-debug/CMakeFiles/Testing.dir/Testing/KeyValueTester.cpp.obj"
+  "C:/Users/drake/Repositories/cs1440/Generics/Testing/TestCasesInt.cpp" "C:/Users/drake/Repositories/cs1440/Generics/cmake-build-debug/CMakeFiles/Testing.dir/Testing/TestCasesInt.cpp.obj"
+  "C:/Users/drake/Repositories/cs1440/Generics/Testing/TestCasesString.cpp" "C:/Users/drake/Repositories/cs1440/Generics/cmake-build-debug/CMakeFiles/Testing.dir/Testing/TestCasesString.cpp.obj"
+  "C:/Users/drake/Repositories/cs1440/Generics/Testing/TestCasesStringPointer.cpp" "C:/Users/drake/Repositories/cs1440/Generics/cmake-build-debug/CMakeFiles/Testing.dir/Testing/TestCasesStringPointer.cpp.obj"
   "C:/Users/drake/Repositories/cs1440/Generics/Testing/testMain.cpp" "C:/Users/drake/Repositories/cs1440/Generics/cmake-build-debug/CMakeFiles/Testing.dir/Testing/testMain.cpp.obj"
+  "C:/Users/drake/Repositories/cs1440/Generics/UserInterface.cpp" "C:/Users/drake/Repositories/cs1440/Generics/cmake-build-debug/CMakeFiles/Testing.dir/UserInterface.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

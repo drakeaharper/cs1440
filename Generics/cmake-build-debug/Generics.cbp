@@ -174,14 +174,36 @@
 			<Option target="Testing"/>
 			<Option target="SingleDictionary"/>
 		</Unit>
-		<Unit filename="C:/Users/drake/Repositories/cs1440/Generics/Testing/KeyValueTester.cpp">
+		<Unit filename="C:/Users/drake/Repositories/cs1440/Generics/Testing/TestCasesInt.cpp">
 			<Option target="Testing"/>
 		</Unit>
-		<Unit filename="C:/Users/drake/Repositories/cs1440/Generics/Testing/KeyValueTester.h">
+		<Unit filename="C:/Users/drake/Repositories/cs1440/Generics/Testing/TestCasesInt.h">
+			<Option target="Testing"/>
+		</Unit>
+		<Unit filename="C:/Users/drake/Repositories/cs1440/Generics/Testing/TestCasesString.cpp">
+			<Option target="Testing"/>
+		</Unit>
+		<Unit filename="C:/Users/drake/Repositories/cs1440/Generics/Testing/TestCasesString.h">
+			<Option target="Testing"/>
+		</Unit>
+		<Unit filename="C:/Users/drake/Repositories/cs1440/Generics/Testing/TestCasesStringPointer.cpp">
+			<Option target="Testing"/>
+		</Unit>
+		<Unit filename="C:/Users/drake/Repositories/cs1440/Generics/Testing/TestCasesStringPointer.h">
 			<Option target="Testing"/>
 		</Unit>
 		<Unit filename="C:/Users/drake/Repositories/cs1440/Generics/Testing/testMain.cpp">
 			<Option target="Testing"/>
+		</Unit>
+		<Unit filename="C:/Users/drake/Repositories/cs1440/Generics/UserInterface.cpp">
+			<Option target="MultiDictionary"/>
+			<Option target="Testing"/>
+			<Option target="SingleDictionary"/>
+		</Unit>
+		<Unit filename="C:/Users/drake/Repositories/cs1440/Generics/UserInterface.h">
+			<Option target="MultiDictionary"/>
+			<Option target="Testing"/>
+			<Option target="SingleDictionary"/>
 		</Unit>
 		<Unit filename="C:/Users/drake/Repositories/cs1440/Generics/main.cpp">
 			<Option target="MultiDictionary"/>

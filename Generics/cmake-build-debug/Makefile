@@ -148,32 +148,86 @@ SingleDictionary/fast:
 	$(MAKE) -f CMakeFiles\SingleDictionary.dir\build.make CMakeFiles/SingleDictionary.dir/build
 .PHONY : SingleDictionary/fast
 
-Testing/KeyValueTester.obj: Testing/KeyValueTester.cpp.obj
+Testing/TestCasesInt.obj: Testing/TestCasesInt.cpp.obj
 
-.PHONY : Testing/KeyValueTester.obj
+.PHONY : Testing/TestCasesInt.obj
 
 # target to build an object file
-Testing/KeyValueTester.cpp.obj:
-	$(MAKE) -f CMakeFiles\Testing.dir\build.make CMakeFiles/Testing.dir/Testing/KeyValueTester.cpp.obj
-.PHONY : Testing/KeyValueTester.cpp.obj
+Testing/TestCasesInt.cpp.obj:
+	$(MAKE) -f CMakeFiles\Testing.dir\build.make CMakeFiles/Testing.dir/Testing/TestCasesInt.cpp.obj
+.PHONY : Testing/TestCasesInt.cpp.obj
 
-Testing/KeyValueTester.i: Testing/KeyValueTester.cpp.i
+Testing/TestCasesInt.i: Testing/TestCasesInt.cpp.i
 
-.PHONY : Testing/KeyValueTester.i
+.PHONY : Testing/TestCasesInt.i
 
 # target to preprocess a source file
-Testing/KeyValueTester.cpp.i:
-	$(MAKE) -f CMakeFiles\Testing.dir\build.make CMakeFiles/Testing.dir/Testing/KeyValueTester.cpp.i
-.PHONY : Testing/KeyValueTester.cpp.i
+Testing/TestCasesInt.cpp.i:
+	$(MAKE) -f CMakeFiles\Testing.dir\build.make CMakeFiles/Testing.dir/Testing/TestCasesInt.cpp.i
+.PHONY : Testing/TestCasesInt.cpp.i
 
-Testing/KeyValueTester.s: Testing/KeyValueTester.cpp.s
+Testing/TestCasesInt.s: Testing/TestCasesInt.cpp.s
 
-.PHONY : Testing/KeyValueTester.s
+.PHONY : Testing/TestCasesInt.s
 
 # target to generate assembly for a file
-Testing/KeyValueTester.cpp.s:
-	$(MAKE) -f CMakeFiles\Testing.dir\build.make CMakeFiles/Testing.dir/Testing/KeyValueTester.cpp.s
-.PHONY : Testing/KeyValueTester.cpp.s
+Testing/TestCasesInt.cpp.s:
+	$(MAKE) -f CMakeFiles\Testing.dir\build.make CMakeFiles/Testing.dir/Testing/TestCasesInt.cpp.s
+.PHONY : Testing/TestCasesInt.cpp.s
+
+Testing/TestCasesString.obj: Testing/TestCasesString.cpp.obj
+
+.PHONY : Testing/TestCasesString.obj
+
+# target to build an object file
+Testing/TestCasesString.cpp.obj:
+	$(MAKE) -f CMakeFiles\Testing.dir\build.make CMakeFiles/Testing.dir/Testing/TestCasesString.cpp.obj
+.PHONY : Testing/TestCasesString.cpp.obj
+
+Testing/TestCasesString.i: Testing/TestCasesString.cpp.i
+
+.PHONY : Testing/TestCasesString.i
+
+# target to preprocess a source file
+Testing/TestCasesString.cpp.i:
+	$(MAKE) -f CMakeFiles\Testing.dir\build.make CMakeFiles/Testing.dir/Testing/TestCasesString.cpp.i
+.PHONY : Testing/TestCasesString.cpp.i
+
+Testing/TestCasesString.s: Testing/TestCasesString.cpp.s
+
+.PHONY : Testing/TestCasesString.s
+
+# target to generate assembly for a file
+Testing/TestCasesString.cpp.s:
+	$(MAKE) -f CMakeFiles\Testing.dir\build.make CMakeFiles/Testing.dir/Testing/TestCasesString.cpp.s
+.PHONY : Testing/TestCasesString.cpp.s
+
+Testing/TestCasesStringPointer.obj: Testing/TestCasesStringPointer.cpp.obj
+
+.PHONY : Testing/TestCasesStringPointer.obj
+
+# target to build an object file
+Testing/TestCasesStringPointer.cpp.obj:
+	$(MAKE) -f CMakeFiles\Testing.dir\build.make CMakeFiles/Testing.dir/Testing/TestCasesStringPointer.cpp.obj
+.PHONY : Testing/TestCasesStringPointer.cpp.obj
+
+Testing/TestCasesStringPointer.i: Testing/TestCasesStringPointer.cpp.i
+
+.PHONY : Testing/TestCasesStringPointer.i
+
+# target to preprocess a source file
+Testing/TestCasesStringPointer.cpp.i:
+	$(MAKE) -f CMakeFiles\Testing.dir\build.make CMakeFiles/Testing.dir/Testing/TestCasesStringPointer.cpp.i
+.PHONY : Testing/TestCasesStringPointer.cpp.i
+
+Testing/TestCasesStringPointer.s: Testing/TestCasesStringPointer.cpp.s
+
+.PHONY : Testing/TestCasesStringPointer.s
+
+# target to generate assembly for a file
+Testing/TestCasesStringPointer.cpp.s:
+	$(MAKE) -f CMakeFiles\Testing.dir\build.make CMakeFiles/Testing.dir/Testing/TestCasesStringPointer.cpp.s
+.PHONY : Testing/TestCasesStringPointer.cpp.s
 
 Testing/testMain.obj: Testing/testMain.cpp.obj
 
@@ -201,6 +255,39 @@ Testing/testMain.s: Testing/testMain.cpp.s
 Testing/testMain.cpp.s:
 	$(MAKE) -f CMakeFiles\Testing.dir\build.make CMakeFiles/Testing.dir/Testing/testMain.cpp.s
 .PHONY : Testing/testMain.cpp.s
+
+UserInterface.obj: UserInterface.cpp.obj
+
+.PHONY : UserInterface.obj
+
+# target to build an object file
+UserInterface.cpp.obj:
+	$(MAKE) -f CMakeFiles\MultiDictionary.dir\build.make CMakeFiles/MultiDictionary.dir/UserInterface.cpp.obj
+	$(MAKE) -f CMakeFiles\Testing.dir\build.make CMakeFiles/Testing.dir/UserInterface.cpp.obj
+	$(MAKE) -f CMakeFiles\SingleDictionary.dir\build.make CMakeFiles/SingleDictionary.dir/UserInterface.cpp.obj
+.PHONY : UserInterface.cpp.obj
+
+UserInterface.i: UserInterface.cpp.i
+
+.PHONY : UserInterface.i
+
+# target to preprocess a source file
+UserInterface.cpp.i:
+	$(MAKE) -f CMakeFiles\MultiDictionary.dir\build.make CMakeFiles/MultiDictionary.dir/UserInterface.cpp.i
+	$(MAKE) -f CMakeFiles\Testing.dir\build.make CMakeFiles/Testing.dir/UserInterface.cpp.i
+	$(MAKE) -f CMakeFiles\SingleDictionary.dir\build.make CMakeFiles/SingleDictionary.dir/UserInterface.cpp.i
+.PHONY : UserInterface.cpp.i
+
+UserInterface.s: UserInterface.cpp.s
+
+.PHONY : UserInterface.s
+
+# target to generate assembly for a file
+UserInterface.cpp.s:
+	$(MAKE) -f CMakeFiles\MultiDictionary.dir\build.make CMakeFiles/MultiDictionary.dir/UserInterface.cpp.s
+	$(MAKE) -f CMakeFiles\Testing.dir\build.make CMakeFiles/Testing.dir/UserInterface.cpp.s
+	$(MAKE) -f CMakeFiles\SingleDictionary.dir\build.make CMakeFiles/SingleDictionary.dir/UserInterface.cpp.s
+.PHONY : UserInterface.cpp.s
 
 main.obj: main.cpp.obj
 
@@ -267,12 +354,21 @@ help:
 	@echo ... SingleDictionary
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... Testing/KeyValueTester.obj
-	@echo ... Testing/KeyValueTester.i
-	@echo ... Testing/KeyValueTester.s
+	@echo ... Testing/TestCasesInt.obj
+	@echo ... Testing/TestCasesInt.i
+	@echo ... Testing/TestCasesInt.s
+	@echo ... Testing/TestCasesString.obj
+	@echo ... Testing/TestCasesString.i
+	@echo ... Testing/TestCasesString.s
+	@echo ... Testing/TestCasesStringPointer.obj
+	@echo ... Testing/TestCasesStringPointer.i
+	@echo ... Testing/TestCasesStringPointer.s
 	@echo ... Testing/testMain.obj
 	@echo ... Testing/testMain.i
 	@echo ... Testing/testMain.s
+	@echo ... UserInterface.obj
+	@echo ... UserInterface.i
+	@echo ... UserInterface.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

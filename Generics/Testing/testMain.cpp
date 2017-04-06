@@ -5,15 +5,25 @@
 #include <iostream>
 
 #include "../Dictionary.h"
-#include "../KeyValue.h"
-
-#include "KeyValueTester.h"
+#include "TestCasesInt.h"
+#include "TestCasesString.h"
+#include "TestCasesStringPointer.h"
 
 int main()
 {
-    std::cout << "Running KeyValue tester." << std::endl;
-    KeyValue<std::string, std::string> m_keyValue;
-    KeyValueTester KVTester;
-    KVTester.run();
+    std::cout << "Running TestCasesString." << std::endl;
+    TestCasesString stringTest;
+    stringTest.run();
+    std::cout << std::endl;
 
+    std::cout << "Running TestCasesInt." << std::endl;
+    TestCasesInt intTest;
+    intTest.run();
+    std::cout << std::endl;
+
+    std::cout << "Running TestCasesStringPointer." << std::endl;
+    TestCasesStringPointer pointerTest;
+    pointerTest.run();
+    std::cout << std::endl;
+    return 0;
 }

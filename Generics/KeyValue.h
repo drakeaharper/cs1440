@@ -19,7 +19,6 @@ public:
 private:
     K m_key;
     V m_value;
-
 };
 
 

@@ -4,6 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "C:/Users/drake/Repositories/cs1440/Generics/UserInterface.cpp" "C:/Users/drake/Repositories/cs1440/Generics/cmake-build-debug/CMakeFiles/SingleDictionary.dir/UserInterface.cpp.obj"
   "C:/Users/drake/Repositories/cs1440/Generics/mainTwo.cpp" "C:/Users/drake/Repositories/cs1440/Generics/cmake-build-debug/CMakeFiles/SingleDictionary.dir/mainTwo.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

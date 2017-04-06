@@ -80,45 +80,123 @@ CMakeFiles/Testing.dir/Testing/testMain.cpp.obj.provides: CMakeFiles/Testing.dir
 CMakeFiles/Testing.dir/Testing/testMain.cpp.obj.provides.build: CMakeFiles/Testing.dir/Testing/testMain.cpp.obj
 
 
-CMakeFiles/Testing.dir/Testing/KeyValueTester.cpp.obj: CMakeFiles/Testing.dir/flags.make
-CMakeFiles/Testing.dir/Testing/KeyValueTester.cpp.obj: ../Testing/KeyValueTester.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\drake\Repositories\cs1440\Generics\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Testing.dir/Testing/KeyValueTester.cpp.obj"
-	C:\PROGRA~2\MINGW-~1\I686-6~1.0-P\mingw32\bin\G__~1.EXE   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Testing.dir\Testing\KeyValueTester.cpp.obj -c C:\Users\drake\Repositories\cs1440\Generics\Testing\KeyValueTester.cpp
+CMakeFiles/Testing.dir/UserInterface.cpp.obj: CMakeFiles/Testing.dir/flags.make
+CMakeFiles/Testing.dir/UserInterface.cpp.obj: ../UserInterface.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\drake\Repositories\cs1440\Generics\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Testing.dir/UserInterface.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-6~1.0-P\mingw32\bin\G__~1.EXE   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Testing.dir\UserInterface.cpp.obj -c C:\Users\drake\Repositories\cs1440\Generics\UserInterface.cpp
 
-CMakeFiles/Testing.dir/Testing/KeyValueTester.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Testing.dir/Testing/KeyValueTester.cpp.i"
-	C:\PROGRA~2\MINGW-~1\I686-6~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\drake\Repositories\cs1440\Generics\Testing\KeyValueTester.cpp > CMakeFiles\Testing.dir\Testing\KeyValueTester.cpp.i
+CMakeFiles/Testing.dir/UserInterface.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Testing.dir/UserInterface.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-6~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\drake\Repositories\cs1440\Generics\UserInterface.cpp > CMakeFiles\Testing.dir\UserInterface.cpp.i
 
-CMakeFiles/Testing.dir/Testing/KeyValueTester.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Testing.dir/Testing/KeyValueTester.cpp.s"
-	C:\PROGRA~2\MINGW-~1\I686-6~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\drake\Repositories\cs1440\Generics\Testing\KeyValueTester.cpp -o CMakeFiles\Testing.dir\Testing\KeyValueTester.cpp.s
+CMakeFiles/Testing.dir/UserInterface.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Testing.dir/UserInterface.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-6~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\drake\Repositories\cs1440\Generics\UserInterface.cpp -o CMakeFiles\Testing.dir\UserInterface.cpp.s
 
-CMakeFiles/Testing.dir/Testing/KeyValueTester.cpp.obj.requires:
+CMakeFiles/Testing.dir/UserInterface.cpp.obj.requires:
 
-.PHONY : CMakeFiles/Testing.dir/Testing/KeyValueTester.cpp.obj.requires
+.PHONY : CMakeFiles/Testing.dir/UserInterface.cpp.obj.requires
 
-CMakeFiles/Testing.dir/Testing/KeyValueTester.cpp.obj.provides: CMakeFiles/Testing.dir/Testing/KeyValueTester.cpp.obj.requires
-	$(MAKE) -f CMakeFiles\Testing.dir\build.make CMakeFiles/Testing.dir/Testing/KeyValueTester.cpp.obj.provides.build
-.PHONY : CMakeFiles/Testing.dir/Testing/KeyValueTester.cpp.obj.provides
+CMakeFiles/Testing.dir/UserInterface.cpp.obj.provides: CMakeFiles/Testing.dir/UserInterface.cpp.obj.requires
+	$(MAKE) -f CMakeFiles\Testing.dir\build.make CMakeFiles/Testing.dir/UserInterface.cpp.obj.provides.build
+.PHONY : CMakeFiles/Testing.dir/UserInterface.cpp.obj.provides
 
-CMakeFiles/Testing.dir/Testing/KeyValueTester.cpp.obj.provides.build: CMakeFiles/Testing.dir/Testing/KeyValueTester.cpp.obj
+CMakeFiles/Testing.dir/UserInterface.cpp.obj.provides.build: CMakeFiles/Testing.dir/UserInterface.cpp.obj
+
+
+CMakeFiles/Testing.dir/Testing/TestCasesString.cpp.obj: CMakeFiles/Testing.dir/flags.make
+CMakeFiles/Testing.dir/Testing/TestCasesString.cpp.obj: ../Testing/TestCasesString.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\drake\Repositories\cs1440\Generics\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Testing.dir/Testing/TestCasesString.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-6~1.0-P\mingw32\bin\G__~1.EXE   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Testing.dir\Testing\TestCasesString.cpp.obj -c C:\Users\drake\Repositories\cs1440\Generics\Testing\TestCasesString.cpp
+
+CMakeFiles/Testing.dir/Testing/TestCasesString.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Testing.dir/Testing/TestCasesString.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-6~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\drake\Repositories\cs1440\Generics\Testing\TestCasesString.cpp > CMakeFiles\Testing.dir\Testing\TestCasesString.cpp.i
+
+CMakeFiles/Testing.dir/Testing/TestCasesString.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Testing.dir/Testing/TestCasesString.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-6~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\drake\Repositories\cs1440\Generics\Testing\TestCasesString.cpp -o CMakeFiles\Testing.dir\Testing\TestCasesString.cpp.s
+
+CMakeFiles/Testing.dir/Testing/TestCasesString.cpp.obj.requires:
+
+.PHONY : CMakeFiles/Testing.dir/Testing/TestCasesString.cpp.obj.requires
+
+CMakeFiles/Testing.dir/Testing/TestCasesString.cpp.obj.provides: CMakeFiles/Testing.dir/Testing/TestCasesString.cpp.obj.requires
+	$(MAKE) -f CMakeFiles\Testing.dir\build.make CMakeFiles/Testing.dir/Testing/TestCasesString.cpp.obj.provides.build
+.PHONY : CMakeFiles/Testing.dir/Testing/TestCasesString.cpp.obj.provides
+
+CMakeFiles/Testing.dir/Testing/TestCasesString.cpp.obj.provides.build: CMakeFiles/Testing.dir/Testing/TestCasesString.cpp.obj
+
+
+CMakeFiles/Testing.dir/Testing/TestCasesInt.cpp.obj: CMakeFiles/Testing.dir/flags.make
+CMakeFiles/Testing.dir/Testing/TestCasesInt.cpp.obj: ../Testing/TestCasesInt.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\drake\Repositories\cs1440\Generics\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Testing.dir/Testing/TestCasesInt.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-6~1.0-P\mingw32\bin\G__~1.EXE   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Testing.dir\Testing\TestCasesInt.cpp.obj -c C:\Users\drake\Repositories\cs1440\Generics\Testing\TestCasesInt.cpp
+
+CMakeFiles/Testing.dir/Testing/TestCasesInt.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Testing.dir/Testing/TestCasesInt.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-6~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\drake\Repositories\cs1440\Generics\Testing\TestCasesInt.cpp > CMakeFiles\Testing.dir\Testing\TestCasesInt.cpp.i
+
+CMakeFiles/Testing.dir/Testing/TestCasesInt.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Testing.dir/Testing/TestCasesInt.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-6~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\drake\Repositories\cs1440\Generics\Testing\TestCasesInt.cpp -o CMakeFiles\Testing.dir\Testing\TestCasesInt.cpp.s
+
+CMakeFiles/Testing.dir/Testing/TestCasesInt.cpp.obj.requires:
+
+.PHONY : CMakeFiles/Testing.dir/Testing/TestCasesInt.cpp.obj.requires
+
+CMakeFiles/Testing.dir/Testing/TestCasesInt.cpp.obj.provides: CMakeFiles/Testing.dir/Testing/TestCasesInt.cpp.obj.requires
+	$(MAKE) -f CMakeFiles\Testing.dir\build.make CMakeFiles/Testing.dir/Testing/TestCasesInt.cpp.obj.provides.build
+.PHONY : CMakeFiles/Testing.dir/Testing/TestCasesInt.cpp.obj.provides
+
+CMakeFiles/Testing.dir/Testing/TestCasesInt.cpp.obj.provides.build: CMakeFiles/Testing.dir/Testing/TestCasesInt.cpp.obj
+
+
+CMakeFiles/Testing.dir/Testing/TestCasesStringPointer.cpp.obj: CMakeFiles/Testing.dir/flags.make
+CMakeFiles/Testing.dir/Testing/TestCasesStringPointer.cpp.obj: ../Testing/TestCasesStringPointer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\drake\Repositories\cs1440\Generics\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Testing.dir/Testing/TestCasesStringPointer.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-6~1.0-P\mingw32\bin\G__~1.EXE   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Testing.dir\Testing\TestCasesStringPointer.cpp.obj -c C:\Users\drake\Repositories\cs1440\Generics\Testing\TestCasesStringPointer.cpp
+
+CMakeFiles/Testing.dir/Testing/TestCasesStringPointer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Testing.dir/Testing/TestCasesStringPointer.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-6~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\drake\Repositories\cs1440\Generics\Testing\TestCasesStringPointer.cpp > CMakeFiles\Testing.dir\Testing\TestCasesStringPointer.cpp.i
+
+CMakeFiles/Testing.dir/Testing/TestCasesStringPointer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Testing.dir/Testing/TestCasesStringPointer.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-6~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\drake\Repositories\cs1440\Generics\Testing\TestCasesStringPointer.cpp -o CMakeFiles\Testing.dir\Testing\TestCasesStringPointer.cpp.s
+
+CMakeFiles/Testing.dir/Testing/TestCasesStringPointer.cpp.obj.requires:
+
+.PHONY : CMakeFiles/Testing.dir/Testing/TestCasesStringPointer.cpp.obj.requires
+
+CMakeFiles/Testing.dir/Testing/TestCasesStringPointer.cpp.obj.provides: CMakeFiles/Testing.dir/Testing/TestCasesStringPointer.cpp.obj.requires
+	$(MAKE) -f CMakeFiles\Testing.dir\build.make CMakeFiles/Testing.dir/Testing/TestCasesStringPointer.cpp.obj.provides.build
+.PHONY : CMakeFiles/Testing.dir/Testing/TestCasesStringPointer.cpp.obj.provides
+
+CMakeFiles/Testing.dir/Testing/TestCasesStringPointer.cpp.obj.provides.build: CMakeFiles/Testing.dir/Testing/TestCasesStringPointer.cpp.obj
 
 
 # Object files for target Testing
 Testing_OBJECTS = \
 "CMakeFiles/Testing.dir/Testing/testMain.cpp.obj" \
-"CMakeFiles/Testing.dir/Testing/KeyValueTester.cpp.obj"
+"CMakeFiles/Testing.dir/UserInterface.cpp.obj" \
+"CMakeFiles/Testing.dir/Testing/TestCasesString.cpp.obj" \
+"CMakeFiles/Testing.dir/Testing/TestCasesInt.cpp.obj" \
+"CMakeFiles/Testing.dir/Testing/TestCasesStringPointer.cpp.obj"
 
 # External object files for target Testing
 Testing_EXTERNAL_OBJECTS =
 
 Testing.exe: CMakeFiles/Testing.dir/Testing/testMain.cpp.obj
-Testing.exe: CMakeFiles/Testing.dir/Testing/KeyValueTester.cpp.obj
+Testing.exe: CMakeFiles/Testing.dir/UserInterface.cpp.obj
+Testing.exe: CMakeFiles/Testing.dir/Testing/TestCasesString.cpp.obj
+Testing.exe: CMakeFiles/Testing.dir/Testing/TestCasesInt.cpp.obj
+Testing.exe: CMakeFiles/Testing.dir/Testing/TestCasesStringPointer.cpp.obj
 Testing.exe: CMakeFiles/Testing.dir/build.make
 Testing.exe: CMakeFiles/Testing.dir/linklibs.rsp
 Testing.exe: CMakeFiles/Testing.dir/objects1.rsp
 Testing.exe: CMakeFiles/Testing.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\drake\Repositories\cs1440\Generics\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable Testing.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\drake\Repositories\cs1440\Generics\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable Testing.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Testing.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -127,7 +205,10 @@ CMakeFiles/Testing.dir/build: Testing.exe
 .PHONY : CMakeFiles/Testing.dir/build
 
 CMakeFiles/Testing.dir/requires: CMakeFiles/Testing.dir/Testing/testMain.cpp.obj.requires
-CMakeFiles/Testing.dir/requires: CMakeFiles/Testing.dir/Testing/KeyValueTester.cpp.obj.requires
+CMakeFiles/Testing.dir/requires: CMakeFiles/Testing.dir/UserInterface.cpp.obj.requires
+CMakeFiles/Testing.dir/requires: CMakeFiles/Testing.dir/Testing/TestCasesString.cpp.obj.requires
+CMakeFiles/Testing.dir/requires: CMakeFiles/Testing.dir/Testing/TestCasesInt.cpp.obj.requires
+CMakeFiles/Testing.dir/requires: CMakeFiles/Testing.dir/Testing/TestCasesStringPointer.cpp.obj.requires
 
 .PHONY : CMakeFiles/Testing.dir/requires
 

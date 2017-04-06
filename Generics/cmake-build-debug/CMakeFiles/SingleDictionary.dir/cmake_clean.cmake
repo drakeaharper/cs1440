@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/SingleDictionary.dir/mainTwo.cpp.obj"
+  "CMakeFiles/SingleDictionary.dir/UserInterface.cpp.obj"
   "SingleDictionary.pdb"
   "SingleDictionary.exe"
   "SingleDictionary.exe.manifest"
