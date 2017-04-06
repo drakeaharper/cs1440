@@ -11,6 +11,7 @@ class KeyValue
 public:
     KeyValue() { }
     KeyValue(K newKey, V newValue) { m_key = newKey; m_value = newValue; }
+    KeyValue(const KeyValue<K, V>& rhs);
     K getKey() { return m_key; }
     V getValue() { return m_value; }
     void setKey(K newKey) { m_key = newKey; }
@@ -20,6 +21,13 @@ private:
     K m_key;
     V m_value;
 };
+
+template <typename K, typename V>
+KeyValue<K, V>::KeyValue(const KeyValue<K, V>& rhs)
+{
+    this->m_key = rhs.m_key;
+    this->m_value = rhs.m_value;
+}
 
 
 #endif //GENERICS_KEYVALUE_H

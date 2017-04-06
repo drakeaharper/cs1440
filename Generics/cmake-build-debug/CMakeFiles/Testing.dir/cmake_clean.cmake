@@ -4,6 +4,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/Testing.dir/Testing/TestCasesString.cpp.obj"
   "CMakeFiles/Testing.dir/Testing/TestCasesInt.cpp.obj"
   "CMakeFiles/Testing.dir/Testing/TestCasesStringPointer.cpp.obj"
+  "CMakeFiles/Testing.dir/Testing/TestCasesCopyConstructors.cpp.obj"
   "Testing.pdb"
   "Testing.exe"
   "Testing.exe.manifest"

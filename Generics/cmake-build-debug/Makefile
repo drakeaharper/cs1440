@@ -148,6 +148,33 @@ SingleDictionary/fast:
 	$(MAKE) -f CMakeFiles\SingleDictionary.dir\build.make CMakeFiles/SingleDictionary.dir/build
 .PHONY : SingleDictionary/fast
 
+Testing/TestCasesCopyConstructors.obj: Testing/TestCasesCopyConstructors.cpp.obj
+
+.PHONY : Testing/TestCasesCopyConstructors.obj
+
+# target to build an object file
+Testing/TestCasesCopyConstructors.cpp.obj:
+	$(MAKE) -f CMakeFiles\Testing.dir\build.make CMakeFiles/Testing.dir/Testing/TestCasesCopyConstructors.cpp.obj
+.PHONY : Testing/TestCasesCopyConstructors.cpp.obj
+
+Testing/TestCasesCopyConstructors.i: Testing/TestCasesCopyConstructors.cpp.i
+
+.PHONY : Testing/TestCasesCopyConstructors.i
+
+# target to preprocess a source file
+Testing/TestCasesCopyConstructors.cpp.i:
+	$(MAKE) -f CMakeFiles\Testing.dir\build.make CMakeFiles/Testing.dir/Testing/TestCasesCopyConstructors.cpp.i
+.PHONY : Testing/TestCasesCopyConstructors.cpp.i
+
+Testing/TestCasesCopyConstructors.s: Testing/TestCasesCopyConstructors.cpp.s
+
+.PHONY : Testing/TestCasesCopyConstructors.s
+
+# target to generate assembly for a file
+Testing/TestCasesCopyConstructors.cpp.s:
+	$(MAKE) -f CMakeFiles\Testing.dir\build.make CMakeFiles/Testing.dir/Testing/TestCasesCopyConstructors.cpp.s
+.PHONY : Testing/TestCasesCopyConstructors.cpp.s
+
 Testing/TestCasesInt.obj: Testing/TestCasesInt.cpp.obj
 
 .PHONY : Testing/TestCasesInt.obj
@@ -354,6 +381,9 @@ help:
 	@echo ... SingleDictionary
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... Testing/TestCasesCopyConstructors.obj
+	@echo ... Testing/TestCasesCopyConstructors.i
+	@echo ... Testing/TestCasesCopyConstructors.s
 	@echo ... Testing/TestCasesInt.obj
 	@echo ... Testing/TestCasesInt.i
 	@echo ... Testing/TestCasesInt.s

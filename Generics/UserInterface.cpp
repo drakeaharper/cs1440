@@ -100,15 +100,21 @@ void UserInterface::run()
                     break;
 
                 case 'T':
-                    rPosition = getNumberInput("Enter position to remove: ", 0, myDictionary->getTotalEntries() - 1);
 
-                    if ( position > 0 && position < myDictionary->getTotalEntries())
+                    try
                     {
+                        rPosition = getNumberInput("Enter position to remove: ", 0, myDictionary->getTotalEntries() - 1);
+
+                        if (rPosition < 0 || rPosition > myDictionary->getTotalEntries() - 1)
+                        {
+                            throw std::domain_error("Invalid position entered.\nTry Again.");
+                        }
+
                         myDictionary->removeByIndex(rPosition);
                     }
-                    else
+                    catch (std::domain_error err)
                     {
-                        std::cout << "Invalid position entered.\nTry Again." << std::endl << std::endl;
+                        std::cout << err.what() << std::endl;
                     }
                     break;
 
@@ -125,14 +131,20 @@ void UserInterface::run()
                     break;
 
                 case 'I':
-                    position = getNumberInput("Enter position to look up: ", 0, myDictionary->getTotalEntries() - 1);
-                    if ( position >= 0 && position <= myDictionary->getTotalEntries() - 1)
+                    try
                     {
+                        position = getNumberInput("Enter key to be printed: ", 0, myDictionary->getTotalEntries() - 1);
+
+                        if (position > 0 || position > myDictionary->getTotalEntries() - 1)
+                        {
+                            throw std::domain_error("Invalid position entered.\nTry Again.");
+                        }
+
                         printKeyValue(myDictionary->getByIndex(position));
                     }
-                    else
+                    catch (std::domain_error err)
                     {
-                        std::cout << "Invalid position entered.\nTry Again." << std::endl;
+                        std::cout << err.what() << std::endl;
                     }
                     break;
 
@@ -155,15 +167,20 @@ void UserInterface::run()
                     }
                     else if (input == 'i')
                     {
-                        position = getNumberInput("Enter key to be printed: ", 0, myDictionary->getTotalEntries());
-
-                        if ( position >= 0 && position <= myDictionary->getTotalEntries() - 1)
+                        try
                         {
+                            position = getNumberInput("Enter key to be printed: ", 0, myDictionary->getTotalEntries() - 1);
+
+                            if (position < 0 || position > myDictionary->getTotalEntries() - 1)
+                            {
+                                throw std::domain_error("Invalid position entered.\nTry Again.");
+                            }
+
                             printKeyValue(myDictionary->getByIndex(position));
                         }
-                        else
+                        catch (std::domain_error err)
                         {
-                            std::cout << "Invalid position entered.\nTry Again." << std::endl << std::endl;
+                            std::cout << err.what() << std::endl;
                         }
                     }
                     else

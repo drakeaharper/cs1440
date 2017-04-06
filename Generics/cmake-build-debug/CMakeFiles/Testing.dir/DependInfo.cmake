@@ -4,6 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "C:/Users/drake/Repositories/cs1440/Generics/Testing/TestCasesCopyConstructors.cpp" "C:/Users/drake/Repositories/cs1440/Generics/cmake-build-debug/CMakeFiles/Testing.dir/Testing/TestCasesCopyConstructors.cpp.obj"
   "C:/Users/drake/Repositories/cs1440/Generics/Testing/TestCasesInt.cpp" "C:/Users/drake/Repositories/cs1440/Generics/cmake-build-debug/CMakeFiles/Testing.dir/Testing/TestCasesInt.cpp.obj"
   "C:/Users/drake/Repositories/cs1440/Generics/Testing/TestCasesString.cpp" "C:/Users/drake/Repositories/cs1440/Generics/cmake-build-debug/CMakeFiles/Testing.dir/Testing/TestCasesString.cpp.obj"
   "C:/Users/drake/Repositories/cs1440/Generics/Testing/TestCasesStringPointer.cpp" "C:/Users/drake/Repositories/cs1440/Generics/cmake-build-debug/CMakeFiles/Testing.dir/Testing/TestCasesStringPointer.cpp.obj"

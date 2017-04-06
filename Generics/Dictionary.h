@@ -17,7 +17,8 @@ class Dictionary
 {
 public:
     Dictionary();
-     Dictionary(unsigned int size);
+    Dictionary(unsigned int size);
+    Dictionary(const Dictionary<K, V>& rhs);
     void addKeyValue(K key, V value);
     void resize();
     KeyValue<K,V> getByKey(const K& key);
@@ -49,6 +50,23 @@ Dictionary<K,V>::Dictionary(unsigned int size)
 
     m_entries = new KeyValue<K,V>*[m_allocated];
 }
+
+template <typename K, typename V>
+Dictionary<K, V>::Dictionary(const Dictionary<K, V>& rhs)
+{
+    m_allocated = rhs.m_allocated;
+    m_totalEntries = rhs.m_totalEntries;
+
+
+        m_entries = new KeyValue<K,V>*[m_allocated];
+
+        for (int i = 0; i < m_totalEntries; i++)
+        {
+            m_entries[i] = rhs.m_entries[i];
+        }
+
+}
+
 
 template <typename K, typename V>
 void Dictionary<K,V>::addKeyValue(K key, V value)

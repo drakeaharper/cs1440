@@ -20,6 +20,18 @@ C:/Users/drake/Repositories/cs1440/Generics/KeyValue.h
 
 C:/Users/drake/Repositories/cs1440/Generics/KeyValue.h
 
+C:/Users/drake/Repositories/cs1440/Generics/Testing/TestCasesCopyConstructors.cpp
+TestCasesCopyConstructors.h
+C:/Users/drake/Repositories/cs1440/Generics/Testing/TestCasesCopyConstructors.h
+
+C:/Users/drake/Repositories/cs1440/Generics/Testing/TestCasesCopyConstructors.h
+iostream
+-
+string
+-
+../Dictionary.h
+C:/Users/drake/Repositories/cs1440/Generics/Dictionary.h
+
 C:/Users/drake/Repositories/cs1440/Generics/Testing/TestCasesInt.cpp
 TestCasesInt.h
 C:/Users/drake/Repositories/cs1440/Generics/Testing/TestCasesInt.h
@@ -67,6 +79,8 @@ TestCasesString.h
 C:/Users/drake/Repositories/cs1440/Generics/Testing/TestCasesString.h
 TestCasesStringPointer.h
 C:/Users/drake/Repositories/cs1440/Generics/Testing/TestCasesStringPointer.h
+TestCasesCopyConstructors.h
+C:/Users/drake/Repositories/cs1440/Generics/Testing/TestCasesCopyConstructors.h
 
 C:/Users/drake/Repositories/cs1440/Generics/UserInterface.cpp
 UserInterface.h

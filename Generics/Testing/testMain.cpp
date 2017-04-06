@@ -8,6 +8,7 @@
 #include "TestCasesInt.h"
 #include "TestCasesString.h"
 #include "TestCasesStringPointer.h"
+#include "TestCasesCopyConstructors.h"
 
 int main()
 {
@@ -25,5 +26,11 @@ int main()
     TestCasesStringPointer pointerTest;
     pointerTest.run();
     std::cout << std::endl;
+
+    std::cout << "Testing Copy Constructors." << std::endl;
+    TestCasesCopyConstructors testCopy;
+    testCopy.run();
+
+
     return 0;
 }

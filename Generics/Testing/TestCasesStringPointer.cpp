@@ -29,10 +29,10 @@ void TestCasesStringPointer::run()
     testDictionary.addKeyValue(k5, v5);
 
     std::cout << "Testing Dictionary Class with std::string* type." << std::endl;
-    testGetByKey(testDictionary);
+    testGetByKey(testDictionary, k3);
     testGetByIndex(testDictionary);
     testAdd(testDictionary);
-    testRemoveByKey(testDictionary);
+    testRemoveByKey(testDictionary, k3);
     testRemoveByIndex(testDictionary);
 }
 
@@ -57,12 +57,11 @@ void TestCasesStringPointer::testAdd(Dictionary<std::string*, std::string*>& tes
     }
 }
 
-void TestCasesStringPointer::testGetByKey(Dictionary<std::string*, std::string*>& testDictionary)
+void TestCasesStringPointer::testGetByKey(Dictionary<std::string*, std::string*>& testDictionary, std::string* testKey)
 {
     std::cout << "Testing get by key." << std::endl;
 
-    std::string* k3 = new std::string("key 3");
-    KeyValue<std::string*, std::string*> test = testDictionary.getByKey(k3);
+    KeyValue<std::string*, std::string*> test = testDictionary.getByKey(testKey);
 
     if (*test.getKey() != "key 3")
     {
@@ -84,21 +83,20 @@ void TestCasesStringPointer::testGetByIndex(Dictionary<std::string*, std::string
 
     if (*test.getKey() != "key 3")
     {
-        std::cout << "Error getting key at index \"2.\" Expected \"key 3.\" Got \"" << test.getKey() << ".\"" << std::endl;
+        std::cout << "Error getting key at index \"2.\" Expected \"key 3.\" Got \"" << *test.getKey() << ".\"" << std::endl;
     }
 
     if (*test.getValue() != "value 3")
     {
-        std::cout << "Error getting key at index \"2.\" Expected \"value 3.\" Got \"" << test.getValue() << ".\"" << std::endl;
+        std::cout << "Error getting key at index \"2.\" Expected \"value 3.\" Got \"" << *test.getValue() << ".\"" << std::endl;
     }
 }
 
-void TestCasesStringPointer::testRemoveByKey(Dictionary<std::string*, std::string*>& testDictionary)
+void TestCasesStringPointer::testRemoveByKey(Dictionary<std::string*, std::string*>& testDictionary, std::string* testKey)
 {
     std::cout << "Testing remove by key." << std::endl;
 
-    std::string* k3 = new std::string("key 3");
-    testDictionary.removeByKey(k3);
+    testDictionary.removeByKey(testKey);
     KeyValue<std::string*, std::string*> test = testDictionary.getByIndex(2);
 
     if (*test.getKey() == "key 3")
