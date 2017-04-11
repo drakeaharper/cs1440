@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/drake/Repositories/cs1440/ITAK/Dictionary.h
+iostream
+-
+string
+-
+vector
+-
+exception
+-
+KeyValue.h
+C:/Users/drake/Repositories/cs1440/ITAK/KeyValue.h
+
+C:/Users/drake/Repositories/cs1440/ITAK/KeyValue.h
+
+C:/Users/drake/Repositories/cs1440/ITAK/Testing/testMain.cpp
+iostream
+-
+
+C:/Users/drake/Repositories/cs1440/ITAK/Utils.cpp
+Utils.h
+C:/Users/drake/Repositories/cs1440/ITAK/Utils.h
+
+C:/Users/drake/Repositories/cs1440/ITAK/Utils.h
+ios
+-
+fstream
+-
+Dictionary.h
+C:/Users/drake/Repositories/cs1440/ITAK/Dictionary.h
+

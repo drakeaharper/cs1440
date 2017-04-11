@@ -1,0 +1,4 @@
+C:/Users/drake/Repositories/cs1440/ITAK/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/drake/Repositories/cs1440/ITAK/cmake-build-debug/CMakeFiles/ITAK.dir
+C:/Users/drake/Repositories/cs1440/ITAK/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/drake/Repositories/cs1440/ITAK/cmake-build-debug/CMakeFiles/TEST.dir
