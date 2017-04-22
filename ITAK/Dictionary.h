@@ -64,21 +64,36 @@ Dictionary<K, V>::Dictionary(const Dictionary<K, V>& rhs)
     {
         m_entries[i] = rhs.m_entries[i];
     }
-
 }
 
 
 template <typename K, typename V>
 void Dictionary<K,V>::addKeyValue(K key, V value)
 {
-    KeyValue<K, V> *newKeyValue = new KeyValue<K, V>(key, value);
-
-    if (m_totalEntries == m_allocated)
+    bool isFound = false;
+    try
     {
-        resize();
+        getByKey(key);
+        isFound = true;
+    }
+    catch (std::domain_error) {}
+
+    if (!isFound)
+    {
+        KeyValue<K, V> *newKeyValue = new KeyValue<K, V>(key, value);
+
+        if (m_totalEntries == m_allocated)
+        {
+            resize();
+        }
+
+        m_entries[m_totalEntries++] = newKeyValue;
+    }
+    else
+    {
+        throw std::domain_error("Duplicate key.");
     }
 
-    m_entries[m_totalEntries++] = newKeyValue;
 }
 
 template <typename K, typename V>

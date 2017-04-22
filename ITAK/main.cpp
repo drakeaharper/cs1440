@@ -4,9 +4,19 @@
 
 #include "Dictionary.h"
 #include "Utils.h"
+#include "Analyzer.h"
+#include "DenialOfServiceAnalyzer.h"
+#include "PortScanAnalyzer.h"
 
 int main()
 {
+    Configuration go;
+
+    return 0;
+}
+
+
+    /*
     Dictionary<std::string, KeyValue<std::string, KeyValue<std::string, std::string>>> baseDictionary;
     Utils lyndsee;
     std::string fileName = "SampleData.csv";
@@ -30,6 +40,4 @@ int main()
                 << baseDictionary.getByIndex(index).getValue().getValue().getKey() << ", "
                 << baseDictionary.getByIndex(index).getValue().getValue().getValue() << std::endl;
     }
-
-    return 0;
-}
+     */

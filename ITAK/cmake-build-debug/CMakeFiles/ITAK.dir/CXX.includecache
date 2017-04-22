@@ -6,6 +6,46 @@
 
 #IncludeRegexTransform: 
 
+C:/Users/drake/Repositories/cs1440/ITAK/Analyzer.cpp
+Analyzer.h
+C:/Users/drake/Repositories/cs1440/ITAK/Analyzer.h
+
+C:/Users/drake/Repositories/cs1440/ITAK/Analyzer.h
+ResultSet.h
+C:/Users/drake/Repositories/cs1440/ITAK/ResultSet.h
+Configuration.h
+C:/Users/drake/Repositories/cs1440/ITAK/Configuration.h
+Dictionary.h
+C:/Users/drake/Repositories/cs1440/ITAK/Dictionary.h
+fstream
+-
+
+C:/Users/drake/Repositories/cs1440/ITAK/Configuration.cpp
+Configuration.h
+C:/Users/drake/Repositories/cs1440/ITAK/Configuration.h
+DenialOfServiceAnalyzer.h
+C:/Users/drake/Repositories/cs1440/ITAK/DenialOfServiceAnalyzer.h
+PortScanAnalyzer.h
+C:/Users/drake/Repositories/cs1440/ITAK/PortScanAnalyzer.h
+iostream
+-
+
+C:/Users/drake/Repositories/cs1440/ITAK/Configuration.h
+iostream
+-
+fstream
+-
+Dictionary.h
+C:/Users/drake/Repositories/cs1440/ITAK/Dictionary.h
+
+C:/Users/drake/Repositories/cs1440/ITAK/DenialOfServiceAnalyzer.cpp
+DenialOfServiceAnalyzer.h
+C:/Users/drake/Repositories/cs1440/ITAK/DenialOfServiceAnalyzer.h
+
+C:/Users/drake/Repositories/cs1440/ITAK/DenialOfServiceAnalyzer.h
+Analyzer.h
+C:/Users/drake/Repositories/cs1440/ITAK/Analyzer.h
+
 C:/Users/drake/Repositories/cs1440/ITAK/Dictionary.h
 iostream
 -
@@ -19,6 +59,28 @@ KeyValue.h
 C:/Users/drake/Repositories/cs1440/ITAK/KeyValue.h
 
 C:/Users/drake/Repositories/cs1440/ITAK/KeyValue.h
+
+C:/Users/drake/Repositories/cs1440/ITAK/PortScanAnalyzer.cpp
+PortScanAnalyzer.h
+C:/Users/drake/Repositories/cs1440/ITAK/PortScanAnalyzer.h
+
+C:/Users/drake/Repositories/cs1440/ITAK/PortScanAnalyzer.h
+Analyzer.h
+C:/Users/drake/Repositories/cs1440/ITAK/Analyzer.h
+
+C:/Users/drake/Repositories/cs1440/ITAK/ResultSet.cpp
+ResultSet.h
+C:/Users/drake/Repositories/cs1440/ITAK/ResultSet.h
+
+C:/Users/drake/Repositories/cs1440/ITAK/ResultSet.h
+iostream
+-
+fstream
+-
+string
+-
+Dictionary.h
+C:/Users/drake/Repositories/cs1440/ITAK/Dictionary.h
 
 C:/Users/drake/Repositories/cs1440/ITAK/Utils.cpp
 Utils.h
@@ -43,4 +105,10 @@ Dictionary.h
 C:/Users/drake/Repositories/cs1440/ITAK/Dictionary.h
 Utils.h
 C:/Users/drake/Repositories/cs1440/ITAK/Utils.h
+Analyzer.h
+C:/Users/drake/Repositories/cs1440/ITAK/Analyzer.h
+DenialOfServiceAnalyzer.h
+C:/Users/drake/Repositories/cs1440/ITAK/DenialOfServiceAnalyzer.h
+PortScanAnalyzer.h
+C:/Users/drake/Repositories/cs1440/ITAK/PortScanAnalyzer.h
 

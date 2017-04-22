@@ -6,6 +6,28 @@
 
 #IncludeRegexTransform: 
 
+C:/Users/drake/Repositories/cs1440/ITAK/Analyzer.h
+ResultSet.h
+C:/Users/drake/Repositories/cs1440/ITAK/ResultSet.h
+Configuration.h
+C:/Users/drake/Repositories/cs1440/ITAK/Configuration.h
+Dictionary.h
+C:/Users/drake/Repositories/cs1440/ITAK/Dictionary.h
+fstream
+-
+
+C:/Users/drake/Repositories/cs1440/ITAK/Configuration.h
+iostream
+-
+fstream
+-
+Dictionary.h
+C:/Users/drake/Repositories/cs1440/ITAK/Dictionary.h
+
+C:/Users/drake/Repositories/cs1440/ITAK/DenialOfServiceAnalyzer.h
+Analyzer.h
+C:/Users/drake/Repositories/cs1440/ITAK/Analyzer.h
+
 C:/Users/drake/Repositories/cs1440/ITAK/Dictionary.h
 iostream
 -
@@ -20,9 +42,29 @@ C:/Users/drake/Repositories/cs1440/ITAK/KeyValue.h
 
 C:/Users/drake/Repositories/cs1440/ITAK/KeyValue.h
 
+C:/Users/drake/Repositories/cs1440/ITAK/ResultSet.h
+iostream
+-
+fstream
+-
+string
+-
+Dictionary.h
+C:/Users/drake/Repositories/cs1440/ITAK/Dictionary.h
+
+C:/Users/drake/Repositories/cs1440/ITAK/Testing/TestDenial.cpp
+TestDenial.h
+C:/Users/drake/Repositories/cs1440/ITAK/Testing/TestDenial.h
+
+C:/Users/drake/Repositories/cs1440/ITAK/Testing/TestDenial.h
+../DenialOfServiceAnalyzer.h
+C:/Users/drake/Repositories/cs1440/ITAK/DenialOfServiceAnalyzer.h
+
 C:/Users/drake/Repositories/cs1440/ITAK/Testing/testMain.cpp
 iostream
 -
+TestDenial.h
+C:/Users/drake/Repositories/cs1440/ITAK/Testing/TestDenial.h
 
 C:/Users/drake/Repositories/cs1440/ITAK/Utils.cpp
 Utils.h

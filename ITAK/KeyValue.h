@@ -9,17 +9,19 @@ template <typename K, typename V>
 class KeyValue
 {
 public:
-    KeyValue() { }
-    KeyValue(K newKey, V newValue) { m_key = newKey; m_value = newValue; }
+    KeyValue() { m_multiplicity = 0; }
+    KeyValue(K newKey, V newValue) { m_key = newKey; m_value = newValue; m_multiplicity = 0; }
     //KeyValue(const KeyValue<K, V>& rhs);
     K getKey() { return m_key; }
     V getValue() { return m_value; }
     void setKey(K newKey) { m_key = newKey; }
     void setValue(V newValue) { m_value = newValue; }
+    void incrementMultiplicity() { ++m_multiplicity; }
 
 private:
     K m_key;
     V m_value;
+    unsigned int m_multiplicity;
 };
 
 //template <typename K, typename V>

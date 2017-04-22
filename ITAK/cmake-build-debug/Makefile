@@ -135,6 +135,168 @@ TEST/fast:
 	$(MAKE) -f CMakeFiles\TEST.dir\build.make CMakeFiles/TEST.dir/build
 .PHONY : TEST/fast
 
+Analyzer.obj: Analyzer.cpp.obj
+
+.PHONY : Analyzer.obj
+
+# target to build an object file
+Analyzer.cpp.obj:
+	$(MAKE) -f CMakeFiles\ITAK.dir\build.make CMakeFiles/ITAK.dir/Analyzer.cpp.obj
+.PHONY : Analyzer.cpp.obj
+
+Analyzer.i: Analyzer.cpp.i
+
+.PHONY : Analyzer.i
+
+# target to preprocess a source file
+Analyzer.cpp.i:
+	$(MAKE) -f CMakeFiles\ITAK.dir\build.make CMakeFiles/ITAK.dir/Analyzer.cpp.i
+.PHONY : Analyzer.cpp.i
+
+Analyzer.s: Analyzer.cpp.s
+
+.PHONY : Analyzer.s
+
+# target to generate assembly for a file
+Analyzer.cpp.s:
+	$(MAKE) -f CMakeFiles\ITAK.dir\build.make CMakeFiles/ITAK.dir/Analyzer.cpp.s
+.PHONY : Analyzer.cpp.s
+
+Configuration.obj: Configuration.cpp.obj
+
+.PHONY : Configuration.obj
+
+# target to build an object file
+Configuration.cpp.obj:
+	$(MAKE) -f CMakeFiles\ITAK.dir\build.make CMakeFiles/ITAK.dir/Configuration.cpp.obj
+.PHONY : Configuration.cpp.obj
+
+Configuration.i: Configuration.cpp.i
+
+.PHONY : Configuration.i
+
+# target to preprocess a source file
+Configuration.cpp.i:
+	$(MAKE) -f CMakeFiles\ITAK.dir\build.make CMakeFiles/ITAK.dir/Configuration.cpp.i
+.PHONY : Configuration.cpp.i
+
+Configuration.s: Configuration.cpp.s
+
+.PHONY : Configuration.s
+
+# target to generate assembly for a file
+Configuration.cpp.s:
+	$(MAKE) -f CMakeFiles\ITAK.dir\build.make CMakeFiles/ITAK.dir/Configuration.cpp.s
+.PHONY : Configuration.cpp.s
+
+DenialOfServiceAnalyzer.obj: DenialOfServiceAnalyzer.cpp.obj
+
+.PHONY : DenialOfServiceAnalyzer.obj
+
+# target to build an object file
+DenialOfServiceAnalyzer.cpp.obj:
+	$(MAKE) -f CMakeFiles\ITAK.dir\build.make CMakeFiles/ITAK.dir/DenialOfServiceAnalyzer.cpp.obj
+.PHONY : DenialOfServiceAnalyzer.cpp.obj
+
+DenialOfServiceAnalyzer.i: DenialOfServiceAnalyzer.cpp.i
+
+.PHONY : DenialOfServiceAnalyzer.i
+
+# target to preprocess a source file
+DenialOfServiceAnalyzer.cpp.i:
+	$(MAKE) -f CMakeFiles\ITAK.dir\build.make CMakeFiles/ITAK.dir/DenialOfServiceAnalyzer.cpp.i
+.PHONY : DenialOfServiceAnalyzer.cpp.i
+
+DenialOfServiceAnalyzer.s: DenialOfServiceAnalyzer.cpp.s
+
+.PHONY : DenialOfServiceAnalyzer.s
+
+# target to generate assembly for a file
+DenialOfServiceAnalyzer.cpp.s:
+	$(MAKE) -f CMakeFiles\ITAK.dir\build.make CMakeFiles/ITAK.dir/DenialOfServiceAnalyzer.cpp.s
+.PHONY : DenialOfServiceAnalyzer.cpp.s
+
+PortScanAnalyzer.obj: PortScanAnalyzer.cpp.obj
+
+.PHONY : PortScanAnalyzer.obj
+
+# target to build an object file
+PortScanAnalyzer.cpp.obj:
+	$(MAKE) -f CMakeFiles\ITAK.dir\build.make CMakeFiles/ITAK.dir/PortScanAnalyzer.cpp.obj
+.PHONY : PortScanAnalyzer.cpp.obj
+
+PortScanAnalyzer.i: PortScanAnalyzer.cpp.i
+
+.PHONY : PortScanAnalyzer.i
+
+# target to preprocess a source file
+PortScanAnalyzer.cpp.i:
+	$(MAKE) -f CMakeFiles\ITAK.dir\build.make CMakeFiles/ITAK.dir/PortScanAnalyzer.cpp.i
+.PHONY : PortScanAnalyzer.cpp.i
+
+PortScanAnalyzer.s: PortScanAnalyzer.cpp.s
+
+.PHONY : PortScanAnalyzer.s
+
+# target to generate assembly for a file
+PortScanAnalyzer.cpp.s:
+	$(MAKE) -f CMakeFiles\ITAK.dir\build.make CMakeFiles/ITAK.dir/PortScanAnalyzer.cpp.s
+.PHONY : PortScanAnalyzer.cpp.s
+
+ResultSet.obj: ResultSet.cpp.obj
+
+.PHONY : ResultSet.obj
+
+# target to build an object file
+ResultSet.cpp.obj:
+	$(MAKE) -f CMakeFiles\ITAK.dir\build.make CMakeFiles/ITAK.dir/ResultSet.cpp.obj
+.PHONY : ResultSet.cpp.obj
+
+ResultSet.i: ResultSet.cpp.i
+
+.PHONY : ResultSet.i
+
+# target to preprocess a source file
+ResultSet.cpp.i:
+	$(MAKE) -f CMakeFiles\ITAK.dir\build.make CMakeFiles/ITAK.dir/ResultSet.cpp.i
+.PHONY : ResultSet.cpp.i
+
+ResultSet.s: ResultSet.cpp.s
+
+.PHONY : ResultSet.s
+
+# target to generate assembly for a file
+ResultSet.cpp.s:
+	$(MAKE) -f CMakeFiles\ITAK.dir\build.make CMakeFiles/ITAK.dir/ResultSet.cpp.s
+.PHONY : ResultSet.cpp.s
+
+Testing/TestDenial.obj: Testing/TestDenial.cpp.obj
+
+.PHONY : Testing/TestDenial.obj
+
+# target to build an object file
+Testing/TestDenial.cpp.obj:
+	$(MAKE) -f CMakeFiles\TEST.dir\build.make CMakeFiles/TEST.dir/Testing/TestDenial.cpp.obj
+.PHONY : Testing/TestDenial.cpp.obj
+
+Testing/TestDenial.i: Testing/TestDenial.cpp.i
+
+.PHONY : Testing/TestDenial.i
+
+# target to preprocess a source file
+Testing/TestDenial.cpp.i:
+	$(MAKE) -f CMakeFiles\TEST.dir\build.make CMakeFiles/TEST.dir/Testing/TestDenial.cpp.i
+.PHONY : Testing/TestDenial.cpp.i
+
+Testing/TestDenial.s: Testing/TestDenial.cpp.s
+
+.PHONY : Testing/TestDenial.s
+
+# target to generate assembly for a file
+Testing/TestDenial.cpp.s:
+	$(MAKE) -f CMakeFiles\TEST.dir\build.make CMakeFiles/TEST.dir/Testing/TestDenial.cpp.s
+.PHONY : Testing/TestDenial.cpp.s
+
 Testing/testMain.obj: Testing/testMain.cpp.obj
 
 .PHONY : Testing/testMain.obj
@@ -229,6 +391,24 @@ help:
 	@echo ... ITAK
 	@echo ... rebuild_cache
 	@echo ... TEST
+	@echo ... Analyzer.obj
+	@echo ... Analyzer.i
+	@echo ... Analyzer.s
+	@echo ... Configuration.obj
+	@echo ... Configuration.i
+	@echo ... Configuration.s
+	@echo ... DenialOfServiceAnalyzer.obj
+	@echo ... DenialOfServiceAnalyzer.i
+	@echo ... DenialOfServiceAnalyzer.s
+	@echo ... PortScanAnalyzer.obj
+	@echo ... PortScanAnalyzer.i
+	@echo ... PortScanAnalyzer.s
+	@echo ... ResultSet.obj
+	@echo ... ResultSet.i
+	@echo ... ResultSet.s
+	@echo ... Testing/TestDenial.obj
+	@echo ... Testing/TestDenial.i
+	@echo ... Testing/TestDenial.s
 	@echo ... Testing/testMain.obj
 	@echo ... Testing/testMain.i
 	@echo ... Testing/testMain.s

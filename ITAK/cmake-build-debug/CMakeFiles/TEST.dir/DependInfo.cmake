@@ -4,6 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "C:/Users/drake/Repositories/cs1440/ITAK/Testing/TestDenial.cpp" "C:/Users/drake/Repositories/cs1440/ITAK/cmake-build-debug/CMakeFiles/TEST.dir/Testing/TestDenial.cpp.obj"
   "C:/Users/drake/Repositories/cs1440/ITAK/Testing/testMain.cpp" "C:/Users/drake/Repositories/cs1440/ITAK/cmake-build-debug/CMakeFiles/TEST.dir/Testing/testMain.cpp.obj"
   "C:/Users/drake/Repositories/cs1440/ITAK/Utils.cpp" "C:/Users/drake/Repositories/cs1440/ITAK/cmake-build-debug/CMakeFiles/TEST.dir/Utils.cpp.obj"
   )

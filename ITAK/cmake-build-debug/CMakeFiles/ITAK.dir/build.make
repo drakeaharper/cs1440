@@ -104,21 +104,151 @@ CMakeFiles/ITAK.dir/Utils.cpp.obj.provides: CMakeFiles/ITAK.dir/Utils.cpp.obj.re
 CMakeFiles/ITAK.dir/Utils.cpp.obj.provides.build: CMakeFiles/ITAK.dir/Utils.cpp.obj
 
 
+CMakeFiles/ITAK.dir/Analyzer.cpp.obj: CMakeFiles/ITAK.dir/flags.make
+CMakeFiles/ITAK.dir/Analyzer.cpp.obj: ../Analyzer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\drake\Repositories\cs1440\ITAK\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/ITAK.dir/Analyzer.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-6~1.0-P\mingw32\bin\G__~1.EXE   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ITAK.dir\Analyzer.cpp.obj -c C:\Users\drake\Repositories\cs1440\ITAK\Analyzer.cpp
+
+CMakeFiles/ITAK.dir/Analyzer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ITAK.dir/Analyzer.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-6~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\drake\Repositories\cs1440\ITAK\Analyzer.cpp > CMakeFiles\ITAK.dir\Analyzer.cpp.i
+
+CMakeFiles/ITAK.dir/Analyzer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ITAK.dir/Analyzer.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-6~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\drake\Repositories\cs1440\ITAK\Analyzer.cpp -o CMakeFiles\ITAK.dir\Analyzer.cpp.s
+
+CMakeFiles/ITAK.dir/Analyzer.cpp.obj.requires:
+
+.PHONY : CMakeFiles/ITAK.dir/Analyzer.cpp.obj.requires
+
+CMakeFiles/ITAK.dir/Analyzer.cpp.obj.provides: CMakeFiles/ITAK.dir/Analyzer.cpp.obj.requires
+	$(MAKE) -f CMakeFiles\ITAK.dir\build.make CMakeFiles/ITAK.dir/Analyzer.cpp.obj.provides.build
+.PHONY : CMakeFiles/ITAK.dir/Analyzer.cpp.obj.provides
+
+CMakeFiles/ITAK.dir/Analyzer.cpp.obj.provides.build: CMakeFiles/ITAK.dir/Analyzer.cpp.obj
+
+
+CMakeFiles/ITAK.dir/DenialOfServiceAnalyzer.cpp.obj: CMakeFiles/ITAK.dir/flags.make
+CMakeFiles/ITAK.dir/DenialOfServiceAnalyzer.cpp.obj: ../DenialOfServiceAnalyzer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\drake\Repositories\cs1440\ITAK\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/ITAK.dir/DenialOfServiceAnalyzer.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-6~1.0-P\mingw32\bin\G__~1.EXE   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ITAK.dir\DenialOfServiceAnalyzer.cpp.obj -c C:\Users\drake\Repositories\cs1440\ITAK\DenialOfServiceAnalyzer.cpp
+
+CMakeFiles/ITAK.dir/DenialOfServiceAnalyzer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ITAK.dir/DenialOfServiceAnalyzer.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-6~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\drake\Repositories\cs1440\ITAK\DenialOfServiceAnalyzer.cpp > CMakeFiles\ITAK.dir\DenialOfServiceAnalyzer.cpp.i
+
+CMakeFiles/ITAK.dir/DenialOfServiceAnalyzer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ITAK.dir/DenialOfServiceAnalyzer.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-6~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\drake\Repositories\cs1440\ITAK\DenialOfServiceAnalyzer.cpp -o CMakeFiles\ITAK.dir\DenialOfServiceAnalyzer.cpp.s
+
+CMakeFiles/ITAK.dir/DenialOfServiceAnalyzer.cpp.obj.requires:
+
+.PHONY : CMakeFiles/ITAK.dir/DenialOfServiceAnalyzer.cpp.obj.requires
+
+CMakeFiles/ITAK.dir/DenialOfServiceAnalyzer.cpp.obj.provides: CMakeFiles/ITAK.dir/DenialOfServiceAnalyzer.cpp.obj.requires
+	$(MAKE) -f CMakeFiles\ITAK.dir\build.make CMakeFiles/ITAK.dir/DenialOfServiceAnalyzer.cpp.obj.provides.build
+.PHONY : CMakeFiles/ITAK.dir/DenialOfServiceAnalyzer.cpp.obj.provides
+
+CMakeFiles/ITAK.dir/DenialOfServiceAnalyzer.cpp.obj.provides.build: CMakeFiles/ITAK.dir/DenialOfServiceAnalyzer.cpp.obj
+
+
+CMakeFiles/ITAK.dir/PortScanAnalyzer.cpp.obj: CMakeFiles/ITAK.dir/flags.make
+CMakeFiles/ITAK.dir/PortScanAnalyzer.cpp.obj: ../PortScanAnalyzer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\drake\Repositories\cs1440\ITAK\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/ITAK.dir/PortScanAnalyzer.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-6~1.0-P\mingw32\bin\G__~1.EXE   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ITAK.dir\PortScanAnalyzer.cpp.obj -c C:\Users\drake\Repositories\cs1440\ITAK\PortScanAnalyzer.cpp
+
+CMakeFiles/ITAK.dir/PortScanAnalyzer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ITAK.dir/PortScanAnalyzer.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-6~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\drake\Repositories\cs1440\ITAK\PortScanAnalyzer.cpp > CMakeFiles\ITAK.dir\PortScanAnalyzer.cpp.i
+
+CMakeFiles/ITAK.dir/PortScanAnalyzer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ITAK.dir/PortScanAnalyzer.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-6~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\drake\Repositories\cs1440\ITAK\PortScanAnalyzer.cpp -o CMakeFiles\ITAK.dir\PortScanAnalyzer.cpp.s
+
+CMakeFiles/ITAK.dir/PortScanAnalyzer.cpp.obj.requires:
+
+.PHONY : CMakeFiles/ITAK.dir/PortScanAnalyzer.cpp.obj.requires
+
+CMakeFiles/ITAK.dir/PortScanAnalyzer.cpp.obj.provides: CMakeFiles/ITAK.dir/PortScanAnalyzer.cpp.obj.requires
+	$(MAKE) -f CMakeFiles\ITAK.dir\build.make CMakeFiles/ITAK.dir/PortScanAnalyzer.cpp.obj.provides.build
+.PHONY : CMakeFiles/ITAK.dir/PortScanAnalyzer.cpp.obj.provides
+
+CMakeFiles/ITAK.dir/PortScanAnalyzer.cpp.obj.provides.build: CMakeFiles/ITAK.dir/PortScanAnalyzer.cpp.obj
+
+
+CMakeFiles/ITAK.dir/Configuration.cpp.obj: CMakeFiles/ITAK.dir/flags.make
+CMakeFiles/ITAK.dir/Configuration.cpp.obj: ../Configuration.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\drake\Repositories\cs1440\ITAK\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/ITAK.dir/Configuration.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-6~1.0-P\mingw32\bin\G__~1.EXE   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ITAK.dir\Configuration.cpp.obj -c C:\Users\drake\Repositories\cs1440\ITAK\Configuration.cpp
+
+CMakeFiles/ITAK.dir/Configuration.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ITAK.dir/Configuration.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-6~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\drake\Repositories\cs1440\ITAK\Configuration.cpp > CMakeFiles\ITAK.dir\Configuration.cpp.i
+
+CMakeFiles/ITAK.dir/Configuration.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ITAK.dir/Configuration.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-6~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\drake\Repositories\cs1440\ITAK\Configuration.cpp -o CMakeFiles\ITAK.dir\Configuration.cpp.s
+
+CMakeFiles/ITAK.dir/Configuration.cpp.obj.requires:
+
+.PHONY : CMakeFiles/ITAK.dir/Configuration.cpp.obj.requires
+
+CMakeFiles/ITAK.dir/Configuration.cpp.obj.provides: CMakeFiles/ITAK.dir/Configuration.cpp.obj.requires
+	$(MAKE) -f CMakeFiles\ITAK.dir\build.make CMakeFiles/ITAK.dir/Configuration.cpp.obj.provides.build
+.PHONY : CMakeFiles/ITAK.dir/Configuration.cpp.obj.provides
+
+CMakeFiles/ITAK.dir/Configuration.cpp.obj.provides.build: CMakeFiles/ITAK.dir/Configuration.cpp.obj
+
+
+CMakeFiles/ITAK.dir/ResultSet.cpp.obj: CMakeFiles/ITAK.dir/flags.make
+CMakeFiles/ITAK.dir/ResultSet.cpp.obj: ../ResultSet.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\drake\Repositories\cs1440\ITAK\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/ITAK.dir/ResultSet.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-6~1.0-P\mingw32\bin\G__~1.EXE   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ITAK.dir\ResultSet.cpp.obj -c C:\Users\drake\Repositories\cs1440\ITAK\ResultSet.cpp
+
+CMakeFiles/ITAK.dir/ResultSet.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ITAK.dir/ResultSet.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-6~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\drake\Repositories\cs1440\ITAK\ResultSet.cpp > CMakeFiles\ITAK.dir\ResultSet.cpp.i
+
+CMakeFiles/ITAK.dir/ResultSet.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ITAK.dir/ResultSet.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-6~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\drake\Repositories\cs1440\ITAK\ResultSet.cpp -o CMakeFiles\ITAK.dir\ResultSet.cpp.s
+
+CMakeFiles/ITAK.dir/ResultSet.cpp.obj.requires:
+
+.PHONY : CMakeFiles/ITAK.dir/ResultSet.cpp.obj.requires
+
+CMakeFiles/ITAK.dir/ResultSet.cpp.obj.provides: CMakeFiles/ITAK.dir/ResultSet.cpp.obj.requires
+	$(MAKE) -f CMakeFiles\ITAK.dir\build.make CMakeFiles/ITAK.dir/ResultSet.cpp.obj.provides.build
+.PHONY : CMakeFiles/ITAK.dir/ResultSet.cpp.obj.provides
+
+CMakeFiles/ITAK.dir/ResultSet.cpp.obj.provides.build: CMakeFiles/ITAK.dir/ResultSet.cpp.obj
+
+
 # Object files for target ITAK
 ITAK_OBJECTS = \
 "CMakeFiles/ITAK.dir/main.cpp.obj" \
-"CMakeFiles/ITAK.dir/Utils.cpp.obj"
+"CMakeFiles/ITAK.dir/Utils.cpp.obj" \
+"CMakeFiles/ITAK.dir/Analyzer.cpp.obj" \
+"CMakeFiles/ITAK.dir/DenialOfServiceAnalyzer.cpp.obj" \
+"CMakeFiles/ITAK.dir/PortScanAnalyzer.cpp.obj" \
+"CMakeFiles/ITAK.dir/Configuration.cpp.obj" \
+"CMakeFiles/ITAK.dir/ResultSet.cpp.obj"
 
 # External object files for target ITAK
 ITAK_EXTERNAL_OBJECTS =
 
 ITAK.exe: CMakeFiles/ITAK.dir/main.cpp.obj
 ITAK.exe: CMakeFiles/ITAK.dir/Utils.cpp.obj
+ITAK.exe: CMakeFiles/ITAK.dir/Analyzer.cpp.obj
+ITAK.exe: CMakeFiles/ITAK.dir/DenialOfServiceAnalyzer.cpp.obj
+ITAK.exe: CMakeFiles/ITAK.dir/PortScanAnalyzer.cpp.obj
+ITAK.exe: CMakeFiles/ITAK.dir/Configuration.cpp.obj
+ITAK.exe: CMakeFiles/ITAK.dir/ResultSet.cpp.obj
 ITAK.exe: CMakeFiles/ITAK.dir/build.make
 ITAK.exe: CMakeFiles/ITAK.dir/linklibs.rsp
 ITAK.exe: CMakeFiles/ITAK.dir/objects1.rsp
 ITAK.exe: CMakeFiles/ITAK.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\drake\Repositories\cs1440\ITAK\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable ITAK.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\drake\Repositories\cs1440\ITAK\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable ITAK.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\ITAK.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -128,6 +258,11 @@ CMakeFiles/ITAK.dir/build: ITAK.exe
 
 CMakeFiles/ITAK.dir/requires: CMakeFiles/ITAK.dir/main.cpp.obj.requires
 CMakeFiles/ITAK.dir/requires: CMakeFiles/ITAK.dir/Utils.cpp.obj.requires
+CMakeFiles/ITAK.dir/requires: CMakeFiles/ITAK.dir/Analyzer.cpp.obj.requires
+CMakeFiles/ITAK.dir/requires: CMakeFiles/ITAK.dir/DenialOfServiceAnalyzer.cpp.obj.requires
+CMakeFiles/ITAK.dir/requires: CMakeFiles/ITAK.dir/PortScanAnalyzer.cpp.obj.requires
+CMakeFiles/ITAK.dir/requires: CMakeFiles/ITAK.dir/Configuration.cpp.obj.requires
+CMakeFiles/ITAK.dir/requires: CMakeFiles/ITAK.dir/ResultSet.cpp.obj.requires
 
 .PHONY : CMakeFiles/ITAK.dir/requires
 

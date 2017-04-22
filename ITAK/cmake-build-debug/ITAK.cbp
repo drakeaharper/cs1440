@@ -122,12 +122,48 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/drake/Repositories/cs1440/ITAK/Analyzer.cpp">
+			<Option target="ITAK"/>
+		</Unit>
+		<Unit filename="C:/Users/drake/Repositories/cs1440/ITAK/Analyzer.h">
+			<Option target="ITAK"/>
+		</Unit>
+		<Unit filename="C:/Users/drake/Repositories/cs1440/ITAK/Configuration.cpp">
+			<Option target="ITAK"/>
+		</Unit>
+		<Unit filename="C:/Users/drake/Repositories/cs1440/ITAK/Configuration.h">
+			<Option target="ITAK"/>
+		</Unit>
+		<Unit filename="C:/Users/drake/Repositories/cs1440/ITAK/DenialOfServiceAnalyzer.cpp">
+			<Option target="ITAK"/>
+		</Unit>
+		<Unit filename="C:/Users/drake/Repositories/cs1440/ITAK/DenialOfServiceAnalyzer.h">
+			<Option target="ITAK"/>
+		</Unit>
 		<Unit filename="C:/Users/drake/Repositories/cs1440/ITAK/Dictionary.h">
 			<Option target="ITAK"/>
 			<Option target="TEST"/>
 		</Unit>
 		<Unit filename="C:/Users/drake/Repositories/cs1440/ITAK/KeyValue.h">
 			<Option target="ITAK"/>
+			<Option target="TEST"/>
+		</Unit>
+		<Unit filename="C:/Users/drake/Repositories/cs1440/ITAK/PortScanAnalyzer.cpp">
+			<Option target="ITAK"/>
+		</Unit>
+		<Unit filename="C:/Users/drake/Repositories/cs1440/ITAK/PortScanAnalyzer.h">
+			<Option target="ITAK"/>
+		</Unit>
+		<Unit filename="C:/Users/drake/Repositories/cs1440/ITAK/ResultSet.cpp">
+			<Option target="ITAK"/>
+		</Unit>
+		<Unit filename="C:/Users/drake/Repositories/cs1440/ITAK/ResultSet.h">
+			<Option target="ITAK"/>
+		</Unit>
+		<Unit filename="C:/Users/drake/Repositories/cs1440/ITAK/Testing/TestDenial.cpp">
+			<Option target="TEST"/>
+		</Unit>
+		<Unit filename="C:/Users/drake/Repositories/cs1440/ITAK/Testing/TestDenial.h">
 			<Option target="TEST"/>
 		</Unit>
 		<Unit filename="C:/Users/drake/Repositories/cs1440/ITAK/Testing/testMain.cpp">
