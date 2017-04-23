@@ -12,6 +12,8 @@ int main()
 {
     Configuration go;
 
+
+
     return 0;
 }
 

@@ -11,14 +11,13 @@ class PortScanAnalyzer : public Analyzer
 {
 public:
     ResultSet run();
-    virtual void loadFromFile(std::string);
-    virtual void attackDetection();
+    void loadFromFile(std::string file);
+    void attackDetection();
 
 private:
-    // 	“Likely	Attack	Port	Count”	and	“Possible	Attack	Port	Count”
-
     unsigned int likeyAttackPort;
     unsigned int possibleAttackCount;
+    Dictionary<std::string, std::vector<std::string>> m_dictionary;
 };
 
 

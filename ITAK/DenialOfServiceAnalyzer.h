@@ -7,13 +7,14 @@
 
 #include "Analyzer.h"
 
+
 class DenialOfServiceAnalyzer : public Analyzer
 {
 public:
     ResultSet run();
-    virtual void loadFromFile(std::string);
-    virtual void attackDetection();
-    
+    void loadFromFile(std::string);
+    void attackDetection();
+
     void setTFS(unsigned int toSet) { m_TFS = toSet; }
     void setTFE(unsigned int toSet) { m_TFE = toSet; }
     void setLikely(unsigned int toSet) { m_likelyCount = toSet; }
@@ -21,7 +22,6 @@ public:
     Dictionary<std::string, Dictionary<std::string, long>> getDictionary() { return m_dictionary; }
 
 private:
-    std::istream m_in;
     Dictionary<std::string, Dictionary<std::string, long>> m_dictionary;
     unsigned int m_TFS;
     unsigned int m_TFE;

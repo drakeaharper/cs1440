@@ -8,6 +8,7 @@
 #include "ResultSet.h"
 #include "Configuration.h"
 #include "Dictionary.h"
+#include <string>
 
 #include <fstream>
 

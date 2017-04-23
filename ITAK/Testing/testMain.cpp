@@ -4,6 +4,7 @@
 
 #include <iostream>
 #include "TestDenial.h"
+#include "TestPortScan.h"
 
 int main()
 {
@@ -12,6 +13,10 @@ int main()
     std::cout << "Testing Denial of Service Analzer." << std::endl;
     TestDenial d;
     d.run();
+
+    std::cout << "Testing Port Scan Analyzer." << std::endl;
+    TestPortScan p;
+    p.run();
 
     return 0;
 }

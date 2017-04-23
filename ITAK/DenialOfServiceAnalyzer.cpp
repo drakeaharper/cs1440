@@ -6,8 +6,6 @@
 
 ResultSet DenialOfServiceAnalyzer::run()
 {
-    Configuration setParameters;
-
     std::ifstream in;
     in.open("DenialFile.txt");
 
@@ -37,7 +35,6 @@ void DenialOfServiceAnalyzer::loadFromFile(std::string file)
     {
         std::string ss;
         getline(in, ss);
-
 
         std::string fields[4];
         int fieldPosition = 0;
@@ -128,3 +125,4 @@ void DenialOfServiceAnalyzer::attackDetection()
         m_TFS++;
     }
 }
+

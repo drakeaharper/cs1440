@@ -41,7 +41,7 @@ void TestDenial::testLoadFromFile(DenialOfServiceAnalyzer denial)
 
     Dictionary<std::string, Dictionary<std::string, long>> testD = denial.getDictionary();
 
-    std::vector<std::string> IP {"119.43.23.54", "141.8.67.235", "119.43.23.54", "141.8.67.235", "119.43.23.54"};
+    std::vector<std::string> IP {"119.43.23.54", "141.8.67.235"};
     std::vector<std::string> TS_119 {"0", "2"};
     std::vector<std::string> TS_141 {"1", "3"};
 
@@ -49,7 +49,7 @@ void TestDenial::testLoadFromFile(DenialOfServiceAnalyzer denial)
     {
         if (testD.getByIndex(i).getKey() != IP[i])
         {
-            std::cout << "Error in IP addresses at index " << i << ". \n";
+            std::cout << "Error in IP address at index " << i << ". \n";
         }
         /*for (unsigned int j = 0; j < testD.getByIndex(i).getValue().getTotalEntries(); j++)
         {

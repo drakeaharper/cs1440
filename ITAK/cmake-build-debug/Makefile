@@ -142,6 +142,7 @@ Analyzer.obj: Analyzer.cpp.obj
 # target to build an object file
 Analyzer.cpp.obj:
 	$(MAKE) -f CMakeFiles\ITAK.dir\build.make CMakeFiles/ITAK.dir/Analyzer.cpp.obj
+	$(MAKE) -f CMakeFiles\TEST.dir\build.make CMakeFiles/TEST.dir/Analyzer.cpp.obj
 .PHONY : Analyzer.cpp.obj
 
 Analyzer.i: Analyzer.cpp.i
@@ -151,6 +152,7 @@ Analyzer.i: Analyzer.cpp.i
 # target to preprocess a source file
 Analyzer.cpp.i:
 	$(MAKE) -f CMakeFiles\ITAK.dir\build.make CMakeFiles/ITAK.dir/Analyzer.cpp.i
+	$(MAKE) -f CMakeFiles\TEST.dir\build.make CMakeFiles/TEST.dir/Analyzer.cpp.i
 .PHONY : Analyzer.cpp.i
 
 Analyzer.s: Analyzer.cpp.s
@@ -160,6 +162,7 @@ Analyzer.s: Analyzer.cpp.s
 # target to generate assembly for a file
 Analyzer.cpp.s:
 	$(MAKE) -f CMakeFiles\ITAK.dir\build.make CMakeFiles/ITAK.dir/Analyzer.cpp.s
+	$(MAKE) -f CMakeFiles\TEST.dir\build.make CMakeFiles/TEST.dir/Analyzer.cpp.s
 .PHONY : Analyzer.cpp.s
 
 Configuration.obj: Configuration.cpp.obj
@@ -169,6 +172,7 @@ Configuration.obj: Configuration.cpp.obj
 # target to build an object file
 Configuration.cpp.obj:
 	$(MAKE) -f CMakeFiles\ITAK.dir\build.make CMakeFiles/ITAK.dir/Configuration.cpp.obj
+	$(MAKE) -f CMakeFiles\TEST.dir\build.make CMakeFiles/TEST.dir/Configuration.cpp.obj
 .PHONY : Configuration.cpp.obj
 
 Configuration.i: Configuration.cpp.i
@@ -178,6 +182,7 @@ Configuration.i: Configuration.cpp.i
 # target to preprocess a source file
 Configuration.cpp.i:
 	$(MAKE) -f CMakeFiles\ITAK.dir\build.make CMakeFiles/ITAK.dir/Configuration.cpp.i
+	$(MAKE) -f CMakeFiles\TEST.dir\build.make CMakeFiles/TEST.dir/Configuration.cpp.i
 .PHONY : Configuration.cpp.i
 
 Configuration.s: Configuration.cpp.s
@@ -187,6 +192,7 @@ Configuration.s: Configuration.cpp.s
 # target to generate assembly for a file
 Configuration.cpp.s:
 	$(MAKE) -f CMakeFiles\ITAK.dir\build.make CMakeFiles/ITAK.dir/Configuration.cpp.s
+	$(MAKE) -f CMakeFiles\TEST.dir\build.make CMakeFiles/TEST.dir/Configuration.cpp.s
 .PHONY : Configuration.cpp.s
 
 DenialOfServiceAnalyzer.obj: DenialOfServiceAnalyzer.cpp.obj
@@ -196,6 +202,7 @@ DenialOfServiceAnalyzer.obj: DenialOfServiceAnalyzer.cpp.obj
 # target to build an object file
 DenialOfServiceAnalyzer.cpp.obj:
 	$(MAKE) -f CMakeFiles\ITAK.dir\build.make CMakeFiles/ITAK.dir/DenialOfServiceAnalyzer.cpp.obj
+	$(MAKE) -f CMakeFiles\TEST.dir\build.make CMakeFiles/TEST.dir/DenialOfServiceAnalyzer.cpp.obj
 .PHONY : DenialOfServiceAnalyzer.cpp.obj
 
 DenialOfServiceAnalyzer.i: DenialOfServiceAnalyzer.cpp.i
@@ -205,6 +212,7 @@ DenialOfServiceAnalyzer.i: DenialOfServiceAnalyzer.cpp.i
 # target to preprocess a source file
 DenialOfServiceAnalyzer.cpp.i:
 	$(MAKE) -f CMakeFiles\ITAK.dir\build.make CMakeFiles/ITAK.dir/DenialOfServiceAnalyzer.cpp.i
+	$(MAKE) -f CMakeFiles\TEST.dir\build.make CMakeFiles/TEST.dir/DenialOfServiceAnalyzer.cpp.i
 .PHONY : DenialOfServiceAnalyzer.cpp.i
 
 DenialOfServiceAnalyzer.s: DenialOfServiceAnalyzer.cpp.s
@@ -214,6 +222,7 @@ DenialOfServiceAnalyzer.s: DenialOfServiceAnalyzer.cpp.s
 # target to generate assembly for a file
 DenialOfServiceAnalyzer.cpp.s:
 	$(MAKE) -f CMakeFiles\ITAK.dir\build.make CMakeFiles/ITAK.dir/DenialOfServiceAnalyzer.cpp.s
+	$(MAKE) -f CMakeFiles\TEST.dir\build.make CMakeFiles/TEST.dir/DenialOfServiceAnalyzer.cpp.s
 .PHONY : DenialOfServiceAnalyzer.cpp.s
 
 PortScanAnalyzer.obj: PortScanAnalyzer.cpp.obj
@@ -223,6 +232,7 @@ PortScanAnalyzer.obj: PortScanAnalyzer.cpp.obj
 # target to build an object file
 PortScanAnalyzer.cpp.obj:
 	$(MAKE) -f CMakeFiles\ITAK.dir\build.make CMakeFiles/ITAK.dir/PortScanAnalyzer.cpp.obj
+	$(MAKE) -f CMakeFiles\TEST.dir\build.make CMakeFiles/TEST.dir/PortScanAnalyzer.cpp.obj
 .PHONY : PortScanAnalyzer.cpp.obj
 
 PortScanAnalyzer.i: PortScanAnalyzer.cpp.i
@@ -232,6 +242,7 @@ PortScanAnalyzer.i: PortScanAnalyzer.cpp.i
 # target to preprocess a source file
 PortScanAnalyzer.cpp.i:
 	$(MAKE) -f CMakeFiles\ITAK.dir\build.make CMakeFiles/ITAK.dir/PortScanAnalyzer.cpp.i
+	$(MAKE) -f CMakeFiles\TEST.dir\build.make CMakeFiles/TEST.dir/PortScanAnalyzer.cpp.i
 .PHONY : PortScanAnalyzer.cpp.i
 
 PortScanAnalyzer.s: PortScanAnalyzer.cpp.s
@@ -241,6 +252,7 @@ PortScanAnalyzer.s: PortScanAnalyzer.cpp.s
 # target to generate assembly for a file
 PortScanAnalyzer.cpp.s:
 	$(MAKE) -f CMakeFiles\ITAK.dir\build.make CMakeFiles/ITAK.dir/PortScanAnalyzer.cpp.s
+	$(MAKE) -f CMakeFiles\TEST.dir\build.make CMakeFiles/TEST.dir/PortScanAnalyzer.cpp.s
 .PHONY : PortScanAnalyzer.cpp.s
 
 ResultSet.obj: ResultSet.cpp.obj
@@ -250,6 +262,7 @@ ResultSet.obj: ResultSet.cpp.obj
 # target to build an object file
 ResultSet.cpp.obj:
 	$(MAKE) -f CMakeFiles\ITAK.dir\build.make CMakeFiles/ITAK.dir/ResultSet.cpp.obj
+	$(MAKE) -f CMakeFiles\TEST.dir\build.make CMakeFiles/TEST.dir/ResultSet.cpp.obj
 .PHONY : ResultSet.cpp.obj
 
 ResultSet.i: ResultSet.cpp.i
@@ -259,6 +272,7 @@ ResultSet.i: ResultSet.cpp.i
 # target to preprocess a source file
 ResultSet.cpp.i:
 	$(MAKE) -f CMakeFiles\ITAK.dir\build.make CMakeFiles/ITAK.dir/ResultSet.cpp.i
+	$(MAKE) -f CMakeFiles\TEST.dir\build.make CMakeFiles/TEST.dir/ResultSet.cpp.i
 .PHONY : ResultSet.cpp.i
 
 ResultSet.s: ResultSet.cpp.s
@@ -268,6 +282,7 @@ ResultSet.s: ResultSet.cpp.s
 # target to generate assembly for a file
 ResultSet.cpp.s:
 	$(MAKE) -f CMakeFiles\ITAK.dir\build.make CMakeFiles/ITAK.dir/ResultSet.cpp.s
+	$(MAKE) -f CMakeFiles\TEST.dir\build.make CMakeFiles/TEST.dir/ResultSet.cpp.s
 .PHONY : ResultSet.cpp.s
 
 Testing/TestDenial.obj: Testing/TestDenial.cpp.obj
@@ -296,6 +311,33 @@ Testing/TestDenial.s: Testing/TestDenial.cpp.s
 Testing/TestDenial.cpp.s:
 	$(MAKE) -f CMakeFiles\TEST.dir\build.make CMakeFiles/TEST.dir/Testing/TestDenial.cpp.s
 .PHONY : Testing/TestDenial.cpp.s
+
+Testing/TestPortScan.obj: Testing/TestPortScan.cpp.obj
+
+.PHONY : Testing/TestPortScan.obj
+
+# target to build an object file
+Testing/TestPortScan.cpp.obj:
+	$(MAKE) -f CMakeFiles\TEST.dir\build.make CMakeFiles/TEST.dir/Testing/TestPortScan.cpp.obj
+.PHONY : Testing/TestPortScan.cpp.obj
+
+Testing/TestPortScan.i: Testing/TestPortScan.cpp.i
+
+.PHONY : Testing/TestPortScan.i
+
+# target to preprocess a source file
+Testing/TestPortScan.cpp.i:
+	$(MAKE) -f CMakeFiles\TEST.dir\build.make CMakeFiles/TEST.dir/Testing/TestPortScan.cpp.i
+.PHONY : Testing/TestPortScan.cpp.i
+
+Testing/TestPortScan.s: Testing/TestPortScan.cpp.s
+
+.PHONY : Testing/TestPortScan.s
+
+# target to generate assembly for a file
+Testing/TestPortScan.cpp.s:
+	$(MAKE) -f CMakeFiles\TEST.dir\build.make CMakeFiles/TEST.dir/Testing/TestPortScan.cpp.s
+.PHONY : Testing/TestPortScan.cpp.s
 
 Testing/testMain.obj: Testing/testMain.cpp.obj
 
@@ -409,6 +451,9 @@ help:
 	@echo ... Testing/TestDenial.obj
 	@echo ... Testing/TestDenial.i
 	@echo ... Testing/TestDenial.s
+	@echo ... Testing/TestPortScan.obj
+	@echo ... Testing/TestPortScan.i
+	@echo ... Testing/TestPortScan.s
 	@echo ... Testing/testMain.obj
 	@echo ... Testing/testMain.i
 	@echo ... Testing/testMain.s

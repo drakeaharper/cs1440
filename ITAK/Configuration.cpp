@@ -40,12 +40,22 @@ void Configuration::menu()
 void Configuration::isDOS()
 {
     char input = 'x';
+    bool valid;
     do
     {
         std::cout << "Read data from file? <Enter y or n> ";
         std::cin >> input;
 
-    } while(input != 'y' || input != 'n');
+        if (input == 'y')
+        {
+            valid = true;
+        }
+        if (input == 'n')
+        {
+            valid = true;
+        }
+
+    } while(!valid);
     bool fromFile;
 
     fromFile = (input == 'y');
@@ -77,10 +87,6 @@ void Configuration::isDOS()
     else
     {
         std::ifstream input;
-
-
-
-        input >>
 
     }
 }
